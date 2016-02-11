@@ -33,7 +33,7 @@ body{
 
 .bottom-nav .navbar-nav > li > a{
     color: #CCC;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .bottom-nav .navbar-nav > li > a:hover, .bottom-nav .navbar-nav > li > a:focus{
@@ -48,12 +48,24 @@ body{
                                            }
                                               
                                               
-.bottom-nav .dropdown-menu{
+.navbar-nav > li > .dropdown-menu{
     border-radius : 0;
     box-shadow: none;
-    background: #202020;
+    background: #333;
+    padding: 0;
+    border: none;
+}
+.bottom-nav .dropdown-menu > li{
+    border-top: solid 1px #666;
+    padding: 10px 30px;
+}
+.bottom-nav .dropdown-menu > li:hover{
+    background: #3799FA;
+    border-top: solid 2px #3C5BFF;
 }
 
-.bottom-nav .dropdown-menu > li > a{
-    color: #FFF;
-}
+.bottom-nav .dropdown-menu > li > a, .bottom-nav .dropdown-menu > li > a:hover, .bottom-nav .dropdown-menu > li > a:hover{
+                                                                                    color: #FAFAFA;
+                                                                                    font-size: 18px;
+                                                                                    background: none;
+                                                                                }
