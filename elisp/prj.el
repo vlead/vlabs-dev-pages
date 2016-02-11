@@ -8,7 +8,7 @@
        (list 
 
 ;; we don't want it yet.
- "~/emacs/lisp/org-8.3.1/lisp"
+ "~/emacs/lisp/org-8.3.3/lisp"
  ; "~/emacs/lisp/org-8.2.10/contrib/lisp"
 
 ; we need this:
@@ -62,7 +62,7 @@
 
 (defvar style `("style"
   :base-directory ,style-dir
-  :base-extension "css"
+  :base-extension "css\\|js\\|png"
   :publishing-directory ,(concat pub-dir "style/")
   :recursive t
   :publishing-function org-publish-attachment

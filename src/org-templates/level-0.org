@@ -12,12 +12,13 @@
 
 
 
-#+HTML_LINK_UP: index.html
-#+HTML_LINK_HOME:   index.html
 
-#+INFOJS_OPT: view:info toc:t ltoc:t tdepth:1 mouse:underline buttons:0 path:style/js/org-info.js
-#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/worg-style.css" />
-#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/main.css" />
+
+
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css" />
+#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/index.css" />
+#+HTML_HEAD_EXTRA:   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+#+HTML_HEAD_EXTRA:   <script src="js/bootstrap.min.js"></script>
 #+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
 
 
