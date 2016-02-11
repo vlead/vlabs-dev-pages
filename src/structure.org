@@ -1,0 +1,96 @@
+* Top
+** Getting started
+** Features
+** Hosting
+** Contributing
+** Community
+* Side
+* Bottom
+
+* OpenEdX
+** Getting Started
+   - About Open edX
+   - Introduction to the Open edX Portal
+   - Community Discussions
+   - Getting Help
+
+** Features
+   - Accessibility
+   - Data and Analytics
+   - edx.org
+   - Mobile
+   - Open edX and Platform
+   - Professional Education
+   - Teaching and Learning Tools
+** Hosting
+   - Development Options
+   - Trademark Guidelines
+** Extending
+   - XBlocks
+   - APIs
+   - JS Input
+   - LTI
+** Contributing
+   - Open edX Architecture
+   - Submission Process
+   - Developer Skills
+   - Licensing
+   - GitHub Directory
+   - Devstack
+** Community
+   - Announcements
+   - Blog
+   - Events
+   - Forums
+   - Innovations
+   - Resource Documents
+   - Webinars & Videos
+** Corporate
+   - Privacy Statement
+   - Contact edX
+
+
+
+
+* Vlabs-dev
+** Getting Started
+   - About Virtual Labs Development
+   - Introduction to the Open edX Portal
+   - Community Discussions
+   - Getting Help
+
+** Features
+   - Accessibility
+   - Data and Analytics
+   - edx.org
+   - Mobile
+   - Open edX and Platform
+   - Professional Education
+   - Teaching and Learning Tools
+** Hosting
+   - Development Options
+   - Trademark Guidelines
+** Extending
+   - XBlocks
+   - APIs
+   - JS Input
+   - LTI
+** Contributing
+   - Open edX Architecture
+   - Submission Process
+   - Developer Skills
+   - Licensing
+   - GitHub Directory
+   - Devstack
+** Community
+   - Announcements
+   - Blog
+   - Events
+   - Forums
+   - Innovations
+   - Resource Documents
+   - Webinars & Videos
+** Corporate
+   - Privacy Statement
+   - Contact edX
+
