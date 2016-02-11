@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+body{
+    background: #eee;
+    font-family: Lato;
+}
+
+/* Top Navigation bar */
+
+.header-nav{
+    min-height: 75px;
+    background: #fff;
+    color: #404040;
+}
+.header-nav .navbar-nav > li > a{
+    color: #3799FF;
+}
+.nav-top{
+    margin-top: 15px;
+}
+
+/* Bottom Navigation Bar */
+
+.bottom-nav{
+    border-top: solid 5px #202020;
+    margin-top:75px;
+    background:#404040; 
+}
+
+.bottom-nav .navbar-nav > li > a{
+    color: #CCC;
+    font-size: 16px;
+}
+
+.bottom-nav .navbar-nav > li > a:hover, .bottom-nav .navbar-nav > li > a:focus{
+                                            color: #FFF;
+                                            font-size: 16px;
+                                        }
+
+
+.bottom-nav .navbar-nav > .open > a:hover, .bottom-nav .navbar-nav > .open > a:focus{
+                                               background:transparent;
+                                               color: #fff;
+                                           }
