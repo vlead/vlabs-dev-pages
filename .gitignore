@@ -1,0 +1,9 @@
+# OS generated files #
+######################
+*~
+*.sw[p|o]
+\#*\#
+.\#*\#
+build/
+sitemap*
+

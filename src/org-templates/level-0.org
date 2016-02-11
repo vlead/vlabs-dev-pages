@@ -1,0 +1,23 @@
+#+AUTHOR:    (C) Venkatesh Choppella
+#+EMAIL:     venkatesh.choppella@iiit.ac.in
+
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+STARTUP: hidestars
+
+
+
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME:   index.html
+
+#+INFOJS_OPT: view:info toc:t ltoc:t tdepth:1 mouse:underline buttons:0 path:style/js/org-info.js
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/worg-style.css" />
+#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/main.css" />
+#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
+
+

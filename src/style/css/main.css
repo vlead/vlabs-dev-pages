@@ -1,0 +1,162 @@
+body { 
+   margin-left: 30%; 
+   margin-right: 10%; 
+   margin-top: 1%;
+   font-family: Verdana, sans-serif; 
+/*   font-size: 100%; */
+   color: gray;
+}
+
+
+/* colors */
+h1, h2, h3, h4 { 
+   color: #000066;   /* blue */
+/*   color: #006600;   green */
+   margin-bottom: 1em;
+}
+
+a:link {
+   text-decoration: none; 
+   color: olive; 
+} 
+a:hover {color: #FFCC33; font-weight: bold}
+
+/* color: #2222AA;} */ /* navy blue */
+
+/* *********************************************************/
+/* Menu */
+/* *********************************************************/
+div.menu {
+  position: fixed;
+  top: 0em;
+  left: 2em;
+  right: auto;
+  margin: 0;
+/*  border: 1px, solid, red; */
+  width: 8em; 
+}
+
+/* Don't display heading */
+div.menu  h2 {
+  display: none;
+}
+
+div.menu  li {
+  margin-left: -1.5em; 
+  padding: 0.3em 0.4em;
+  font-family: Arial, sans-serif;
+  list-style: none;
+  font-size: 110%;
+  font-weight: bold;
+  line-height: 1.1; 
+  text-align: left; 
+
+}
+
+div.menu li  a:link { 
+   text-decoration: none; 
+   color: #CC0033; } /* maroon */
+
+div.menu li a:hover { 
+   background: white; 
+   color: #FFCC33; }
+
+/* *********************************************************/
+/* Announcements */
+/* *********************************************************/
+div.announcements  {
+/*  position: fixed; */
+  top  : 16em;
+  left: 0em;
+  width: 100%;
+  height: 40%;
+  right: auto; 
+  bottom: auto; 
+  overflow-x: scroll;
+  overflow-y: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+
+/*  border:5px solid red; */
+
+/*  line-height: 1.1; 
+  text-align: center; */
+  background-color: #006600; /* green */
+}
+
+/* Do not display heading */
+div.announcements  h2 {
+  display: none;
+}
+
+div.announcements dl {
+  margin-left: 2em; 
+  margin-right: 2em;
+/*  border:2px solid blue; */
+  list-style: none;
+
+  color: white;
+  font-weight: 400;  
+  font-size: 120%;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+div.announcements ol li a:link { 
+   text-decoration: none; 
+   color: navy; 
+} 
+
+div.announcements ol li a:hover { 
+   background: white; 
+   color: purple; 
+}
+
+
+
+/* *********************************************************/
+/* Main */
+/* *********************************************************/
+
+div.main  h2 {
+  display: none;
+}
+
+
+/* *********************************************************/
+/* Postamble */
+/* *********************************************************/
+#postamble {
+  font-size: 80%;
+}
+
+.postamble span[class="source-file-name"] {
+   color: green;
+}
+
+.postamble span[class="date"] {
+   color: brown;
+}
+
+div.content {
+  margin-left: 15%;
+  margin-right: 5%;
+  font-size: 150% /*larger*/;
+/*  line-height: 1.1; 
+  text-align: center; */
+}
+
+
+
+
+/* Collapsible lists could be useful for open/close blackboard
+
+http://bernholdtech.blogspot.de/2013/04/very-simple-pure-css-collapsible-list.html 
+
+
+Also, 
+
+http://www.cssportal.com/css3-preview/showing-and-hiding-content-with-pure-css3.htm
+
+*/
