@@ -1,0 +1,19 @@
+#+title:  Skills
+#+SETUPFILE: org-templates/level-0.org
+
+
+* Technologies
+  All the services and portals developed till now have used [[https://www.python.org/][python 2.7]] and
+  [[http://flask.pocoo.org/][flask]] micro framework on the back end and [[http://www.ecma-international.org/publications/standards/Ecma-262.htm][javascript]] on the front end.  Some of
+  the front end code use [[https://angularjs.org/][angular.js]] and [[http://backbonejs.org/][backbone.js]] frameworks.
+
+* Desired Skills
+  To contribute to virtual labs development, these are the desired skills
+  - Knowledge of and comfort with Python and Javascript
+  - Linux Operating system
+  - Comfort with HTML and CSS if writing front-end features
+  - Knowledge and experience writing REST APIs using micro frameworks like
+    flask
+
+
+

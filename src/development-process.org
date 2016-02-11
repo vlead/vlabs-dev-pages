@@ -1,0 +1,130 @@
+#+title:  Development Process
+#+SETUPFILE: org-templates/level-0.org
+
+* Release Management
+
+  This [[http://nvie.com/posts/a-successful-git-branching-model/][post]] has an elaborate discussion on a successful release management using
+  git.
+  
+  Each repository contains master, stable, develop branches apart from other
+  feature branches.
+  
+  + master :: At any given point, master branch always has working code. This
+              is the stable branch.  Every commit on the master by definition
+              is a new release.  Commits on the master are tagged and the tags
+              refer to a release.
+
+  + stable ::  
+              
+  + develop :: All the work is branched off develop branch.  Any new branch
+               created to either realize a feature or fix known bugs is
+               branched off develop and these new branches are merged back to
+               develop after realization.  The develop branch could be unstable
+               when a feature branch is merged back to develop.  For this
+               reason, master branch is considered to be stable at any point.
+               
+  + feature branches :: All work releated to a feature or a bug is done in a
+       feature branch.  This branch is created from the develop and after
+       completion of the task, the feature branch is merged back to
+       develop. The merging to develop is always done using a pull request.
+       This is to ensure the code is reviewed. 
+       
+* Milestones and Releases
+
+  A repository is associated with every project.  Each repository has master,
+  develop, stable and release branches.
+
+  index.org is a top level file that captures the model to realize a project.
+  The same file contains a section =Releases= that defines various features added
+  to the project with timelines.  
+
+  Whenever a new release is planned for a project, the details of the new release
+  are added to the =index.org= on develop branch.  After the details are added, a
+  new branch is created from the develop to realize the features for that
+  particular release.
+  
+  In the new branch, index.org captures both the model for implementation and
+  also the project plan with realization estimates and deadlines for the planned
+  release.  Once ready for release, this new branch is merged with develop.
+  
+  A top level document defines =milestones= for the VLEAD project.  Each
+  milestone is a combination of particular releases of various sub-projects -
+  systems, ADS, dataservices, dashboard, outreach etc.  The advantage of such a
+  setting is: at any given point, the project plans and implementation models for
+  all the releases of various sub-systems that make up a =milestone= are readily
+  available.
+
+* Development Process
+** Documentation
+  Every project -- realization of either feature or product -- is a model and
+  this model is captured in a document.
+  
+  The different sections in this document capture some of the steps in the
+  development process defined here for realization of a feature/product from
+  requirements gathering to release.
+
+  All documentation and implementation code is tied together in this document
+  in different sections: Introduction, Requirements/Use Cases, Design &
+  Implementation, Test Cases, Provisioning, Releases.
+  
+** Requirements
+   A set of clearly defined requirements to be met to realize the
+   feature/product is a pre-requisite to kick off the realization of the
+   feature/product.  These requirements are part of the model.
+
+** Use case Scenarios
+   Development team in conjunction with the customer creates a list of use
+   cases derived from the requirements.  This step allows both the development
+   team and the customer to hold the same view point at the requirements.
+   Design & Implementation is initiated only after this step. 
+
+** Design & Implementation 
+   A high level design is put in place describing the architecture, databases,
+   technologies etc. 
+
+   Low level design is tightly coupled with implementation.  There is no
+   separate documentation for implementation, the low level design is the
+   documentation for the implementation since implementation is done in
+   [[http://www.literateprogramming.com/knuthweb.pdf][literate]] style. 
+   
+** Test Cases
+   The first level of validation of the application being built is the suite of
+   unit test cases.  Test case(s) for each function/procedure is/are  written
+   and are part of model.
+
+** Review
+   Each above step goes through one or more reviews before proceeding to the
+   subsequent step.  All review comments are addressed either by incorporating
+   the comments or by providing reason(s) for not incorporating them.  All the
+   review comments are saved in the project management tool. 
+
+** Release
+   A release is a realization of subset of requirements.  A project is divided
+   into multiple releases while each release subsumes a set of requirements.
+   It is essential to chalk out the product/feature realization plan through a
+   series of releases.  In certain circumstances, lack of clear understanding
+   of requirements might pose as a challenge in envisioning the realization of
+   a product/feature through a series of releases but this should not deter
+   us. 
+
+** Definition of Done
+   A demonstration of the product/feature complying to the set of
+   requirements/user-scenarios chosen for a particular release defines
+   'definition of done' (DOD).
+   
+** General Rules
+   These are general rules which are not set in stone, but are essential to set
+   the expectations right between all the stake holders and remove ambiguities
+   in understanding the expectations between the actors. 
+
+   1. Change in requirements during the period of realization should be
+      avoided.
+   2. When change in requirements is imminent, model and project management
+      should capture them.
+ 
+** Project management
+   Respective issue on redmine tracks each of these tasks.
+
+** References
+*** Literate
+    [[https://www.youtube.com/watch?v%3DdljNabciEGg][Literate Devops with Emacs]]
