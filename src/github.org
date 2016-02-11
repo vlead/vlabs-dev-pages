@@ -1,4 +1,4 @@
-#+title:  About Virtual Labs Development
+#+title: Directory of GitHub Directory
 #+SETUPFILE: org-templates/level-0.org
 
 * What is Virtual Labs?
