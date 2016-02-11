@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 
+#content{
+    margin-top: 132px;
+}
+
 body{
     background: #eee;
     font-family: Lato;
@@ -29,16 +33,39 @@ body{
 
 .bottom-nav .navbar-nav > li > a{
     color: #CCC;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .bottom-nav .navbar-nav > li > a:hover, .bottom-nav .navbar-nav > li > a:focus{
                                             color: #FFF;
-                                            font-size: 16px;
+                                         
                                         }
 
 
 .bottom-nav .navbar-nav > .open > a:hover, .bottom-nav .navbar-nav > .open > a:focus{
                                                background:transparent;
-                                               color: #fff;
+                                               color: #FFF;
                                            }
+                                              
+                                              
+.navbar-nav > li > .dropdown-menu{
+    border-radius : 0;
+    box-shadow: none;
+    background: #333;
+    padding: 0;
+    border: none;
+}
+.bottom-nav .dropdown-menu > li{
+    border-top: solid 1px #666;
+    padding: 10px 30px;
+}
+.bottom-nav .dropdown-menu > li:hover{
+    background: #3799FA;
+    border-top: solid 2px #3C5BFF;
+}
+
+.bottom-nav .dropdown-menu > li > a, .bottom-nav .dropdown-menu > li > a:hover, .bottom-nav .dropdown-menu > li > a:hover{
+                                                                                    color: #FAFAFA;
+                                                                                    font-size: 18px;
+                                                                                    background: none;
+                                                                                }
