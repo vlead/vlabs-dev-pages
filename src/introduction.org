@@ -18,8 +18,13 @@ facilitate deployment of labs or towards the development of virtual labs.
   development. 
 
 * Contributing
+  In this section, all learn about standards and processes for contributing
+  code virtual labs development.
 
 * Community
+  All the necessary information on how to connect with people using different
+  channels to understand and contribute to virtual labs development is provided
+  here.
 
 
 

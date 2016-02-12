@@ -1,23 +1,35 @@
-#+title: Directory of GitHub Directory
+#+title: Directory of GitHub Repositories
 #+SETUPFILE: org-templates/level-0.org
 
-* What is Virtual Labs?
-   [[http://www.vlabs.ac.in][Virtual Labs]] is an initiative of Ministry of Human Resources, India.
-   Virtual Labs is intended to augment the learning of engineering subjects
-   through performing experiments.  The experiments are designed either as
-   simulations or as remote triggered.  A remote triggered lab allows a user to
-   connect to real equipment using a web browser.  There are currently around
-   150 and labs and 1500 experiments at various stages of development and
-   deployment.
+All the Virtual Lab Development projects are on [[http://github.com/][GitHub]].
 
-* Development
+* Platform and Services Repositories
 
-   Virtual Labs Development is an effort involving
+All the repositories are under the organization [[http://github.com/vlead][vlead]]. 
 
-   1. development of platform and services that support deployment of labs
+A sampling of repositories dealing with the development of Platform and
+Services are
 
-      and
+** Auto Deployment Service
 
-   2. development of virtual labs
+   This [[http://github.com/vlead/ovpl][service]] transforms a github url of a web application to hosted url. 
+   
+** dataservice
+   
+   This [[http://github.com/vlead/dataservice][service]] is the central data store that provides a REST API to perform
+   CRUD operations on the data. 
+
+** Outreach Portal
+
+   This [[http://github.com/vlead/outreach-portal][portal]] helps in facilitating conducting workshops.  These workshops
+   allow the engineering students to see the value in virtual labs.
+
+** Virtual Labs Landing Page
+   
+   [[https://github.com/vlead/vlab-web-pages][Virtual Labs landing page]] is the home page of virtual labs which lists all
+   the available labs. 
 
 
+* Virtual Labs
+
+  All the repositories are under the organization [[http://github.com/Virtual-Labs][Virtual-Labs]]. 
