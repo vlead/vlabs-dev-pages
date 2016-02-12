@@ -1,5 +1,9 @@
 BUILD=./build
-DEST=${BUILD}/prj
+SRC=${BUILD}/prj/
+DEST_HOST="root@vlabs-dev.vlabs.ac.in"
+DEST_DIR="/var/www/html"
+REMOVE_COMMAND="rm -rf /var/www/html/*"
+
 
 all:  publish
 
@@ -11,9 +15,7 @@ clean:
 
 
 export:
-	rsync -avz ${DEST} www.iiit.ac.in:/home/faculty_website/choppell/data
+	ssh -o "StrictHostKeyChecking no" ${DEST_HOST} ${REMOVE_COMMAND}
+	rsync -avz --progress ${SRC} ${DEST_HOST}":"${DEST_DIR}
 
-
-pascal:
-	rsync -avz ${DEST}/* pascal.iiit.ac.in:/home/choppell/public_html
 

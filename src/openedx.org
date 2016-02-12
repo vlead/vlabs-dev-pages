@@ -1,0 +1,25 @@
+#+title:  Porting of Virtual Labs to Open edX platform
+#+SETUPFILE: org-templates/level-0.org
+
+[[https://github.com/vlead/port-labs-to-openedx][Porting Virtual Labs to Open edX]] harnesses the rich feature set of Open edX
+platform to provide a CMS, single sign on, persistence, analytics and a uniform
+look to all the virtual labs. 
+
+* Source Repository
+   The sources are hosted on a [[https://github.com/vlead/port-labs-to-openedx\][repository]] at GitHub.
+
+* Features
+
+** Provisioning
+   Open edX platform is provisioned and three labs have been ported to this
+   server.
+   
+   Analytics pipeline is being provisioned to capture user activity.
+
+** Porting of Labs
+   Three labs are ported to Open edX platform.  This was done manually.  Effort
+   is underway to automate the porting. 
+
+** Search-ability and Branding
+   Provision to search labs and creation of a unique look of the landing page
+   of the virtual labs on Open edX platform is under way. 

@@ -1,0 +1,29 @@
+#+title:  Platform to support Experiment as a Service
+#+SETUPFILE: org-templates/level-0.org
+
+[[https://github.com/vlead/virtual-labs-as-a-service][Platform to support experiment as a service]] provides a platform to design an
+experiment as a service.  The platform is a composition of javascript object
+that facilitate capturing all the events on a experiment by a user.  These
+events are exposed via REST API that are used by the outlier applications to
+compute analytics, persistence, evaluation, etc. 
+
+* Source Repository
+   The sources are hosted on a [[https://github.com/vlead/virtual-labs-as-a-service][repository]] at GitHub.
+
+* Overview
+  #+BEGIN_HTML
+  <img src="https://docs.google.com/drawings/d/1lX2lKngP5ThDGvpmhmuPkqVI3o2odAVEoIcJgf0G0Xg/pub?w=800&h=620">
+  #+END_HTML
+
+* Features
+
+** Architecture
+   Architecture of the platform is released.
+
+** Interfaces of different javascript objects
+   The interface of each javascript object that reside in the [[https://github.com/vlead/virtual-labs-as-a-service/blob/master/src/index.org][Vlabs Experiment
+   RunTime]] are to be defined. 
+
+** Prototype
+   A prototype of [[https://github.com/vlead/virtual-labs-as-a-service/blob/master/src/index.org][ Vlabs Experiment Runtime]] is to be built.
+

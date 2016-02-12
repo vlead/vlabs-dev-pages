@@ -1,0 +1,32 @@
+#+title:  Auto Deployment Service Features
+#+SETUPFILE: org-templates/level-0.org
+
+[[https://github.com/vlead/ovpl][Auto Deployment Service]] automates the deployment of a web application.  The
+hardware and software requirements which are mapped in a deployment
+specification is used to deploy an application.  The service takes a github
+source url and provides a hosted url.
+
+* Source Repository
+   The sources are hosted on a [[https://github.com/vlead/ovpl][repository]] at GitHub.
+
+* Overview
+  #+BEGIN_HTML
+  <img src="https://docs.google.com/drawings/d/1RgyRmh51GGZCJkFXBhXOoO9CZhNikAQ-ZgWXkmHdYOM/pub?w=800&h=620">
+  #+END_HTML
+
+
+* Features
+
+** Deployment on an [[http://openvz.org/Main_Page][OpenVZ]] Container
+   The feature to deploy a web application on an OpenVZ container is released.
+
+** Deployment on an VM on Amazon Web Service Cloud
+   The feature to deploy a web application on a virtual machine hosted in AWS
+   cloud is released.
+
+** Undeployment
+   The feature to undeploy a lab is work in progress.
+
+** Open Issues
+   All the open features are listed as [[https://github.com/vlead/ovpl/issues][issues]] on GitHub. 
+

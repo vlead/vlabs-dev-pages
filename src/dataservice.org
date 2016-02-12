@@ -1,0 +1,19 @@
+#+title:  Dataservice
+#+SETUPFILE: org-templates/level-0.org
+
+[[https://github.com/vlead/dataservice][dataservice]] abstracts storing, retrieving and querying data about labs and
+related ecosystem, over HTTP.
+
+* Source Repository
+  The sources are hosted on a [[https://github.com/vlead/dataservice][repository]] at GitHub.
+
+
+* Features
+
+** CRUD Operations
+   All CRUD operations exposed as REST API is released.
+
+** Authentication
+   OAUTH 2.0 authentication for the REST API is to be implemented and released.
+
+
