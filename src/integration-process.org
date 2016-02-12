@@ -1,0 +1,873 @@
+#+title:  Lab Development
+#+SETUPFILE: org-templates/level-0.org
+
+* Introduction
+ Virtual Labs is a mission mode project initiated by the Ministry of
+ Human Resources and Development (MHRD). The objective of this project
+ is to provide laboratory learning experience to the students who do
+ not have access to adequate laboratory infrastructure. Currently
+ there are around 150 labs which have been developed by various
+ institutes. A streamlined software development life cycle process
+ followed for the development of these labs ensure high quality
+ labs. The integration process of Virtual Labs described here defines
+ the development, quality assurance and hosting practices followed by
+ the developers (open source community) of the Virtual Labs
+ project. It aims at delivering responsive, open-source and
+ device-independent labs, helping us in our strive for excellence.
+* Motivation
+  This document is driven by the commitment of delivering exceptional
+  labs which can be accomplished by following an efficient integration
+  process. This process ensures a thorough testing of all labs before
+  they get hosted on production and are made available to the end
+  users. A well-organised Quality Assurance process, involving defect
+  identification, defect reporting and defect fixing, defined in this
+  document would ensure high quality labs. The entire workflow
+  starting from the development to the hosting of a lab is detailed in
+  the followings sections.
+* Development process of labs
+  This section captures the development process to
+  be carried out by the respective lab developers.
+** Location of lab repositories
+   All 'Virtual Labs' lab sources are stored as a git repository in
+   the GitHub organization - 'Virtual-Labs', which is maintained by
+   VLEAD. This is the canonical place of labs where the stable
+   version of each lab resides.
+** Owner of lab repositories
+   The ownership of the lab repositories would reside with the lab
+   owners. The discretion of including new features contributed by
+   developers across the globe would lie with the lab owners.
+** Forking of lab repositories
+   The lab development should be carried out by branching off an
+   existing master branch or by creating a new version of the
+   repository by forking. This could be done by any independent
+   developer of the open source community.
+** Development of lab repositories
+   All changes and new feature developments should happen only on the
+   fork. A fork is either a branch or a forked repository. It is
+   highly encouraged to follow the workflow process detailed in [[https://guides.github.com/introduction/flow/][GitHub Workflow]].
+** Merging of lab repositories
+   The developer should send a pull request to the master branch lab
+   owner to merge the changes made. The discretion of merging the changes
+   to the master branch would remain with the owner.
+** Request for lab hosting
+   When a lab owner wants to host a new lab or a modified lab, an
+   issue should be raised in the engineers-forum under Virtual-Labs
+   organisation in GitHub, with the label - 'request for hosting'. The
+   steps to be followed are:
+   + Lab owner should create a new issue in the engineers-forum.
+   + This issue should be labelled as 'request for hosting'.
+   + The repository URL of the lab and the commit id of the version of
+     the lab should also be included in the issue.
+*** Release notes
+**** *Structure of release notes*
+    Release notes should be attached to a lab hosting request raised
+    by the lab owner. These release notes should follow the structure
+    defined below :
+#+BEGIN_EXAMPLE
+  Release Notes for <Lab Name>
+    1.Commit id of the Source : 
+    2.Version Number of the Lab : 
+    3.Details of new features added  :
+      - Feature no. :
+      - Description :
+      - Tests Case links :
+    4.Defect link of resolved defects  :
+    5.Tests conducted with results : 
+    6.Environment Settings : 
+#+END_EXAMPLE
+
+ /[[https://github.com/Virtual-Labs/problem-solving-iiith/releases/tag/v1.1][View a sample release-note]]/
+
+    The description of different fields is given below :
+    - *Commit id of the Source :* This should be the commit id
+      generated when the sources of the lab requested for hosting are
+      committed in GitHub.
+    - *Version Number of the Platform/Lab :* This field should be
+      the version number of the newly created or modified lab 
+      requested for hosting. Everytime the lab iterates through
+      different testing levels, the version no. for the lab
+      requested for hosting should be updated.
+    - *Details of new features added :* This field should list all the
+      new features/modified features along with detailed descriptions.
+    - *Defect link of resolved defects :* This field should list 
+      the links (GitHub issue tracker links) of all the resolved
+      defects.
+    - *Tests conducted with results :* This field should describe the
+      details of any tests (/[[Types of test cases][domain and integration level]]/) conducted
+      along with their results.
+    - *Environment Settings :* This field should describe the
+      configuration settings to be used during testing.
+
+**** *Location of Release notes*
+     Release notes are part of the lab repository. These would be text
+     files under the tag - release. These would be beside the tags - 
+     commits, branch and contributors.
+* Hosting process of labs
+  This section captures the hosting process to
+  be carried out by the VLEAD team.
+** Lab hosting for Quality Assurance
+ - When a request for hosting is raised on the engineers-forum, an
+   alert in the form of an email notification would be sent to the release
+   engineer (VLEAD).
+ - The release engineer (RE) would host the lab for the VLEAD Quality
+   Assurance (QA) team on the testing environment which is exactly
+   similar to the production environment.
+ - The release engineer should respond back to the developer
+   within X hours with the timeline for the hosting process. This
+   response would be given as a reply in the same issue on GitHub.
+ - The VLEAD QA team would label the lab as 'Approved' on the
+   engineers-forum based on the testing results. The lab would be
+   labelled as 'Approved' if the tested experiment has zero S1 defects,
+   less than(or)equal to two S2 defects and less than(or)equal to five S3
+   defects.
+ - The developer should take the input from the VLEAD QA team to fix the
+   defects. The response would be given on the same issue thread in the
+   forum with the new commit id for another iteration of QA
+   testing. This process would iterate unless all the QA tests pass
+   and the above mentioned 'Approved' condition is met.
+ - Once the VLEAD QA team has finished testing and generated a test
+   report, they would update the corresponding issue on GitHub.
+** Lab hosting for Production
+  - Once 'Approved' from the VLEAD QA team, the release engineer would
+    carry out the hosting process using the Auto Deployment Service
+    (ADS).
+  - Once the 'Approved' alert is received by the release
+    engineer, the RE would complete the hosting process within X hours
+    and would respond back on the same issue thread with the lab
+    hosting confirmation and the URL of the hosted lab.
+* Quality Assurance of labs
+  This section captures the Quality Assurance (QA) process to be
+  carried out by the respective lab developers and the VLEAD QA
+  team. Every QA process starts with a test plan followed by the
+  creation of test cases.
+** Test Plan
+   This section describes the plan that would be followed by the VLEAD
+   QA team for testing of the Virtual Labs . The test plan would test all
+   the requirements of the Virtual Labs. It supports the following
+   objectives:
+    - Identification of the existing project information and the software
+      components to be tested.
+    - Specifying the recommended high level test requirements.
+    - Recommendation and description of the testing strategies to be employed.  
+    - Specifying the deliverable elements of the test activities.
+   This test plan would apply to the integration and system tests that
+   would be conducted on the Virtual Labs Releases. Testing would be
+   conducted as per the black box testing techniques. 
+*** Test requirements
+    The list below identifies the different levels (functional
+    requirements) of the testing that would be performed.
+**** System Testing
+     The goal of system testing would be to verify that Virtual Labs
+     works as per user expectations. This type of testing is
+     based upon black box techniques, that is, verifying the
+     application by interacting with it and analyzing the output
+     (results). Identified below is an outline of the testing process :
+     - Test Objectives: Verification of working of the Virtual Labs
+       home page and links to the participating institutes.
+     - Techniques: Using positive and negative data, following would
+       be verified:\\
+       1.Occurence of the expected results when positive data is used.\\
+       2.The appropriate error/warning messages displayed when
+       negative data is used.
+     - Completion Criteria:\\
+       1.All planned tests should be executed.\\
+       2.All identified defects should be addressed.
+**** Integration Testing
+    - Different labs and experiments would be verified for
+      simulator,theory,reference and usability.
+    - Usability is defined as the extent to which an application is
+      understood, easy to operate and attractive to the users under
+      specified conditions.
+    2.1. User Interface Testing\\
+
+     User Interface testing verifies a user’s interaction with the
+     software. The goal is to verify the details of the functioning of
+     all the labs and experiments which are hosted under Virtual-Labs
+     organisation. The outline recommended for the testing is given
+     below :
+    - Test Objectives: The objective would be to verify the following:\\
+      1.Navigation through the application should properly reflect the
+      requirements, including window to window, field to field, and
+      use of access methods (tab keys, mouse movements, accelerator
+      keys).\\
+      2.Window objects and characteristics, such as menus, size,
+      position, state, and focus should confirm to the standards.
+    - Techniques: Creation/modification of tests for each window to
+      verify proper navigation and object states for each application
+      window and objects.
+    - Completion Criteria: Each window should successfully verify with the
+      benchmark version or confirm with the acceptable standards.
+*** Tools
+    The following tools would be employed by the VLEAD testing team
+    for the testing process:
+    - Test Design - Emacs 24.4.1
+    - Defect Tracking - Github 2.1.4
+    - Functional Testing - Manual
+    - Test Report and Statistics - org & html format
+    - Project Management - Microsoft Project, Microsoft Word, Microsoft Excel
+*** Test tasks
+    Below are the test related tasks for testing Virtual Labs : 
+**** *Test Plan*
+     - Identification of the requirements.
+     - Development of a test strategy.
+     - Identification of the test resources.
+     - Creation of a schedule.
+     - Generation of a test plan.
+**** *Test Design*
+     - Identification and description of the test cases.
+     - Review and assessment of the test coverage.
+**** *Test Implementation*
+     - Setting up a test environment.
+     - Verifying that the system has specified browsers and drivers.
+     - Identification of the test specific functionality in the design and
+       implementation model.
+**** *Test Execution*
+     - Evaluation of test execution.
+     - Verification of the results.
+     - Investigation of the unexpected results.
+     - Logging defects.
+**** *Test Evaluation*
+     - Evaluation of the test-case coverage.
+     - Analyzing the logged defects.
+     - Determining if test completion criteria and success criteria have
+       been achieved.
+     - Creation of test evaluation report.
+** Development of test cases
+   This section describes the overall development of the test cases
+   including its definition, structure, owner, type and location.
+*** Definition of test cases 
+    A test case is a set of conditions under which a tester will
+    determine whether an application, software system or one of its
+    features is working as it was originally established to do. A test
+    case is usually a single step, or occasionally a sequence of
+    steps, to test the correct behaviour/functionality and features of
+    an application. For Virtual Labs, a test case would be a file in
+    an org format listing all the steps to be carried out by the test
+    engineers. Every test case should follow a defined structure
+    encapsulating all the testing conditions necessary for the QA
+    process.
+*** Structure of test cases
+    The structure for the test cases would be same across all the
+    testing levels and the labs. Naming convention to be followed for
+    the test case file would be -
+    experimentname__XX_feature_priority.org (For example :
+    /[[https://github.com/Virtual-Labs/problem-solving-iiith/blob/master/test-cases/integration_test-cases/Numerical%20Representation/Numerical%20Representation_03_Introduction_p1.org][NumericalRepresentation_01_Usability.p1.org]]/)
+    - *experimentname :* This part of the test case filename should
+      represent the name of the experiment.
+    - *XX :* This part of the test case filename should be serial
+      number of the test case.
+    - *feature :* This part of the test case filename should represent
+      the name of the tested feature.
+    - *priority :* This part of the test case filename should
+      represent the level of (business) importance assigned to an
+      item. Priority assigned to a test case file could be of
+      different types as given below :\\
+      - *p1* : These would be the highest level of business importance
+        assigned to the test cases. These would be the test cases
+        executed first in each build, identified and assigned by VLEAD
+        QA team in conjunction with domain team.
+      - *p2* : These would be next to P1 test cases, in terms of
+        business importance assigned to these type of test cases.
+      - *smoke test (smk)* : These would be a subset of all
+        defined/planned test cases that cover the main functionality
+        of a component or system. It would ascertain that the most
+        crucial functions of a program work, but not bothered with
+        finer details.\\
+    The template for a test case is given below.
+#+BEGIN_EXAMPLE
+     Author :
+     Date Created :
+     Environment : 
+     Objective :
+     Pre conditions :
+     Post conditions :
+     Test Steps :
+         step-1  
+         step-2 ...
+     Expected result :
+     Reviews Comments :
+#+END_EXAMPLE
+
+    /[[https://github.com/Virtual-Labs/problem-solving-iiith/blob/master/test-cases/integration_test-cases/Advanced Arithmatic/Advanced Arithmatic_01_Usability_smk.org][View a sample test case structure]]/
+
+   The description of different fields is given below :
+
+   - *Author :* This field should be the name of the author. It
+     could be from the VLEAD QA team or from the development team.
+
+   - *Date Created :* This field should be the date of creation of a 
+     test case by the test engineer/developer.
+
+   - *Environment :* This field would describe the environmental setup
+     under which the testing of a lab would be performed.
+
+   - *Objective :* This field would define the objective of
+     the created test case.
+
+   - *Pre conditions :* This field would list the conditions
+     that should be satisfied before a test case is executed by the
+     test engineer.
+
+   - *Post conditions :* This field would generally represent the
+     state which would be obtained after a test case is executed
+     successfully. In some special cases it would list the steps to be
+     performed to get the system back to its initial state.
+
+   - *Test Steps :* This field would list the steps to be
+     carried out to execute a test case.
+
+   - *Expected result :* This field would detail the ideal result
+     expected by the end user.
+
+   - *Reviews/Comments :* This field would express the comments of the
+     reviewer of the test cases.
+     
+*** Types of test cases
+    The test cases would be of three types :
+**** *System Level* -
+      These include test cases created for testing the home page of each
+      individual lab before any experiments are being tested at
+      integration level.
+     
+**** *Integration Level* -
+      These include test cases created for testing the functionality of
+      each experiment in a lab.
+     
+**** *Domain Level* -
+      Domain level testing would include the unit testing of the labs
+      for ensuring that each unit of a lab is behaving as per the
+      user's requirement. Following are the quality assessment
+      parameters to be followed for the domain level
+      - Ease of 
+      - Standard Format
+      - Theory/Objective (Rating = 0 to 5)
+        1. Clarity
+        2. No. of sentences
+        3. Spelling mistakes
+        4. Quality of content
+      - Procedure (Rating = 0 to 5)
+        1. No. of steps
+        2. Understandable/Comprehensible
+        3. Spelling mistakes
+        4. Clarity of Presentation
+        5. No. of attempt required
+        6. Ease of doing experiment
+      - Simulation/Live experiment (Rating = 0 to 5)
+        1. Working Status
+        2. Quality of simulator
+        3. Analysis of output
+        4. Understandable/ Comprehensible
+        5. Spelling mistakes
+      - Pre-requisite Software (Rating = 0 to 5)
+        1. Ease of download
+        2. Latest version available
+        3. Working status of Links
+        4. Time to download
+        5. User-friendly
+        6. Clear procedure of download & installation
+      - Video/Audio (Rating = 0 to 5)
+        1. Video/Audio help available
+        2. Understandable/Comprehensible
+        3. Clarity of presentation
+        4. Quality of Video/Audio
+      - Quiz (Rating = 0 to 5)
+        1. Spelling mistakes
+        2. Quality of Questions
+        3. Check correctness of 
+      - Feedback Form (Rating = 0 to 5)
+        1. Available on site
+        2. Working status
+      - Reference Books (Rating = 0 to 5)
+        1. Available on site
+        2. Working status of download Links
+      - Overall Human Factors (Rating = 0 to 5)
+        1. Comparative to Physical Labs.
+        2. Overall assessment about this lab. 
+        3. Relative to syllabus. 
+        4. Overall look and feel.
+*** Owner of test cases
+    The owners of the test cases would be based on the different
+    testing levels as detailed below :
+    - *System Level* - The system level testing of every lab would be
+      performed by the VLEAD QA team. These test cases would be
+      populated by the same team. However, the reported defects should
+      be resolved by the respective developer/owner of the lab.
+    - *Integration Level* - The integration level testing of every lab
+      would also be performed by the VLEAD QA team. These test cases
+      would be populated by the same team. However, the reported defects
+      should be resolved by the respective developer/owner of the lab.
+    - *Domain Level* - The domain level testing of every lab would be
+      performed by the developer of the labs before they raise the
+      request for lab hosting. They should raise and fix corresponding
+      defects.
+*** Location of test cases
+    Every lab has its own repository in GitHub under the Virtual-Labs
+    organisation. The test cases would also be located in the same
+    repository. The test cases directory would be at the same level as
+    that of README.txt, src or scripts and release-notes.
+#+BEGIN_EXAMPLE
+    |-- README.txt
+    |-- src
+    |-- scripts
+    |-- release-notes
+    |-- test-cases
+        |-- scripts
+            |-- README.txt
+            |-- testreport.py
+        |-- integration_test-cases  
+            |-- system
+                |-- test_case meta file of system
+                |-- labname_01_feature_p1.org
+                |-- labname_02_feature_p2.org ...
+            |-- experimentname
+                |-- test_case meta file of exp01
+                |-- experimentname_01_feature_p1.org
+                |-- experimentname_02_feature_p2.org ...
+            |-- experimentname
+                |-- test_case meta file of exp02
+                |-- experimentname_01_feature_smk.org
+                |-- experimentname_02_feature_p1.org ...
+        |-- domain_test-cases
+            |-- experimentname
+                |-- test_case meta file of exp01
+                |-- experimentname_01_feature_p2.org
+                |-- experimentname_02_feature_smk.org ...
+            |-- experimentname
+                |-- test_case meta file of exp02
+                |-- experimentname_01_feature_p1.org
+                |-- experimentname_02_feature_p2.org ... 
+#+END_EXAMPLE
+
+/[[https://github.com/Virtual-Labs/problem-solving-iiith][View a sample directory structure in GitHub]]/
+
+    The directory structure of the test cases is depicted in the tree
+    structure above. In each of the existing lab repositories, we
+    would have the basic structure of README.txt, scripts and sources
+    of the labs.
+**** *scripts directory*
+     - This directory under the test-cases would contain the script
+       for the generation of test reports from the test cases. The
+       README.txt file would describe the method to be followed for
+       using the script.
+     - testreport.py file would be the python script for the automated
+       generation of /[[Test Reports][test reports]]/.
+
+/[[https://github.com/Virtual-Labs/problem-solving-iiith/tree/master/test-cases/scripts][View a sample scripts directory]]/
+
+**** *integration_test-cases directory*
+     - This directory would be at the same level as that of scripts
+       directory and would contain a system sub-directory and separate
+       sub-directories for each experiment.
+     - The system sub directory as well as individual experiment
+       sub-directories would consist of a meta-file (/[[https://github.com/Virtual-Labs/problem-solving-iiith/blob/master/test-cases/integration_test-cases/system/system_metafile.org][View a sample meta-file]]/).
+
+ /[[https://github.com/Virtual-Labs/problem-solving-iiith/tree/master/test-cases/integration_test-cases][View a sample integration_test-cases directory]]/
+
+**** *domain_test-cases directory*
+     - This directory would be at the same level as that of scripts
+       and integration_test-cases directory. It would contain separate
+       sub-directories for each experiment.
+     - It is suggested that this directory could use the structure
+       followed by the integration_test-cases directory as described
+       above.
+
+/[[https://github.com/Virtual-Labs/problem-solving-iiith/tree/master/test-cases/domain_test-cases][View a sample domain_test-cases directory]]/
+
+** Identification, Reporting and Fixing of defects
+   This section describes the defect identification, reporting and defect
+   fixing paradigm of QA process. All the defects would be raised in
+   the issue tracker.
+*** Identification and reporting of defects
+    When the defects are identified by the VLEAD QA team during the testing
+    of a lab, corresponding issues would be raised in the issue tracker of
+    the same lab repository.
+*** Description of defects
+    A defect would contain a brief description and a hyper-link to its
+    corresponding test case file. It could also contain screen shots
+    for easier comprehension. Every defect would contain labels to
+    describe its state, severity and category. The following are the
+    attributes that would be attached to each defect :
+   - Test status         
+   - Build Number         
+   - Tested By         
+   - Date Tested             
+   - Test Notes         
+   - Category
+   - Developed By
+   - Severity
+   - Screen shot
+
+    It would be the responsibility of the test engineer to update the test status in RequisitePro.
+    Test results would be retained under Configuration Control.
+
+   /[[https://github.com/Virtual-Labs/problem-solving-iiith/issues/144][View a sample defect template]]/
+
+**** State of defects
+    At any given time a defect should only be in one of the below
+    described states. To change the state of a defect, the current
+    status label of the defect should be unchecked and the new status
+    label should be checked.
+   - *Open* : This label indicates that when a defect is logged and
+     posted for the first time, it would be labelled as 'Open'. The
+     VLEAD QA team as well as the developers can raise new defects.
+   - *In Progress* : This label indicates that Open issues while being
+     worked upon by the developer would be labelled as 'In Progress'.
+   - *Fixed* : This label indicates that the issue has been fixed by
+     the developers in their lab GitHub repository but a release has
+     not been for the hosting. Only the developers can mark the issue
+     as fixed. They should change the status to resolved and include
+     it in their release notes when they make a release containing
+     these fixes. Test engineers would test only resolved and open
+     defects.
+   - *Resolved* : This label indicates that when developers make
+     necessary code changes and verifies the changes then they can
+     label the defect as ‘Resolved’. The developers as well as the
+     lab owners can mark the issue as Resolved.
+   - *Reopen* : This label indicates that if a resolved defect
+     surfaces during testing, the test engineer would label it as
+     'Reopen'.
+   - *Closed* : This label indicates that Resolved defects would be
+     labelled as 'Closed' by the test engineers after they pass the
+     tests. This label means that the defect is resolved, tested and
+     approved.
+   - *Rejected* : This label indicates that if the developer feels that
+     the defect is not genuine, it would be labelled as 'Rejected'.
+   - *Deferred* : This label indicates that the defect would be labelled as
+     'Deferred' when it is expected to be fixed in future
+     releases. The reasons for changing the defect to this state could
+     depend on factors like low priority of the defect or lack of time
+     for the release.
+**** Severity of defects
+     At any given time a defect should only have one of the severity
+     levels as described below. To change the severity of a defect, the
+     existing label of the defect should be unchecked and the new
+     severity label should be checked.
+   - *S1* : This label indicates that the defect affects critical
+     functionality or critical data. There are no workarounds to get
+     to this functionality. Example: Prevention of user interaction,
+     corruption of database, unfaithful to the semantics of
+     interaction and redirection to the error page.
+   - *S2* : This label indicates that the defect affects major
+     functionality or major data. It could have a workaround but is
+     not obvious and is difficult like broken links and a field view
+     being inconsistent with its specifications. Example: In a form if
+     there is a field which is editable but it is not allowing the
+     user to edit it.
+   - *S3* : This label indicates that the defect affects minor
+     functionality or non-critical data. It could have an easy
+     workaround. Example: Visual imperfections like spelling and
+     grammar, alignment, inconsistent terminology, colour, shapes and
+     fonts(css properties).
+**** Category of defects
+     At any given time a defect should only have one of the categories
+     described below. To change the category of a defect, the existing
+     label of the defect should be unchecked and the new severity label
+     should be checked.
+   - *Functionality* : This label indicates the rise of a defect when
+     the test case fails in the core application functions, text
+     input, menu functions, installation and setup on localized
+     machines.
+   - *Usability* : This label indicates the rise of a defect when the
+     application or the product built is not user-friendly. Example :
+     the flow, navigation and layout, speed and content.
+   - *Interoperability* : This label indicates that this defect rises
+     when an application/software works on one operating system (OS)
+     but doesn't work on another. Example If 'abc' experiment works on
+     windows OS and the same 'abc' experiment doesn't work on Linux
+     OS.
+**** Common labels
+   - *Release Number* : This label indicates the release stage
+     of the product.
+   - *Developed By* : This label indicates the name of the institute
+     or the individual who has developed the lab.
+
+/[[https://github.com/Virtual-Labs/problem-solving-iiith/issues][View sample defects with labels]]/
+
+*** Fixing of defects
+   - Resolution of a defect is the responsibility of the lab owner/developer.
+   - The following is the Service Level Agreement proposed for
+     resolving the defects :
+     1) S1 defects to get responded within 24 hours
+     2) S2 defects to get responded within 36 hours
+     3) S3 defects to get responded within 48 hours 
+
+ #+BEGIN_HTML
+  <img src="https://docs.google.com/drawings/d/18c24XUWU1EeQ7f85viXLrcNHqKoyaChzHtTkaRXgH2I/pub?w=960&h=720">
+  #+END_HTML
+
+ /[[https://docs.google.com/a/vlabs.ac.in/drawings/d/18c24XUWU1EeQ7f85viXLrcNHqKoyaChzHtTkaRXgH2I/edit?usp=sharing][edit image]]/
+
+** Test Reports
+   Test reports would be generated by the VLEAD QA team at the end of
+   the testing process of each lab. They would contain a consolidated
+   report of the executed test cases, a boolean result and links to
+   defects raised against them. Two important details to be noted here
+   are :
+   - A test case is said to pass only when all its test step pass.
+   - A composite test which consists of a set of test cases is said 
+     to pass only when all its individual test cases pass.
+*** Location of test reports
+    Test reports for any lab could be viewed from its lab
+    repository. A test-report.org file would be present at the same
+    level as that of README.txt, src, scripts and release-notes. This
+    file would provide link to the individual test-report files of
+    that particular lab in a separate test-reports repository. The
+    location of the test-report.org is as given below :
+#+BEGIN_EXAMPLE
+    |-- README.txt
+    |-- src
+    |-- scripts
+    |-- test-cases
+    |-- release-notes
+    |-- test-report.org     
+#+END_EXAMPLE
+
+ /[[https://github.com/Virtual-Labs/problem-solving-iiith][View a sample test-report location]]/
+
+    The below tree structure describes the test-reports repository
+    under Virtual-Labs in GitHub. The test-report.org file would to
+    the test reports (grouped based on date and commit-id) of a
+    particular lab. Inside date_commit-id directory, test-report files
+    and statistics files for the tested lab could be accessed.
+#+BEGIN_EXAMPLE
+    |-- README.txt
+    |-- lab repository name 01
+        |-- date_commit-id
+            |-- time_testreport.org
+            |-- time_stats.org
+    |-- lab repository name 02 
+        |-- date_commit-id
+            |-- time_testreport.org
+            |-- time_stats.org
+    |-- scripts
+        |-- README_testreport.txt
+        |-- README_statistics.txt
+        |-- testreport.py
+        |-- statistics.py
+#+END_EXAMPLE  
+
+**** *lab repository name 01 directory*
+     - This directory would contain sub-directories based on date and
+       commit-id. These sub-directories in turn would contain
+       corresponding time_testreport.org and time_stats.org file for a
+       tested lab. Both these files would have the timestamps
+       indicating the time of their creation.
+     - The same structure would follow for all other labs as
+       well. There could be multiple test reports as well as
+       statistics files for a particular commit-id. The timestamp
+       would be unique in each case.
+     
+/[[https://github.com/Virtual-Labs/test-reports][View a sample test-reports repository]]/
+
+**** *scripts directory*
+     - This directory in the test-reports repository would contain
+       scripts for the generation of test reports and statistics.
+       README file for both test report (README_testreport.txt) and
+       statistics (README_statistics.txt) would describe the method to
+       be followed for using the scripts.
+     - testreport.py file would be a python script for the automated
+       generation of test report template. This would be used by the
+       test engineer to fill in the test results.
+     - statistics.py file would be a python script for the automated
+       generation of test report statistics from a duly filled in test
+       report file.
+
+/[[https://github.com/Virtual-Labs/test-report/tree/master/scripts][View a sample scripts directory]]/
+
+*** Structure of test reports
+    This section describes the test report structure to be committed under
+    the test-reports repository.
+
+#+BEGIN_EXAMPLE
+  1. Lab Name : Problem Solving Lab
+     GitHub URL : https://github.com/Virtual-Labs/problem-solving-iiith
+     Commit ID : XYZ
+
+  S.No   Experiment Name            Test Case                            Pass/Fail   Severity   Defect Link
+
+   01   Numerical Representation   NumericalRepresentation_Quiz_12.org      Pass        N/A         N/A
+
+   02   Numerical Representation   NumericalRepresentation_UI_14.org        Fail        S2          17
+#+END_EXAMPLE
+
+/[[https://github.com/Virtual-Labs/test-report/blob/master/problem-solving-iiith/21-12-2015_4b74be7a5f852708ba4a365cb257579b8204079d/16:44:43_testreport.org][View a sample test-report file]]/
+
+   The test report would follow the structure given below :
+   - *Lab Name* : This would be the name of the lab repository tested.
+   - *GitHub URL* : This would be the GitHub URL for the lab repository which
+     would hold the test cases and the filed defects.
+   - *Commit id* : This would be the commit id against which the testing
+     happened.
+   - *Experiment Name* : This would be the name of the experiment of
+     the lab tested.
+   - *Test Case* : This would be the name of the test case created
+     and tested for the experiment as shown in the table above.
+   - *Pass/Fail* : This field would depict whether the test case for
+     the experiment tested pass or failed.
+   - *Severity* : This field would indicate the severity of the
+     defect.
+   - *Defect Link* : This field in the table would be the hyper link
+     for the corresponding issue in GitHub for a failed test case.
+
+*** Structure of statistics reports
+   Statistics reports would be generated by the VLEAD QA team at the
+   end of the testing process of each lab. They would contain a
+   consolidated report of the number of passed and failed test cases
+   and the number of defects with S1,S2 and S3 severity.
+
+#+BEGIN_EXAMPLE
+  1. Lab Name : Problem Solving Lab
+     GitHub URL : https://github.com/Virtual-Labs/problem-solving-iiith
+     Commit ID : XYZ
+     Detailed Statistics : https://github.com/issues
+       
+     Total number of passed test cases = XYZ
+
+     Total number of defects with S1 severity = XYZ
+
+     Total number of defects with S2 severity = XYZ
+
+     Total number of defects with S3 severity = XYZ
+
+     Total number of failed test cases = XYZ
+
+  S.No   Experiment Name             Pass Count      S1     S2     S3    Fail Count
+
+   01    Numerical Representation        16           2     11      1         14
+
+   02    Recursion                       17           2     11      1         14
+#+END_EXAMPLE
+
+/[[https://github.com/Virtual-Labs/test-report/blob/master/problem-solving-iiith/21-12-2015_4b74be7a5f852708ba4a365cb257579b8204079d/16:44:43_stats.org][View a sample statistics report file]]/
+
+The statistics report would follow the structure given below :
+   - *Lab Name* : This would be the name of the lab repository tested.
+   - *GitHub URL* : This would be the GitHub URL for the lab repository which
+     would hold the test cases and the filed defects.
+   - *Commit id* : This would be the commit id against which the testing
+     happened.
+   - *Detailed Statistics* : This would be the link to the GitHub
+     provided dashboard from where detailed statistics can be
+     obtained.
+   - *Experiment Name* : This would be the name of the experiment of
+     the tested lab.
+   - *Pass Count* : This would be the total number of test cases
+     passed for a particular experiment.
+   - *S1* : This would indicate the number of S1 defects present in
+     the tested experiment.
+   - *S2* : This would indicate the number of S2 defects present in
+     the tested experiment.
+   - *S3* : This would indicate the number of S3 defects present in
+     the tested experiment.
+   - *Fail Count* : This would be the total number of failed test
+     cases for a particular experiment.
+* Block Diagram of the Integration Process of a lab
+The block diagram depicting development, testing and hosting of a lab is given as :
+
+ #+BEGIN_HTML
+  <img src="https://docs.google.com/drawings/d/1SxJ-3E8o4nTYPnQ36bd72ZQy-6RYJgGDYL74QECTsjs/pub?w=960&h=720">
+  #+END_HTML
+
+ /[[https://docs.google.com/drawings/d/1SxJ-3E8o4nTYPnQ36bd72ZQy-6RYJgGDYL74QECTsjs/edit?usp=sharing][edit image]]/
+    
+* Roles and responsibilities
+  The table given below describes the roles and responsibilites of the
+  lab owner, lab developer, test engineer and release engineer.
+
+ #+BEGIN_HTML
+  <img src="https://docs.google.com/drawings/d/1cAL2z4wzfMOu-eve6JapgKwRPnucgBvGLNOVvHVW_NM/pub?w=960&h=600">
+  #+END_HTML
+
+/[[https://docs.google.com/drawings/d/1cAL2z4wzfMOu-eve6JapgKwRPnucgBvGLNOVvHVW_NM/edit?usp=sharing][edit image]]/
+ 
+ The convention to be followed in the QA process is as follows :
+  - Lab owner would have admin/write access on git repository of the lab.
+  - Lab developer would have read access on git repository of the
+    lab. They can create a pull request to the lab owner.
+  - Test engineer would have write access on git repositories of labs
+    but should not commit any other files other than the test cases.
+  - Release engineer would have write access on git repositories and
+    would host the labs on production.
+  - Creation and deletion of labels in GitHub should only be done by
+    the VLEAD QA team.
+* Summary
+  This document highlights the integration process of Virtual Labs
+  from development to hosting. It focusses on the Quality
+  Assurance process to deliver high quality labs. It aims at
+  collaborating  contributions of the developers across the 
+  open source platform - GitHub. This streamlined process would
+  help in our strive for excellence in delivering high standard labs.
+* Glossary
+  - *Commit id* : A /[[https://help.github.com/articles/github-glossary/][commit]]/ , or "revision", is an individual change to
+    a file (or set of files) in GitHub. Every time a file is saved, it
+    creates a unique ID (a.k.a. the "SHA" or "hash") that allows to
+    keep record of what changes were made when and by who. Every
+    commit id generated is unique.
+  - *Defect* : Defects are the faults encountered during the testing of the
+    labs by the test engineers. They would be raised as issues on GitHub.
+  - *Git* : Git is a free and open source distributed version control
+    system designed to handle everything from small to very large
+    projects with speed and efficiency.
+  - *GitHub* : /[[https://github.com/][GitHub]]/ is a web-based Git repository hosting service,
+    which offers all of the distributed revision control and source
+    code management (SCM) functionality of Git as well as adding its
+    own features.
+  - *Integration Engineers* : Integration engineers ensure that the
+    labs meet the acceptance criteria of being deployed on the
+    cloud. They re-engineer labs to make them responsive, open-source
+    and device-independent.
+  - *Lab developers* : Lab developers are the creators of the labs.
+    They could be anyone from within an organisation or the open
+    source development community.
+  - *Lab owners* : The ownership of the lab repositories will reside
+    with the lab owners. The discretion of including new features
+    contributed by developers across the globe would lie with the lab
+    owners.
+  - *org* : This is the file extension or format generated when Emacs
+    editor is used. /[[https://www.gnu.org/software/emacs/][GNU Emacs]]/ is an extensible, customizable text
+    editor.
+  - *Participating Institutes* : These are the institutes which
+    contribute to the Virtual Labs project.
+  - *QA* : QA refers to quality and assurance which ISO 9000 defines as
+    "part of quality management focused on providing confidence that
+    quality requirements will be fulfilled". It is a way of preventing
+    mistakes or defects and avoiding problems when delivering
+    to end users.
+  - *QA Team* : The QA team refers to the dedicated quality and
+    assurance team in VLEAD which would carry out the
+    thorough testing of the labs before they are requested to be hosted
+    on production by the lab developers.
+  - *Release Engineer* : The release engineer (VLEAD) is responsible for the
+    hosting of approved labs on production.
+  - *Repository* : The distributed version control system - git is
+    used here. Every time the term repository or repo is used, it
+    refers to a git repository. A repository is an on-disk data
+    structure which stores metadata for a set of files and/or
+    directory structure. The whole set of information in the
+    repository may be duplicated on every user's system or may be
+    maintained on a single server.
+  - *S1 Defect* : S1 defect refers to severity 1 defect. It is a total
+    blocker or a show stopper defect. There are no workarounds to get to
+    this functionality. Example: Prevention of user interaction,
+    corruption of database, unfaithful to the semantics of interaction
+    and redirection to the error page.
+  - *S2 Defect* : S2 defect refers to severity 2 defect. It has a
+    workaround but is not obvious and is difficult like broken links
+    and a field view being inconsistent with its
+    specifications. Example: In a form if there is a field which is
+    editable but it is not allowing the user to edit it.
+  - *S3 Defect* : S3 defect refers to severity 3 defect. The defect
+    affects minor functionality or non-critical data. It could have an
+    easy workaround. Example: Visual imperfections like spelling and
+    grammar, alignment, inconsistent terminology, colour, shapes and
+    fonts(css properties).
+  - *Test Engineer* : All the members involved in the testing process
+    whether from the developer end or from the VLEAD QA end, are
+    termed as test engineers. Whoever carries out any testing on
+    the labs are defined as test engineers.
+  - *Virtual Labs* : Virtual Labs is an initiative by MHRD under
+    NMEICT. The objective is to make engineering education engaging,
+    enjoyable, immersive and online.
+  - *VLEAD* : Virtual Labs Engineering and Architecture Division is
+    the central engineering team of Virtual Labs that takes cares of
+    both the research and development needs of the laboratory.

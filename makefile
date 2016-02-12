@@ -17,5 +17,3 @@ clean:
 export:
 	ssh -o "StrictHostKeyChecking no" ${DEST_HOST} ${REMOVE_COMMAND}
 	rsync -avz --progress ${SRC} ${DEST_HOST}":"${DEST_DIR}
-
-

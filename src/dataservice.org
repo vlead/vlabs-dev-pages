@@ -1,4 +1,4 @@
-#+title:  Dataservice
+#+title:  Lab Development
 #+SETUPFILE: org-templates/level-0.org
 
 [[https://github.com/vlead/dataservice][dataservice]] abstracts storing, retrieving and querying data about labs and

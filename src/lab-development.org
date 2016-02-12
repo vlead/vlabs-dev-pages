@@ -1,0 +1,12 @@
+#+title:  Lab Development
+#+SETUPFILE: org-templates/level-0.org
+
+The repositories of all virtual labs are under organization [[https://github.com/Virtual-Labs][Virtual Labs]] on
+GitHub
+
+There are over 100 labs currently using different technologies.  The effort is
+to improve the labs in terms of:
+  - Technology, move all the labs to use FOSS
+  - Usability, ability to run the lab within a browser without any downloads
+  - Pedagogy, filling the gaps in instructional quality of the labs. 
+
