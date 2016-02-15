@@ -3,11 +3,11 @@
 #content{
     margin-left: 10% ;
     margin-right: 10% ;
-    margin-top: 140px;
+    margin-top: 160px;
 }
 
 body{
-    background: #fafafa;
+    background: #efece6;
     font-family: Lato;
 }
 
@@ -71,3 +71,32 @@ body{
                                                                                     font-size: 18px;
                                                                                     background: none;
                                                                                 }
+footer{
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px 40px;
+}
+
+.footer-links{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 0;
+}
+.footer-links > li > a{
+    font-size: 14px;
+}
+
+.footer-links > li{
+    padding: 5px 0 5px 0;
+}
+.footer-links > li > a:hover, .footer-links > li > a:focus{
+                                  text-decoration: none;
+                                  color: #3799FF;
+                              }
+.footer-heading{
+    padding-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: solid 1px #ccc;
+}
