@@ -1,4 +1,4 @@
-#+title:  Auto Deployment Service Features
+#+title:  Auto Deployment Service 
 #+SETUPFILE: org-templates/level-0.org
 
 [[https://github.com/vlead/ovpl][Auto Deployment Service]] automates the deployment of a web application.  The
