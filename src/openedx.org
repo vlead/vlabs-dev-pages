@@ -11,7 +11,7 @@ look to all the virtual labs.
 * Features
 
 ** Provisioning
-   Open edX platform is provisioned and three labs have been ported to this
+   [[https://open.edx.org/][Open edX platform]] is [[http://openedx.vlabs.ac.in/][provisioned]] and three labs have been ported to this
    server.
    
    Analytics pipeline is being provisioned to capture user activity.
