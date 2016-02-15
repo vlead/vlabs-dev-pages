@@ -1,0 +1,22 @@
+#+title:  Community
+#+SETUPFILE: org-templates/level-0.org
+
+
+* Community
+
+** IRC Channels on [[http://freenode.net][Freenode]]
+   1. #vlead :: used by the community developing the infrastructure for Virtual
+                Labs.
+   2. #vlabs-integrators :: used by lab developers and integrators.   
+
+   Usually, someone will be there to respond to the channel 10am to 5pm GMT+5:30.
+
+
+** Mailing Lists
+
+** Forums   
+        
+
+
+
+

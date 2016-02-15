@@ -15,5 +15,10 @@
   - Knowledge and experience writing REST APIs using micro frameworks like
     flask
 
+* Applying
+  If you think you are self-motivated and can make a difference, we have both
+  full-time and intern positions.  Please write to us @ jobs@vlabs.ac.in
+
+
 
 

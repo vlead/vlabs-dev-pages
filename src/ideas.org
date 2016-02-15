@@ -38,9 +38,9 @@
 
    A portal that supports lab development and continuous integration needs to
    be built.  This portal helps a lab developer to host a lab in a test
-   environment and allow a developer to post a request to host it in
+   environment and allows a developer to post a request to host it in
    production.  This portal can also provide run time health and statics of any
-   lab that running in a VM.
+   lab that is running in a VM.
 
 
 ** Automation of Test Cases
@@ -48,7 +48,7 @@
    running through the user scenarios is manual right now.  These integrated
    test cases have to automated.  This will greatly help the cause of
    continuous integration where these integrated test cases could be run after
-   the web application is deployed. 
+   the web application is deployed in a test environment. 
 
 
 ** Continuous Integration
@@ -71,7 +71,11 @@
 
 ** Renarration
 
+   Content on the web is always written for a certain context.  Renarration
+   allows the same content to be viewed in a different context. 
 
 ** Experiment Implementation from a paper prototype
-
+   To meet the objectives and standards of a lab, there will be certain
+   guidelines to be followed.  The effort here is how can these guidelines be
+   defined such that the development invariably meets that standards.
 

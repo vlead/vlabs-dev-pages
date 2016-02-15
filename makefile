@@ -13,7 +13,9 @@ publish:
 clean:
 	rm -rf ${BUILD}
 
+pull:
+	git pull origin master
 
-export:
+export: pull publish
 	ssh -o "StrictHostKeyChecking no" ${DEST_HOST} ${REMOVE_COMMAND}
 	rsync -avz --progress ${SRC} ${DEST_HOST}":"${DEST_DIR}
