@@ -38,7 +38,7 @@
 
    A portal that supports lab development and continuous integration needs to
    be built.  This portal helps a lab developer to host a lab in a test
-   environment and allow a developer to post a request to host it in
+   environment and allows a developer to post a request to host it in
    production.  This portal can also provide run time health and statics of any
    lab that is running in a VM.
 
