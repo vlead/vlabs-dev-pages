@@ -71,7 +71,11 @@
 
 ** Renarration
 
+   Content on the web is always written for a certain context.  Renarration
+   allows the same content to be viewed in a different context. 
 
 ** Experiment Implementation from a paper prototype
-
+   To meet the objectives and standards of a lab, there will be certain
+   guidelines to be followed.  The effort here is how can these guidelines be
+   defined such that the development invariably meets that standards.
 
