@@ -1,5 +1,5 @@
 #+title:  Platform to support Experiment as a Service
-#+SETUPFILE: org-templates/level-0.org
+#+SETUPFILE: ../org-templates/level-1.org
 
 [[https://github.com/vlead/virtual-labs-as-a-service][Platform to support experiment as a service]] provides a platform to design an
 experiment as a service.  The platform is a composition of javascript object
