@@ -6,14 +6,17 @@ function breadCrumbs(url){
   var result = "<ul class='breadcrumb'>";
   ls.forEach(function(i){
     if(i == "Home"){
-      result = result.concat("<li><a href='/'>"+ i +"</a></li>"); 
+      result = result.concat("<li><a href='/'>"+ i +"</a></li>");
+      if(ls.length == 1){
+        return result.concat("</ul>");
+      }
     }else if(i.indexOf(".html") > -1){
       result = result.concat("<li class='active'>"+ capitalize(i.split(".")[0].replace(new RegExp("-",'g')," ")) +"</li>");
     }else{
       result = result.concat("<li>"+ capitalize(i.replace(new RegExp("-",'g')," ")) +"</li>");
     }
   });
-  result = result + "</ul>";
+  result = result.concat("</ul>");
   return result;
 }
 
