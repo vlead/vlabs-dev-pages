@@ -32,9 +32,9 @@ Services are
 
 * Virtual Labs
 
-  All the repositories are under the organization [[http://github.com/Virtual-Labs][Virtual-Labs]]. 
+  All the lab repositories are under the organization [[http://github.com/Virtual-Labs][Virtual-Labs]].
 
-  Few of the sample labs are:
+  A sample of the labs repositories are:
   
 ** Computer Programming
    A [[https://github.com/Virtual-Labs/computer-programming-responsive-iiith][Lab]] that explores programming
