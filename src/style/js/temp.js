@@ -5,7 +5,7 @@ function breadCrumbs(url){
   ls[0] = "Home";
   var result = "<ul class='breadcrumb'>";
   if(ls.length == 2){
-    result = result.concat("<li><a href='/'>"+ i +"</a></li>");
+    result = result.concat("<li><a href='/'>Home</a></li>");
     return result.concat("</ul>");
   }
   ls.forEach(function(i){
