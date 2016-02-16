@@ -8,9 +8,9 @@ function breadCrumbs(url){
     if(i == "Home"){
       result = result.concat("<li><a href='/'>"+ i +"</a></li>"); 
     }else if(i.indexOf(".html") > -1){
-      result = result.concat("<li class='active'>"+ capitalize(i.split(".")[0].replace("-"," ")) +"</li>");
+      result = result.concat("<li class='active'>"+ capitalize(i.split(".")[0].replace(new RegExp("-",'g')," ")) +"</li>");
     }else{
-      result = result.concat("<li>"+ capitalize(i.replace("-"," ")) +"</li>");
+      result = result.concat("<li>"+ capitalize(i.replace(new RegExp("-",'g')," ")) +"</li>");
     }
   });
   result = result + "</ul>";
