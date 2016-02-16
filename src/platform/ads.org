@@ -1,5 +1,6 @@
 #+title:  Auto Deployment Service 
-#+SETUPFILE: org-templates/level-0.org
+#+SETUPFILE: ../org-templates/level-1.org
+
 
 [[https://github.com/vlead/ovpl][Auto Deployment Service]] automates the deployment of a web application.  The
 hardware and software requirements which are mapped in a deployment

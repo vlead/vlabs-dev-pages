@@ -1,5 +1,6 @@
 #+title:  Ideas @ Virtual Labs 
-#+SETUPFILE: org-templates/level-0.org
+#+SETUPFILE: ../org-templates/level-1.org
+
 
 * Ideas
 ** Experiment as a Service
