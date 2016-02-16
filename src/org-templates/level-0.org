@@ -14,10 +14,10 @@
 
 
 
-#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="./style/css/bootstrap.min.css" />
-#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="./style/css/index.css" />
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css" />
+#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/index.css" />
 #+HTML_HEAD_EXTRA:   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-#+HTML_HEAD_EXTRA:   <script src="./style/js/bootstrap.min.js"></script>
-#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="./style/img/favicon/popl.png" />
+#+HTML_HEAD_EXTRA:   <script src="js/bootstrap.min.js"></script>
+#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
 
 
