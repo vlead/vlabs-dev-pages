@@ -23,7 +23,7 @@ export: pull publish
 	ssh -o "StrictHostKeyChecking no" ${DEST_HOST} ${REMOVE_COMMAND}
 	rsync -avz --progress ${SRC} ${DEST_HOST}":"${DEST_DIR}
 
-stage: publish
+stage: pull publish
 	ssh -o "StrictHostKeyChecking no" ${DEST_HOST_STAGE} ${REMOVE_COMMAND}
 	rsync -avz --progress ${SRC} ${DEST_HOST_STAGE}":"${DEST_DIR}
 
