@@ -7,7 +7,7 @@ function breadCrumbs(url){
   ls.forEach(function(i){
     if(i == "Home"){
       result = result.concat("<li><a href='/'>"+ i +"</a></li>");
-      if(ls.length == 1){
+      if(ls.length == 2){
         return result.concat("</ul>");
       }
     }else if(i.indexOf(".html") > -1){
