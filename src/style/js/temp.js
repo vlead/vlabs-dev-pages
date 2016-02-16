@@ -4,12 +4,13 @@ function breadCrumbs(url){
   var ls = url.split("//")[1].split("/");
   ls[0] = "Home";
   var result = "<ul class='breadcrumb'>";
+  if(ls.length == 2){
+    result = result.concat("<li><a href='/'>"+ i +"</a></li>");
+    return result.concat("</ul>");
+  }
   ls.forEach(function(i){
     if(i == "Home"){
       result = result.concat("<li><a href='/'>"+ i +"</a></li>");
-      if(ls.length == 2){
-        return result.concat("</ul>");
-      }
     }else if(i.indexOf(".html") > -1){
       result = result.concat("<li class='active'>"+ capitalize(i.split(".")[0].replace(new RegExp("-",'g')," ")) +"</li>");
     }else{
