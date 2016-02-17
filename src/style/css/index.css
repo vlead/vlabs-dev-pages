@@ -30,9 +30,12 @@ body{
 .bottom-nav{
     border-top: solid 5px #202020;
     margin-top:75px;
-    background:#404040; 
+    background:#404040;
+    max-height: 56px;
 }
-
+.c-dropdown-menu{
+    display: none;
+}
 .bottom-nav .navbar-nav > li > a{
     color: #CCC;
     font-size: 17px;
@@ -50,26 +53,30 @@ body{
                                            }
                                               
                                               
-.navbar-nav > li > .dropdown-menu{
+.navbar-nav > li > .c-dropdown-menu{
     border-radius : 0;
     box-shadow: none;
     background: #333;
     padding: 0;
     border: none;
+    position: absolute;
+    min-width: 250px;
+    list-style: none;
 }
-.bottom-nav .dropdown-menu > li{
+.bottom-nav .c-dropdown-menu > li{
     border-top: solid 1px #666;
     padding: 10px 30px;
 }
-.bottom-nav .dropdown-menu > li:hover{
+.bottom-nav .c-dropdown-menu > li:hover{
     background: #3799FA;
     border-top: solid 2px #3C5BFF;
 }
 
-.bottom-nav .dropdown-menu > li > a, .bottom-nav .dropdown-menu > li > a:hover, .bottom-nav .dropdown-menu > li > a:hover{
+.bottom-nav .c-dropdown-menu > li > a, .bottom-nav .c-dropdown-menu > li > a:hover, .bottom-nav .c-dropdown-menu > li > a:hover{
                                                                                     color: #FAFAFA;
                                                                                     font-size: 18px;
                                                                                     background: none;
+                                                                                    text-decoration: none;
                                                                                 }
 footer{
     margin-top: 30px;

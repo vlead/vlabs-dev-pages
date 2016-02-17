@@ -30,3 +30,10 @@ function capitalize(s){
 }
 
 $('#content').prepend(breadCrumbs(url));
+
+$('.c-dropdown').hover(function(){
+  $(this).find('ul.c-dropdown-menu')[0].style.display = 'block';
+},function(){
+  $(this).find('ul.c-dropdown-menu')[0].style.display = 'none';
+});
+
