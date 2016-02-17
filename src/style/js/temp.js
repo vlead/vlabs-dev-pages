@@ -2,10 +2,12 @@ var url = window.location.toString();
 
 function breadCrumbs(url){
   var ls = url.split("//")[1].split("/");
+  var gitSource = "https://github.com/vlead/vlabs-dev-pages/tree/master/src";
   ls[0] = "Home";
   var result = "<ul class='breadcrumb'>";
   if(ls.length == 2){
     result = result.concat("<li><a href='/'>Home</a></li>");
+    result = result.concat("<li class='gitLink'><a href='"+gitSource+"/index.org'>Edit on Github</a></li>")
     return result.concat("</ul>");
   }
   ls.forEach(function(i){
@@ -17,6 +19,9 @@ function breadCrumbs(url){
       result = result.concat("<li>"+ capitalize(i.replace(new RegExp("-",'g')," ")) +"</li>");
     }
   });
+  var gitUrl = url.replace("http://".concat(window.location.host),gitSource).replace(".html",".org");
+  
+  result = result.concat("<li class='gitLink'><a href='"+gitUrl+"'>Edit on Github</a></li>")
   result = result.concat("</ul>");
   return result;
 }

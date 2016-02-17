@@ -111,3 +111,11 @@ footer{
 p, li{
     font-size: 17px;
 }
+
+li.gitLink{
+    float: right ;
+}
+
+.breadcrumb > li + li.gitLink::before{
+    content: "";
+}
