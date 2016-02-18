@@ -1,23 +1,45 @@
-#+title:  About Virtual Labs Development
-#+SETUPFILE: org-templates/level-0.org
+#+title:  Virtual Labs Development
+#+SETUPFILE: ../org-templates/level-1.org
 
-* What is Virtual Labs?
-   [[http://www.vlabs.ac.in][Virtual Labs]] is an initiative of Ministry of Human Resources, India.
-   Virtual Labs is intended to augment the learning of engineering subjects
-   through performing experiments.  The experiments are designed either as
-   simulations or as remote triggered.  A remote triggered lab allows a user to
-   connect to real equipment using a web browser.  There are currently around
-   150 and labs and 1500 experiments at various stages of development and
-   deployment.
 
-* Development
+* What are Virtual Labs?
 
-   Virtual Labs Development is an effort involving
+  [[http://vlabs.ac.in][Virtual Labs]] are intended to augment the learning of
+  science and engineering subjects through performing
+  experiments.  The experiments are designed either as
+  simulations or as remote triggered.  A remote triggered
+  lab allows a user to connect to real equipment using a
+  web browser.  There are currently around 150 and labs and
+  1500 experiments at various stages of development and
+  deployment.  They are currently hosted at [[http://vlabs.ac.in][vlabs.ac.in]].
+  
+  [[http://vlab.co.in][Virtual Labs]] is an initiative of Ministry of Human
+  Resources, India.  
+  
+* What is =vlabs-dev=? 
 
-   1. development of platform and services that support deployment of labs
+  =vlabs-dev= is the main portal for Virtual Labs
+  Development.  There are two main efforts
+  
+   1. To design and build the virtual lab [[../platform/index.org][platform and
+      services]] infrastructure to support the entire life
+      cycle of each virtual lab, including development,
+      repository management, testing, hosting, bug reporting
+      and fixing
+      
+   2. To design and author virtual labs. 
+      
+   This website, [[http://vlabs-dev.vlabs.ac.in][vlabs-dev.vlabs.ac.in]], is the main site of the
+   development of the project.  Here you will find
+   documentation about the architecture, platform, lab
+   development process, community channels, links to source
+   code repositories, and information on how to contribute to
+   the development of virtual labs.
+   
 
-      and
 
-   2. development of virtual labs
+
+
+
 
 
