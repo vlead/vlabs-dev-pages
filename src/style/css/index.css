@@ -128,3 +128,7 @@ li.gitLink{
 .breadcrumb > li + li.gitLink::before{
     content: "";
 }
+
+.breadcrumb > li + li::before{
+    content: ">";
+}
