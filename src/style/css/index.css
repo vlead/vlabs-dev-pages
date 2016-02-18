@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 #content{
     margin-left: 10% ;
@@ -17,7 +17,7 @@ h2{
 
 body{
     background: #efece6;
-    font-family: Lato;
+    font-family: 'Open Sans';
 }
 
 /* Top Navigation bar */
@@ -127,4 +127,8 @@ li.gitLink{
 
 .breadcrumb > li + li.gitLink::before{
     content: "";
+}
+
+.breadcrumb > li + li::before{
+    content: ">";
 }
