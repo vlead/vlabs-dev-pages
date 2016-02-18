@@ -1,2 +1,5 @@
-#+title:  Platform to support Experiment as a Service
+#+title: Platform 
 #+SETUPFILE: ../org-templates/level-1.org
+
+Platform and services allow development, integration and hosting of virtual
+labs. 
