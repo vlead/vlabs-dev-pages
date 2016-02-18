@@ -1,9 +1,6 @@
 #+title:  About Virtual Labs Development
 #+SETUPFILE: ../org-templates/level-1.org
 
-#+title:  About Virtual Labs Development
-#+SETUPFILE: ../org-templates/level-1.org
-
 
 * What are Virtual Labs?
 
@@ -38,11 +35,3 @@
    development process, community channels, links to source
    code repositories, and information on how to contribute to
    the development of virtual labs.
-   
-
-
-
-
-
-
-
