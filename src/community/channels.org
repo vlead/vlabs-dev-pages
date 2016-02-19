@@ -19,7 +19,8 @@
     conducting communication on IRC channels.
 
 ** Mailing Lists
-
+*** Google Groups
+    [[https://groups.google.com/forum/#!forum/gsoc-virtual-labs][GSOC-Virtual-Labs]]
 ** Forums   
         
 
