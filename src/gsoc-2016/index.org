@@ -1,0 +1,9 @@
+#+title: GSOC 2016
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+All relevant material and resource for students who plan to apply for GSOC 2016
+program @ Virtual Labs.
+
+
+

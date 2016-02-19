@@ -1,4 +1,4 @@
-#+title:  Ideas @ Virtual Labs 
+#+title:  Ideas List @ Virtual Labs 
 #+SETUPFILE: ../org-templates/level-1.org
 
 
