@@ -1,0 +1,68 @@
+#+title:  Uniform UI
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Summary
+  The principal work of this project is Designing a browser based generic User
+  Interface for experiments in Virtual Labs and its =auxiliaries= '.  Our aim
+  is to develop a browser based application that would act as an interface
+  between the user and the =processing tool= using predefined protocols.
+
+  A =processing tool= implies a relevant hardware/software which would receive
+  the data from the interface, process it and return suitable data to the
+  platform for predefined action(primarily display) 
+
+  =auxiliaries= are Remote Triggered labs, Simulation based labs etc.
+
+* Background of the project
+  Due to lack of a unified 'experiment development platform' in the virtual
+  labs community, robust development and maintenance of the labs becomes
+  tedious. This demands resources for maintenance and integration of these
+  labs.
+
+* Details
+  The application is to be modular and robust, to cater the needs of the
+  specific experiments.  The developer is expected to create various
+  prespecified functional pallets which would be embedded in the application
+  framework as per the requirement.
+
+  A two tier programming is proposed in the broader level wherein our current
+  requirement is to develop a modular robust platform and suitable palets. The
+  level 2 programmers / experts would then easily use those pallets and the
+  platform as a visual programing editor to custom make the interface for a
+  particular experiment.
+
+  It is a browser based Visual Programming Editor, where the user can create a
+  flowgraph on canvas by dragging and dropping blocks from library option to
+  main canvas area and in runtime, while simultaneously taking care of its
+  logical counterpart. Logical blocks would be created by using a programming
+  interface wherein the developer has the choice to write the functionality
+  using any programming language. Each block shall have capability of
+  communicating to adjacent blocks.  Blocks are of three types: Source, Sink
+  and Functional.  
+  - Source: Source block will fetch the data from the GUI
+  - Sink:  Sink block will send the data to the GUI
+  - Functional: Functional block will perform the operation on the input from
+    source blocks and forward the output value to the sink block
+
+  While developing this application, developer will have to keep in mind that
+  blocks will have to get used in application where it will have to communicate
+  with some hardware so there should be an option where user can give the
+  sampling rate. Security and ease of development are also important in this
+  regard.
+
+* Benefits of project
+  1. It will help to create experiments virtually, which can be used
+     by students at remote centers.
+  2. Student can use this application for simulations.
+  3. It shall abstract the programming from end user. which means that it can
+     make programming possible for the person only with domain knowledge.
+  4. The open source community has an advantage to collaborate and contribute
+     in the early stages of the development of the application.
+
+* Required Deliverables
+  1. To create a canvas which has options of drag and drop and make
+     connections.
+  2. Be able to work on web as well as on local machine.
+  3. Ability to execute flowgraph and show the user interface just beneath the
+     blocks, respectively.
+  4. Interface to create a block using any programming language.
