@@ -96,8 +96,20 @@
 ** Renarration
 
 *** Description
-    Content on the web is always written for a certain context.  Renarration
-    allows the same content to be viewed in a different context.
+    Renarration is the process of transforming published web content into a new
+    narrative. Think of a story being retold, or a existing content being
+    translated or something already being published being made accessible in
+    Braille. All these are examples of renarration. Existing published content
+    assumes a context when presenting itself to a reader. However, the same
+    document, when read out of context becomes less comprehensible. For
+    example, a text assumes often assumes that only visual able readers will
+    consume it. But, if a visually challenged reader wishes to consume a text
+    document, it becomes inaccessible. Renarration is the mechanism which
+    enables us to change a document based on context.
+
+    Content on the web is always written for a certain context. Renarration
+    allows the same content to be viewed in a more meaningful way for a
+    different context.
 
 *** Required Skills
    javascript, python, mongodb, mysql
