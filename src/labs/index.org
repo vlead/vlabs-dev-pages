@@ -1,0 +1,5 @@
+#+title:  Labs
+#+SETUPFILE: ../org-templates/level-1.org
+
+This section provides all the necessary information for virtual lab development
+and integration.

@@ -1,0 +1,8 @@
+#+title: Platform 
+#+SETUPFILE: ../org-templates/level-1.org
+
+Platform and services provide the infrastructure to support the entire life
+cycle of each virtual lab, including development, repository management,
+testing, hosting, bug reporting and fixing
+
+

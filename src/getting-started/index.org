@@ -1,5 +1,5 @@
 #+title:  About Virtual Labs Development
-#+SETUPFILE: ./org-templates/level-0.org
+#+SETUPFILE: ../org-templates/level-1.org
 
 
 * What are Virtual Labs?

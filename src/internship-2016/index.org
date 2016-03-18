@@ -1,0 +1,9 @@
+#+title: Internship 2016
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+All relevant material and resources for students who plan to apply for
+Internship program 2016 @ Virtual Labs is provided here.
+
+
+

@@ -1,0 +1,141 @@
+#+title:  Ideas List @ Virtual Labs 
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+* Ideas
+** Experiment as a Service
+*** Description
+    Experiment as a Service is a runtime environment that is a congealment
+    of various javascript objects to provide a mechanism to log the entire event
+    space of interaction, viz. listening to an audio clip, running a simulation
+    etc,.  This event log is provided as a service via REST API for the
+    encompassing application to provide persistence, analytics, quizzes
+    etc. based on the user's progress. 
+
+   For more information refer to the [[https://github.com/vlead/virtual-labs-as-a-service/blob/master/src/index.org][architecture]].
+
+*** Required Skills
+    javascript, design patterns
+
+
+** Authentication between different software services at VLEAD
+*** Description
+    Virtual Labs is supported by a slew of micro services. [[https://github.com/vlead/ovpl][ADS]] - Auto
+    Deployment Service is used to deploy a virtual lab.  This service
+    transforms a src url on github to a hosted url with a domain name.
+    [[https://github.com/vlead/dataservice][dataservice]] is another service which acts as a central repository of
+    information about virtual labs.  [[https://github.com/vlead/outreach-portal.git][Outreach Portal]] feeds from another service
+    specifically built for the portal.  These services could potentially be
+    used by either other services are other portals.  A mechanism needs to be
+    built to: a) ensure only authorized users/services have access to the data
+    and b) provide a way to authenticate these authorized users/services.
+
+*** Required Skills
+    python, javascript, [[https://en.wikipedia.org/wiki/Cross-origin_resource_sharing][CORS]], [[http://robertheaton.com/2014/03/27/how-does-https-actually-work/][https]], [[http://oauth.net/2/][OAUTH 2.0]]
+
+** Developing different portals
+*** Description   
+    Portals that consume data from the services and provide an interface to the
+    users are an important ingredient of Virtual Labs.  
+   
+    One such portal is [[http://outreach.vlabs.ac.in/][outreach portal]] that is in production.  The sources are
+    at http://github.com/vlead/outreach-portal.git 
+    
+    A [[https://github.com/vlead/vlabs-dashboard][virtual labs dashboard]] that provides information about all the virtual
+    labs - what are the technologies used by the lab, what is the source
+    repository of a lab, etc., - is in pipeline.
+
+    A portal that supports lab development and continuous integration needs to
+    be built.  This portal helps a lab developer to host a lab in a test
+    environment and allows a developer to post a request to host it in
+    production.  This portal can also provide run time health and statics of any
+    lab that is running in a VM.
+
+*** Required Skills
+    javascript, python, mysql, micro framework
+
+** Automation of Test Cases
+
+*** Description
+    Each virtual lab is a web application.  Testing of the web application by
+    running through the user scenarios is manual right now.  These integrated
+    test cases have to automated.  This will greatly help the cause of
+    continuous integration where these integrated test cases could be run after
+    the web application is deployed in a test environment.
+
+*** Required Skills
+    [[http://docs.seleniumhq.org/][Selenium]], javascript, python
+
+** Continuous Integration
+
+*** Description
+   A lab is currently defined as a set of related experiments and is a web
+   application.  Each lab is a repository on github.  To ensure evolution of
+   software and solicit contribution from folks across the world, continuous
+   integration is to be built around each lab.  A cycle for integration will
+   involve building the code, running the unit test cases, hosting the
+   application and running the integration tests. 
+
+*** Required Skills
+    javascript, python
+
+
+** AWS Lambda
+
+*** Description
+   Currently each virtual lab runs from an individual Amazon Webservices(AWS)
+   VM.  Virtual Labs would like to explore AWS Lambda that allows execution of
+   requested code.  Virtual Labs are a collection of simulations and each
+   simulation is associated with code, running a simulation is equivalent to
+   running the code on demand.  Harnessing AWS Lambda could significantly
+   reduce the costs of hosting Virtual Labs.
+
+*** Required Skills
+    Experience with hosting on AWS cloud. 
+
+** Renarration
+
+*** Description
+    Renarration is the process of transforming published web content into a new
+    narrative. Think of a story being retold, or a existing content being
+    translated or something already being published being made accessible in
+    Braille. All these are examples of renarration. Existing published content
+    assumes a context when presenting itself to a reader. However, the same
+    document, when read out of context becomes less comprehensible. For
+    example, a text assumes often assumes that only visual able readers will
+    consume it. But, if a visually challenged reader wishes to consume a text
+    document, it becomes inaccessible. Renarration is the mechanism which
+    enables us to change a document based on context.
+
+    Content on the web is always written for a certain context. Renarration
+    allows the same content to be viewed in a more meaningful way for a
+    different context.
+
+*** Required Skills
+   javascript, python, mongodb, mysql
+   
+** Experiment Implementation from a paper prototype
+
+*** Description
+    To meet the objectives and standards of a lab, there will be certain
+    guidelines to be followed.  The effort here is how can these guidelines be
+    defined such that the development invariably meets those standards.
+
+*** Required Skills
+    Ability to contribute to the pedagogy of science and engineering subjects
+    for developing a paper prototype of experiments.
+
+** Designing UI for experiments in Virtual Labs
+*** Description
+    The aim here is to develop a browser based application that would act as an
+    interface between the user and the =processing tool= using predefined
+    protocols.
+
+    =processing tool= implies a relevant hardware/software which would receive
+    the data from the interface, process it and return suitable data to the
+    platform for predefined action(primarily display). 
+
+    More details are available about this project are available [[../labs/uniform-ui.org][here]].
+*** Required Skills
+    Python, javascript
+

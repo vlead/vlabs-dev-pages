@@ -1,0 +1,29 @@
+#+title:  Communication Channels
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Community
+
+** Internet Relay Chat (IRC)
+*** IRC Channels on [[http://freenode.net][Freenode]] network
+   1. #vlead :: used by the community developing the infrastructure for Virtual
+                Labs.
+   2. #vlabs-integrators :: used by lab developers and integrators.   
+
+   Usually, someone will be there to respond to the channel 10am to 5pm
+   GMT+5:30.
+
+*** Help with IRC Chat
+    This [[http://www.irchelp.org/irchelp/irctutorial.html][tutorial]] lists all the information in using IRC for communication.
+
+    [[http://xchat.org/][xchat]] which can be downloaded and installed is a recommended client for
+    conducting communication on IRC channels.
+
+** Mailing Lists
+*** Google Groups
+    [[https://groups.google.com/forum/#!forum/gsoc-virtual-labs][GSOC-Virtual-Labs]]
+** Forums   
+        
+
+
+
+

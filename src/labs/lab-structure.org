@@ -1,4 +1,4 @@
-#+title:  Structure of a Lab and Level Definitions
+#+title:  Lab Structure 
 #+SETUPFILE: ../org-templates/level-1.org
 
 
