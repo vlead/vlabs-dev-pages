@@ -9,8 +9,8 @@ All the information for the prospective interns is provided here.
   [2016-05-25 Wed] and [2016-07-25 Mon]
 
 * Program
-  Each intern works along with a [[./mentor.org][=mentor=]] on an idea/project of his choice
-  chosen from the list of [[ideas-list.org][=ideas=]].  The mentor sets a set of deliverables for
+  Each intern works along with a [[./mentors.org][=mentor=]] on an idea/project of his choice
+  chosen from the list of [[./ideas-list.org][=ideas=]].  The mentor sets a set of deliverable(s) for
   each project.  Each prospective intern goes through the application process
   by filling out the [[https://docs.google.com/forms/d/1D-koM0XWlMMUeSGkMPxY4BsMG8A7sY8wxrstEchAldQ/viewform?entry.988735780&entry.483740870&entry.2039412605&entry.1362143087&entry.99858054][=form=]].  The form is self explanatory.
 
