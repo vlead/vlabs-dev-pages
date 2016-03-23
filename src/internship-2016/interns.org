@@ -8,7 +8,7 @@ All information for the prospective interns is provided here.
   The internship program is run through the summer of 2016 between the dates
   =2016-05-25 Wed= and =2016-07-25 Mon=
 
-* Program
+* Applying to the Program
   Each intern works along with a [[./mentors.org][=mentor=]] on an idea/project of his choice
   chosen from the list of [[./ideas-list.org][=ideas=]].  The mentor sets a set of deliverable(s) for
   each project.  Each prospective intern goes through the application process
