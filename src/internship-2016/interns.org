@@ -15,15 +15,14 @@ All information for the prospective interns is provided here.
   by filling out the [[https://docs.google.com/forms/d/1D-koM0XWlMMUeSGkMPxY4BsMG8A7sY8wxrstEchAldQ/viewform?entry.988735780&entry.483740870&entry.2039412605&entry.1362143087&entry.99858054][=form=]].  The form is self explanatory.
 
 * Communication
-  All the interns will use [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#!forum/internship][=forum=]] for any communication with Virtual Labs
+  All the interns will use [[http://vlabs.ac.in/engineers][=forum=]] for any communication with Virtual Labs
   regarding internship.
 
 * Intern Benefits
   Being an intern has the following benefits:
 
-  1. A stipend for the duration of internship.
-  2. Accommodation on campus for the duration of the internship.
-  3. A certificate of participation at the end of internship.
+  1. Accommodation on campus for the duration of the internship.
+  2. A certificate of participation at the end of internship.
 
    
 
