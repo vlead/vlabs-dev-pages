@@ -2,11 +2,11 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
 
-All the information for the prospective interns is provided here. 
+All information for the prospective interns is provided here. 
 
 * Duration 
   The internship program is run through the summer of 2016 between the dates
-  [2016-05-25 Wed] and [2016-07-25 Mon]
+  =2016-05-25 Wed= and =2016-07-25 Mon=
 
 * Program
   Each intern works along with a [[./mentors.org][=mentor=]] on an idea/project of his choice

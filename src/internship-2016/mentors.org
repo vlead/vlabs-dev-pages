@@ -2,13 +2,13 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
 
-All the information for the mentors is provided here. 
+All information for the mentors is provided here. 
 
 
 * Program
-  Each [[./ideas-list.org][idea]] has an associated mentor.  The mentor is the solely responsible for
+  Each [[./ideas-list.org][idea]] has an associated mentor.  The mentor is solely responsible for
   defining the set of deliverable(s) for each project and engaging with the
-  interns for the entire duration of the internship. 
+  interns for the entire duration of the internship.
 
 * Responsibilities
   1. A mentor contributes to the [[./ideas-list.org][ideas list]].  The current idea list is
@@ -22,6 +22,7 @@ All the information for the mentors is provided here.
      that project.
   5. A mentor is responsible for the presentation of the project at the end of
      the internship. 
+
 
 * Communication
   All the mentors will use [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#!forum/internship][forum]] for any communication with Virtual Labs and
