@@ -4,6 +4,12 @@
 
 All information for the mentors is provided here. 
 
+* List of Mentors
+  1. [[https://www.iiit.ac.in/people/faculty/choppell/][Prof. Venkatesh Choppella]]
+  2. [[http://www.che.iitb.ac.in/online/faculty/santosh-noronha][Prof. Santosh Noronha]]
+  3. [[http://cse.nitk.ac.in/faculty/mohit-p-tahiliani][Prof. Mohit Tahiliani]]
+  4. [[https://github.com/DeviPrasad][Prof. Devi Prasad]]
+  5. [[https://github.com/travula][Thirumal Ravula]]
 
 * Program
   Each [[./ideas-list.org][idea]] has an associated mentor.  The mentor is solely responsible for
