@@ -7,7 +7,7 @@
 *** IRC Channels on [[http://freenode.net][Freenode]] network
    1. #vlead :: used by the community developing the infrastructure for Virtual
                 Labs.
-   2. #vlabs-engg :: used by lab developers and integrators.   
+   2. #vlabs-engineers :: used by lab developers and integrators.   
 
    Usually, someone will be there to respond to the channel 10am to 5pm
    GMT+5:30.
