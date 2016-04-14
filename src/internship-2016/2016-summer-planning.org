@@ -1,0 +1,165 @@
+#+TITLE:     2016 Summer Planning
+#+AUTHOR:    VLEAD
+#+EMAIL:     engg@vlabs.ac.in
+#+DATE:      2016-04-13 Wed
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+#+TAGS: Systems(y) Web(b) Venkatesh(v) Saurabh(s) Priya(p)
+
+* Introduction
+Summer 2016 internship/RAship programme will be held at Virtual Labs
+Engineering and Architecture Division (VLEAD), IIIT Hyderabad from
+16-05-2016 to 15-07-2016.
+** Venue, Date and Time
+   - Venue - Virtual Labs Engineering and Architecture Division (VLEAD), IIIT-Hyderabad
+   - Start Date - 16-05-2016
+   - End Date - 15-07-2016. 
+** Participants
+   - Mentors (VLEAD members)
+   - Interns (Students from outside IIIT-Hyderabad)
+   - Research Assistants (IIIT-Hyderabad students)
+** Goals
+   We have different project ideas like Experiment as a Service,
+   Authentication between different software services at VLEAD,
+   Developing different portals, Automation of Test Cases and many
+   more.[[http://vlabs-dev.vlabs.ac.in/internship-2016/ideas-list.html][Click here for all the project ideas]]
+
+* Accommodation Facility
+** Interns
+   Mail to be sent to Pushpalatha to arrange following accomodation:
+   - No. of Girls : TBD (The accommodation would be twin shared rooms most probably in Parul Nivas)
+   - No. of Boys : TBD (The accommodation would be twin shared rooms most probably in Bakul Nivas)
+** Research Assistants (RA)
+   The accommodation for RAs need not be provided as they would be
+   IIIT-H students already provided with hostel facility.
+
+* Equipments
+** LAN wires
+  - VLEAD would provide hand crimped LAN cables to all the interns for
+    accessing LAN in lab. The LAN connection would not be available in
+    hostel rooms for interns as per IIIT-H policies. RAs would already
+    have LAN wires issued to them by Server rooms of IIIT-H.
+** Desktops
+   All the students are encouraged to bring their own laptops. If not,
+   they would be provided with desktops to work on during the working
+   hours.
+*** Desktops for interns
+    TBD : Which desktops to be provided, for how long.
+*** Desktops for cloud experiments
+    TBD : Which desktops to be provided for students which would be
+    working in systems related projects where powerful machines might
+    be required by them, for how long.
+* Workspace
+** Requirements
+   It is realized that majority of tasks can be done by assigning RAs
+   under mentorship of VLEAD engineers (TBD). Hence all the RAs and
+   interns would be assigned to either VLEAD engineers (TBD) leaving
+   other VLEAD engineers (TBD) to concentrate on other tasks.
+** Interns/RA workspace
+  - Mainly 2 rooms would be available full time for all the students :
+    + VLEAD B6-204
+    + VLEAD Conference B6-204
+** Discussion rooms
+   Any conference room in campus and Prof. Choppella's
+   office can be used for overall strategic discussions and
+   meetings.
+   
+* RA and Intern Skills
+|----------------+----------------+-------------------+------------------+----------+-----------+--------|
+| RA/Intern Name | Institute Name |     Roll No.      | Project Assigned | hrs/week | Skill Set | Mentor |
+|                |                | & Batch (for RAs) |                  |          |           |        |
+|----------------+----------------+-------------------+------------------+----------+-----------+--------|
+|----------------+----------------+-------------------+------------------+----------+-----------+--------|
+                                                                                            
+* Tentative tasks for RAs and interns
+  This is a large list of tasks for RAs and interns. We
+  will try to get as many of these accomplished during
+  summer as possible. 
+|-------------------------------------------------------+----------+----------+-------------------+-----------|
+| Task                                                  | Owner(s) | Priority | RAs               | Status    |
+|-------------------------------------------------------+----------+----------+-------------------+-----------|
+
+Note: (Refer below section [[Process]] for more details)
+Install following plugins and get them to work:
+   - Daily report plugin (sends a daily report of work done
+     in the project by every team member)
+   - Reminder plugin (sends emails about tasks due soon or
+     overdue)
+   - LDAP group plugin (maintaining group information in
+     Redmine)
+* Process
+** Working hours
+   - 9.00 a.m.-6.00 p.m. (9 hrs including 1 hr lunch break)
+   - 8 hrs of continuous work excluding lunch for full-time
+     (40 hrs per week). 
+   - 4 hrs of continuous work either pre-lunch or
+     post-lunch for half-time (20 hrs per week)
+** Leave policy
+   - No leaves will be granted unless it is an emergency.
+     Leave approval must be taken from Prof. Venkatesh
+     Choppella 
+** Work allocation
+   - Will be done based on the guidelines published.
+** Work monitoring
+   - Mentors should be seated in close proximity to the
+     interns/RAs, preferably in the same room.
+** Work status reporting
+   - RAs and interns should provide a daily report of work
+     done. Reporting format will be provided. This report should be
+     checked in at EOD in their respective repositories in Git.
+   - Two presentations would be given by each RA/intern,
+     tentatively on 16th June and 12th July on work done
+     till the given date.  
+** Work review
+   - Mentor will review the report on a daily basis.
+
+** Code and access grant policy
+*** Giving source code of any entity to RA/intern
+    - Code of any entity can be given to RA/intern only after they
+      sign a physical NDA.  It should be explained to them that the
+      code belongs to other institutes as well so mistakes are not
+      acceptable.
+*** Giving access of servers to RA
+    - *Under no circumstance an RA should be given root
+      access to base machines*.
+    - RAs can be given root access to particular containers
+      based on keys.  The access can be removed once work
+      is done.  Check container for additional logins,
+      security settings (eg sudo) after removing RAs keys
+      and also reset root password for the container.
+
+* Induction Program
+** Demos
+*** Introduction of virtual-labs 				     :Venkatesh:
+*** Interactive session of all engineers and managers 		     :Priya:
+*** Explain orientation points listed in next sub-section 	     :Priya:
+*** Introduction of vlabs.ac.in 				     :Priya:
+    - Explain rationale behind Virtual Labs Project
+*** Tutorial on git 						     :Ashay:  
+*** Tutorial on Emacs and org-mode                                   :Ashay:
+*** Demo of Redmine                                                  :Sanchita:			    					    
+*** Demo of vlead wiki                                               :Sanchita:
+    - Explain RAs/interns that they would be expected to create
+      similar information pages/technical notes in wiki. These pages
+      after review would be transferred to either VLEAD wiki or other
+      blogs of VLEAD.
+** Orientation points
+   - RAship/internship would be against actual deliverables. Learning
+     is not a deliverable.
+   - Git/Bitbucket repository commit time-stamps would be used to
+     verify whether report was submitted on same day or not.
+   - Both signing on register and logging hours on issues portal
+     (Redmine issues) are necessary/mandatory. Combination of both
+     will be used while releasing RAship amount for given period.
+   - RAs/interns not spending required number of hours in office
+     would get one warning and on repeated mistake the
+     RAship/internship would be withdrawn.
