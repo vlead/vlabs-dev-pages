@@ -1,4 +1,6 @@
-* Job Title: Technical Project Manager 
++#+title: Technical Project Manager
++#+SETUPFILE: ../org-templates/level-1.org*
+
 ** Number of positions : 01
 Virtual Labs Engineering and Architecture Division (VLEAD) is looking
 for a competent and experienced technical project manager to work in

@@ -1,4 +1,6 @@
-* Job Title: Systems Engineer
++#+title: Systems Engineer
++#+SETUPFILE: ../org-templates/level-1.org*
+
 ** Number of positions : 01
 Virtual Labs Engineering and Architecture Division (VLEAD) is looking
 for competent and experienced systems engineers to work in the core
