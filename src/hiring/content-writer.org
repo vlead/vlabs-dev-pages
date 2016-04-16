@@ -1,5 +1,5 @@
-+#+title:  Technical Content Writer
-+#+SETUPFILE: ../org-templates/level-1.org*
+#+title:  Technical Content Writer
+#+SETUPFILE: ../org-templates/level-1.org
 
 ** Number of positions : 01
 Virtual Labs Engineering and Architecture Division (VLEAD) is looking
