@@ -1,0 +1,58 @@
+* Job Title: Content Writer 
+** Number of positions : 01
+Virtual Labs Engineering and Architecture Division (VLEAD) is looking
+for a competent technical content writer to work at Virtual Labs. You
+will be part of talented teams of engineers that demonstrates superb
+technical competency for ensuring highest levels of performance and
+availability of critical infrastructure. The engineering team at
+Virtual Labs is looking at innovative ways to design, develop and
+deploy the various applications with high uptime requirements. We are
+looking at someone who can take requirements from end-users and
+document it in compliance with standards, quality guidelines and
+relevant best practices. Commonly used technologies at Virtual Labs
+are:
+
+- OS: Linux/Unix
+
+- Tools: Redmine (Project Management System), Mediawiki, Emacs (Org-mode)
+
+- Version control: git
+
+We need someone who has good understanding of Software Developement
+Life Cycle (SDLC). Our technology stack is primarily Python with a
+MySql backend, Javascript, JQuery, HTML, CSS on the frontend. We
+follow a technology agnostic approach and adopt the best technology
+for solving the problem at hand. We have a bias towards action,
+creative problem solving and a metrics driven mindset. We are a fully
+open source shop and big believers in contributing back to the
+community.
+
+** Role
+
+- Content creation for fliers, presentations, proposals, blogs etc. by
+  understanding the SDLC and similar other processes used by the VLEAD
+  organization.
+- Use of versioning for both documentation and configuration
+  management using the different communication channels of VLEAD for
+  rest of the consortium / world.
+- Work closely with the front-end developers, back-end developers and
+  customers to ensure an effective documentation.
+- Move to state-of-the-art technologies as demanded by the environment
+  and ensure effective delivery of outcomes.
+
+** Requirements
+
+- B.Tech or higher in Computer Science or equivalent required.
+- 3+ years of relevant technical writing experience is
+  desirable.
+- Be able to document requirements, project proposals, emails, blogs
+  and specifications from different stake holders and customers.
+- Good command over English language (highly skilled in terms of
+  grammar, spellings, sentence formations etc. )
+- Cognizance of SDLC, Python, Python frameworks like Flask and Node.js
+  backend and other frontend architectures would be desirable.
+- Curiosity to explore technology, quick self learner, passionate,
+  proactive and an excellent communicator.
+- Be a great team player and able to work with all the stake holders. 
+
+Post your details at [[jobs@vlabs.ac.in]]
