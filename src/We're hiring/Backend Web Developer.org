@@ -1,0 +1,70 @@
++#+title:  Backend Web Developer 
++#+SETUPFILE: ../org-templates/level-1.org*
+** Number of positions : 01
+Virtual Labs Engineering and Architecture Division (VLEAD) is looking
+for competent and experienced backend-web developer to work in the
+core technologies of Virtual Labs. You will be part of a talented team
+of engineers that demonstrates superb technical competency for
+ensuring highest levels of performance and availability of critical
+infrastructure. The engineering team at Virtual Labs is looking at
+innovative ways to design, develop and deploy the various applications
+with high uptime requirements. We are looking for developers who can
+build high-quality backend modules in compliance with standards,
+quality guidelines and relevant best practices. Commonly used
+technologies for Virtual Labs are:
+
+- OS: Linux/Unix
+
+- Tools: Redmine (Project Management System), Mediawiki, Emacs (Org-mode)
+
+- Version control: git
+
+Some of the problems that you can solve as part of the
+team:
+
+- Find solutions to complex issues that are unique to our project and
+  integrate them across integration teams.
+
+- To make data-driven decisions in real-time or minimal latency.
+
+- Build intelligent platforms that maximizes the value of our
+  offering and helps us proactively reach out to more customers.
+
+We need someone who has good experience in jQuery, database knowledge,
+python frameworks like flask and web services. Our technology stack is
+primarily Python with a MySql backend, Javascript, JQuery, HTML, CSS
+on the frontend. We follow a technology agnostic approach and adopt
+the best technology for solving the problem at hand. We have a bias
+towards action, creative problem solving and a metrics driven
+mindset. We are a fully open source shop and big believers in
+contributing back to the community.
+
+** Role
+
+- Backend module development, design and implemention of new features
+  and functionalities.
+- Use of versioning for both documentation and configuration
+  management.
+- Establishing and guiding the website’s architecture ensuring
+  high-performance and availability.
+- Work closely with front-end developers and customers to ensure an
+  effective, visually appealing, and intuitive implementation.
+- Move to state-of-the-art technologies as demanded by the environment
+  and ensure effective delivery of outcomes.
+
+** Requirements
+
+- B.Tech or higher in Computer Science or equivalent required.
+- 3+ years of relevant backend web development experience is
+  desirable.
+- Cognizance of Python, Python frameworks like Flask and Node.js
+  backend architectures. 
+- Problem solving skills, curiosity to explore technology, quick self
+  learner, passionate, proactive and a good communicator.
+- Be a great team player and able to work with all the stake holders. 
+- Be able to document requirements and specifications.
+- Work experience in at least two moderate sized websites with python
+  based backbends along with a good understanding of user interface
+  aesthetics would be desirable.
+
+Post your details at [[jobs@vlabs.ac.in]]
