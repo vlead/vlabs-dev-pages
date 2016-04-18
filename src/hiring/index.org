@@ -1,0 +1,31 @@
+#+title: We're Hiring
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+Welcome to the Virtual Labs Engineering and Architecture Division
+(VLEAD) career opportunities. We are looking for competent and
+enthusiastic people who can bring innovative ideas in design,
+development and other activities in the virtual Labs project. 
+
+Virtual Labs is a mission mode project initiated by the Ministry of
+Human Resources and Development (MHRD). The objective of this project
+is to provide laboratory learning experience to the students who do
+not have access to adequate laboratory infrastructure. Currently there
+are around 150 labs which have been developed by various institutes.
+
+[[./backend-web-developer.org][Backend Web Developer]] : Number of positions - 01
+
+[[./frontend-web-developer.org][Frontend Web Developer]] : Number of positions - 02 
+
+[[./systems-engineer.org][Systems Engineer]] : Number of positions - 02 
+
+[[./technical-team-leader.org][Technical Team Lead]] : Number of positions - 02 
+
+[[./technical-project-manager.org][Technical Project Manager]] : Number of positions - 01
+
+[[./content-writer.org][Technical Content Writer]] : Number of positions - 01
+   
+
+
+
+
