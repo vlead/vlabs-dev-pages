@@ -13,18 +13,19 @@ is to provide laboratory learning experience to the students who do
 not have access to adequate laboratory infrastructure. Currently there
 are around 150 labs which have been developed by various institutes.
 
-[[./backend-web-developer.org][Backend Web Developer]] : Number of positions - 01
 
-[[./frontend-web-developer.org][Frontend Web Developer]] : Number of positions - 02 
+[[./technical-project-manager.org][Technical Project Manager]]     Number of positions - 01
 
-[[./systems-engineer.org][Systems Engineer]] : Number of positions - 02 
+[[./technical-team-leader.org][Technical Team Lead]]           Number of positions - 02
 
-[[./technical-team-leader.org][Technical Team Lead]] : Number of positions - 02 
-
-[[./technical-project-manager.org][Technical Project Manager]] : Number of positions - 01
-
-[[./content-writer.org][Technical Content Writer]] : Number of positions - 01
+[[./content-writer.org][Technical Content Writer]]      Number of positions - 01
    
+[[./backend-web-developer.org][Backend Web Developer]]         Number of positions - 01
+
+[[./frontend-web-developer.org][Frontend Web Developer]]        Number of positions - 02 
+
+[[./systems-engineer.org][Systems Engineer]]              Number of positions - 02 
+
 
 
 
