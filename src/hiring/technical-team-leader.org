@@ -1,0 +1,83 @@
+#+title: Technical Team Lead 
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Job Description
+
+Virtual Labs Engineering and Architecture Division (VLEAD) is looking
+for a competent and experienced technical team lead to work in the
+core technologies of Virtual Labs. The engineering team is looking for
+a technical lead who can conceptualize and design systems, understand
+the project ecosystem, identify issues and bottlenecks and proactively
+come up with solutions. He must be able to lead the team of
+developers, mentor the team members and ensure they are able to
+deliver high quality outcomes. Commonly used technologies for Virtual
+Labs are:
+
+- OS: Linux/Unix
+
+- Tools: Redmine (Project Management System), Mediawiki, Emacs (Org-mode)
+
+- Version control: git
+
+Some of the problems that you can solve while working with different
+teams:
+
+- Find solutions to complex issues that are unique to our project and
+  integrate them across integration teams.
+
+- To make data-driven decisions in real-time or minimal latency.
+
+- Conceptualise and build intelligent platforms that maximizes the
+  value of our offering and helps us proactively reach out to more
+  customers.
+
+We need someone who has good experience in Linux Operating Systems,
+object-oriented programming, JavaScript, jQuery, Database knowledge,
+and web services. Our technology stack is primarily Python with a
+MySql backend, Javascript, JQuery, HTML, CSS on the frontend. We are
+looking at someone who has interest and experience in functional
+programming, Haskell, Scheme and Scala.  
+
+We follow a technology agnostic approach and adopt the best technology
+for solving the problem at hand. We have a bias towards action,
+creative problem solving and a metrics driven mindset. We are a fully
+open source shop and big believers in contributing back to the
+community. If building open source cloud solutions excites you, then
+our team might be your next career step.
+
+** Role
+
+- Drive code reviews, design reviews and inculcate engineering best
+  practices across the team.
+- Responsible for the overall team performance and growth of the
+  team.
+- Drive long term technology initiatives.
+- Be an advocate for an extensible, scalable and maintainable design
+  and lead by example.
+- Be a technical mentor for team members and drive improvements in
+  coding standards across large code bases.
+- Move to state-of-the-art technologies as demanded by the environment
+  and ensure effective delivery of outcomes.
+
+** Requirements
+
+- B.Tech or higher in Computer Science or equivalent.
+- 4+ years of relevant software design, development and team
+  management experience in a software organization.
+- Solid coding and problem solving skills with ability to architect
+  cross team features to refactoring existing frameworks.
+- Experience in functional programming, Haskell, Scheme and Scala 
+  languages would be appreciated.
+- Solid foundation in computer science principles with good
+  requirements and design documentation skills.
+- Exposure to a wide range of problem spaces and technologies and the
+  ability to evaluate upcoming technologies. Good understanding of
+  SDLC and the Program Management methods.
+- Ability to create strong working relationships within and across
+  functional teams. Be able to mentor team members to improve their
+  technical and non-technical skills.
+- LAMP stack proficiency (Expertise with Python is preferred.)
+- AWS experience and contributions to open source projects
+  would be desirable.
+
+

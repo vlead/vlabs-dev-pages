@@ -7,7 +7,7 @@
 *** IRC Channels on [[http://freenode.net][Freenode]] network
    1. #vlead :: used by the community developing the infrastructure for Virtual
                 Labs.
-   2. #vlabs-integrators :: used by lab developers and integrators.   
+   2. #vlabs-engineers :: used by lab developers and integrators.   
 
    Usually, someone will be there to respond to the channel 10am to 5pm
    GMT+5:30.
@@ -18,10 +18,34 @@
     [[http://xchat.org/][xchat]] which can be downloaded and installed is a recommended client for
     conducting communication on IRC channels.
 
+   
 ** Mailing Lists
 *** Google Groups
-    [[https://groups.google.com/forum/#!forum/gsoc-virtual-labs][GSOC-Virtual-Labs]]
-** Forums   
+    1. A mailing list for the [[http://vlabs.ac.in/users][=users=]] of Virtual Labs.  This list is used by all
+       external users not associated with development of Virtual Labs, but
+       actively use Virtual Labs to report and seek answers for anything
+       related to using Virtual Labs.  For example, a user could report a
+       non-working simulation that he or she encounters.  
+
+       [[http://vlabs.ac.in/users][=Subscribe/Unsubscribe=]] to the [[http://vlabs.ac.in/users][=users=]] mailing list. 
+       
+    2. A mailing list for [[http://vlabs.ac.in/engineers][engineers]] contributing to Virtual Labs.  This list is
+       used by all the engineers who contribute to the development of Virtual
+       Labs.  A concrete feature requirement could evolve out of a discussion
+       on this mailing list. 
+       
+       [[http://vlabs.ac.in/engineers][=Subscribe/Unsubscribe=]] to the [[http://vlabs.ac.in/engineers][=engineers=]] mailing list. 
+
+** Engineers' Forum
+   This [[https://github.com/virtual-labs/engineers-forum/issues][forum]] is conducted using GitHub [[https://guides.github.com/features/issues/][issues]].  Any issue faced with the
+   development of Virtual Labs is logged here.  A GitHub handle is necessary to
+   create an issue.  
+
+** Announcements
+   This is the mailing list that all the announcements related to Virtual Labs
+   are made. 
+
+   [[http://vlabs.ac.in/announce][=Subscribe/Unsubscribe=]] to the [[http://vlabs.ac.in/announce][=announce=]] mailing list. 
         
 
 

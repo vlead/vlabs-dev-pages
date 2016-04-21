@@ -17,7 +17,6 @@
 *** Required Skills
     javascript, design patterns
 
-
 ** Authentication between different software services at VLEAD
 *** Description
     Virtual Labs is supported by a slew of micro services. [[https://github.com/vlead/ovpl][ADS]] - Auto
