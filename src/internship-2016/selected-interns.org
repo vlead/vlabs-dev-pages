@@ -1,4 +1,4 @@
-#+title: Interns
+#+title: Selected Interns
 #+SETUPFILE: ../org-templates/level-1.org
 
 
@@ -37,6 +37,32 @@ A list of selected interns and information for the selected interns.
   |     | Namratha Deepthi  |                 | [[https://drive.google.com/open?id=0B3V-JZZTqUKWYTc2U0pWWDRKTW8][resume]]  |            |
   |     |                   |                 |         |            |
   |-----+-------------------+-----------------+---------+------------|
+  |     | Raj Manvar        | IIITH           | [[mailto:raj.manvar@students.iiit.ac.in][email]] / | [[https://github.com/rajma996][link]]       |
+  |  8. |                   |                 | [[http://web.iiit.ac.in/~raj.manvar/resume.pdf][resume]]  |            |
+  |     |                   |                 |         |            |
+  |     |                   |                 |         |            |
+  |     |                   |                 |         |            |
+  |-----+-------------------+-----------------+---------+------------|
+  |  9. | Shrenik Jain      | IIITH           | [[mailto:shrenik.jain@research.iiit.ac.in][email]] / | [[https://github.com/shrenikjain38][link]]       |
+  |     |                   |                 | [[http://researchweb.iiit.ac.in/~shrenik.jain/resume.pdf][resume]]  |            |
+  |     |                   |                 |         |            |
+  |     |                   |                 |         |            |
+  |     |                   |                 |         |            |
+  |-----+-------------------+-----------------+---------+------------|
+  | 10. | Srivalya Elluru   | NITK            | [[mailto:srivalya.elluru@gmail.com][email]] / |            |
+  |     |                   |                 | [[https://drive.google.com/file/d/0B4-w2YsGtP_FcVZLd0s4SzFpZkU/view?usp=sharing][resume]]  |            |
+  |-----+-------------------+-----------------+---------+------------|
+  | 11. | Harsha Vattem     | IIT KGP         | [[mailto:hvattem@gmail.com][email]] / |            |
+  |     |                   |                 | [[https://drive.google.com/open?id=0B_I5jGDWtI4Ub3EtS2ZQQk1DaUE][resume]]  |            |
+  |     |                   |                 |         |            |
+  |     |                   |                 |         |            |
+  |-----+-------------------+-----------------+---------+------------|
+  |     |                   |                 |         |            |
+  | 12. | Anshuman          | IIT M           | [[mailto:poseidon1414@gmail.com][email]]   |            |
+  |-----+-------------------+-----------------+---------+------------|
+  | 13. | Keerthan          | CMI             | [[mailto:keerthan@cmi.ac.in][email]]   |            |
+  |-----+-------------------+-----------------+---------+------------|
+
 
 * Terms & Conditions
   Please confirm your acceptance by April 30th, 2016 after reading the terms
