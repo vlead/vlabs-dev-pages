@@ -6,62 +6,62 @@ A list of selected interns and information for the selected interns.
 
 * Selected Interns
 
-  |-----+-------------------+-----------------+---------+------------|
-  | No. | Candidate Name    | Affiliation     | Email/  | GitProfile |
-  |     |                   |                 | Resume  |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  1. | Raghav Mittal     | NIIT Rajasthan  | [[mailto:raghav.mittal@st.niituniversity.in][email]] / |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  2. | Sasank Viswanatha | MEC             | [[mailto:sasank14168@mechyd.ac.in][email]] / |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  3. | T. Guru Pradeep   | NITK            | [[mailto:Gurupradeept@gmail.com][email]] / |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  4. | Sheetal Reddy     | MEC             | [[mailto:sheetalkreddy03@gmail.com][email]]   |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  5. | Vishal Aditya     | Amity Rajasthan | [[mailto:er.vishaladitya.tech@gmail.com][email]] / | [[https://github.com/vsl-tech][link]]       |
-  |     |                   |                 | [[http://1drv.ms/1SAUM8B][resume]]  |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  6. | Prajwala TM       | NITK            | [[mailto:prajwala.tm@gmail.com][email]] / | [[https://github.com/PrajwalaTM][link]]       |
-  |     |                   |                 | [[https://drive.google.com/file/d/0ByCgZ0H1r7ykUjJ3V1J1eU9sNE0/view?usp=sharing][resume]]  |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  7. | Ammanamanchi      | NITK            | [[mailto:namratha8a@gmail.com][email]] / | [[https://github.com/namrathadeepthi/][link]]       |
-  |     | Namratha Deepthi  |                 | [[https://drive.google.com/open?id=0B3V-JZZTqUKWYTc2U0pWWDRKTW8][resume]]  |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  8. | Raj Manvar        | IIITH           | [[mailto:raj.manvar@students.iiit.ac.in][email]] / | [[https://github.com/rajma996][link]]       |
-  |     |                   |                 | [[http://web.iiit.ac.in/~raj.manvar/resume.pdf][resume]]  |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  9. | Shrenik Jain      | IIITH           | [[mailto:shrenik.jain@research.iiit.ac.in][email]] / | [[https://github.com/shrenikjain38][link]]       |
-  |     |                   |                 | [[http://researchweb.iiit.ac.in/~shrenik.jain/resume.pdf][resume]]  |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  | 10. | Srivalya Elluru   | NITK            | [[mailto:srivalya.elluru@gmail.com][email]] / |            |
-  |     |                   |                 | [[https://drive.google.com/file/d/0B4-w2YsGtP_FcVZLd0s4SzFpZkU/view?usp=sharing][resume]]  |            |
-  |-----+-------------------+-----------------+---------+------------|
-  | 11. | Harsha Vattem     | IIT KGP         | [[mailto:hvattem@gmail.com][email]] / |            |
-  |     |                   |                 | [[https://drive.google.com/open?id=0B_I5jGDWtI4Ub3EtS2ZQQk1DaUE][resume]]  |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |     |                   |                 |         |            |
-  | 12. | Anshuman          | IIT M           | [[mailto:poseidon1414@gmail.com][email]]   |            |
-  |-----+-------------------+-----------------+---------+------------|
-  | 13. | Keerthan          | CMI             | [[mailto:keerthan@cmi.ac.in][email]]   |            |
-  |-----+-------------------+-----------------+---------+------------|
+  |-----+-------------------+-------------+---------+------------|
+  | No. | Candidate Name    | Affiliation | Email/  | GitProfile |
+  |     |                   |             | Resume  |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  1. | Raghav Mittal     | NIIT        | [[mailto:raghav.mittal@st.niituniversity.in][email]] / |            |
+  |     |                   | Rajasthan   |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  2. | Sasank Viswanatha | MEC         | [[mailto:sasank14168@mechyd.ac.in][email]] / |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  3. | T. Guru Pradeep   | NITK        | [[mailto:Gurupradeept@gmail.com][email]] / |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  4. | Sheetal Reddy     | MEC         | [[mailto:sheetalkreddy03@gmail.com][email]]   |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  5. | Vishal Aditya     | Amity       | [[mailto:er.vishaladitya.tech@gmail.com][email]] / | [[https://github.com/vsl-tech][link]]       |
+  |     |                   | Rajasthan   | [[http://1drv.ms/1SAUM8B][resume]]  |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  6. | Prajwala TM       | NITK        | [[mailto:prajwala.tm@gmail.com][email]] / | [[https://github.com/PrajwalaTM][link]]       |
+  |     |                   |             | [[https://drive.google.com/file/d/0ByCgZ0H1r7ykUjJ3V1J1eU9sNE0/view?usp=sharing][resume]]  |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  7. | Ammanamanchi      | NITK        | [[mailto:namratha8a@gmail.com][email]] / | [[https://github.com/namrathadeepthi/][link]]       |
+  |     | Namratha Deepthi  |             | [[https://drive.google.com/open?id=0B3V-JZZTqUKWYTc2U0pWWDRKTW8][resume]]  |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  8. | Raj Manvar        | IIITH       | [[mailto:raj.manvar@students.iiit.ac.in][email]] / | [[https://github.com/rajma996][link]]       |
+  |     |                   |             | [[http://web.iiit.ac.in/~raj.manvar/resume.pdf][resume]]  |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |  9. | Shrenik Jain      | IIITH       | [[mailto:shrenik.jain@research.iiit.ac.in][email]] / | [[https://github.com/shrenikjain38][link]]       |
+  |     |                   |             | [[http://researchweb.iiit.ac.in/~shrenik.jain/resume.pdf][resume]]  |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  | 10. | Srivalya Elluru   | NITK        | [[mailto:srivalya.elluru@gmail.com][email]] / |            |
+  |     |                   |             | [[https://drive.google.com/file/d/0B4-w2YsGtP_FcVZLd0s4SzFpZkU/view?usp=sharing][resume]]  |            |
+  |-----+-------------------+-------------+---------+------------|
+  | 11. | Harsha Vattem     | IIT KGP     | [[mailto:hvattem@gmail.com][email]] / |            |
+  |     |                   |             | [[https://drive.google.com/open?id=0B_I5jGDWtI4Ub3EtS2ZQQk1DaUE][resume]]  |            |
+  |     |                   |             |         |            |
+  |     |                   |             |         |            |
+  |-----+-------------------+-------------+---------+------------|
+  |     |                   |             |         |            |
+  | 12. | Anshuman          | IIT M       | [[mailto:poseidon1414@gmail.com][email]]   |            |
+  |-----+-------------------+-------------+---------+------------|
+  | 13. | Keerthan          | CMI         | [[mailto:keerthan@cmi.ac.in][email]]   |            |
+  |-----+-------------------+-------------+---------+------------|
 
 
 * Terms & Conditions
