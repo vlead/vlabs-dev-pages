@@ -37,8 +37,8 @@ A list of selected interns and information for the selected interns.
   |     | Namratha Deepthi  |                 | [[https://drive.google.com/open?id=0B3V-JZZTqUKWYTc2U0pWWDRKTW8][resume]]  |            |
   |     |                   |                 |         |            |
   |-----+-------------------+-----------------+---------+------------|
-  |     | Raj Manvar        | IIITH           | [[mailto:raj.manvar@students.iiit.ac.in][email]] / | [[https://github.com/rajma996][link]]       |
-  |  8. |                   |                 | [[http://web.iiit.ac.in/~raj.manvar/resume.pdf][resume]]  |            |
+  |  8. | Raj Manvar        | IIITH           | [[mailto:raj.manvar@students.iiit.ac.in][email]] / | [[https://github.com/rajma996][link]]       |
+  |     |                   |                 | [[http://web.iiit.ac.in/~raj.manvar/resume.pdf][resume]]  |            |
   |     |                   |                 |         |            |
   |     |                   |                 |         |            |
   |     |                   |                 |         |            |
