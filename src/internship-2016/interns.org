@@ -18,7 +18,7 @@ All information for the prospective interns is provided here.
   deliverable(s) for each project.  The application form is self explanatory.
 
 * Communication
-  All the interns will use [[http://vlabs.ac.in/engineers][=forum=]] for any communication with Virtual Labs
+  All the interns will =2016-summer-interns@vlabs.ac.in= for any communication with Virtual Labs
   regarding internship.
 
 * Intern Benefits
