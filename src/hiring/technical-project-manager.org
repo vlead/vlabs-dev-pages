@@ -22,9 +22,7 @@ Some of the problems that you can solve while managing different teams:
 - Find solutions to complex issues that are unique to our project and
   integrate them across integration teams.
 
-- To make data-driven decisions in real-time or minimal latency.
-
-- Conceptualise and build intelligent platforms that maximizes the
+- Conceptualise and build intelligent platforms that maximize the
   value of our offering and helps us proactively reach out to more
   customers.
 
@@ -32,14 +30,13 @@ We need someone who has good experience in Linux Operating Systems,
 object-oriented programming, JavaScript, jQuery, Database knowledge,
 and web services. Our technology stack is primarily Python with a
 MySql backend, Javascript, JQuery, HTML, CSS on the frontend. We are
-looking at someone who has interest and experience in functional
-programming, Haskell, Scheme and Scala. We follow a technology
-agnostic approach and adopt the best technology for solving the
-problem at hand. We have a bias towards action, creative problem
-solving and a metrics driven mindset. We are a fully open source shop
-and big believers in contributing back to the community. If building
-open source cloud solutions excites you, then our team might be your
-next career step.
+looking at someone who has interest in functional programming,
+Haskell, Scheme and Scala. We follow a technology agnostic approach
+and adopt the best technology for solving the problem at hand. We have
+a bias towards action, creative problem solving and a metrics driven
+mindset. We are a fully open source shop and big believers in
+contributing back to the community. If building open source IT stacks
+excites you, then our team might be your next career step.
 
 ** Role
 

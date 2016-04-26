@@ -40,13 +40,13 @@ team:
 - Find solutions to complex issues that are unique to our project and
   integrate them across integration teams.
 
-- To make data-driven decisions in real-time or minimal latency.
+- Build low-latency systems and make data-driven decisions.
 
-- Build intelligent platforms that maximizes the value of our
-  offering and helps us proactively reach out to more customers.
+- Build intelligent platforms that maximize the value of our offering
+  and helps us proactively reach out to more customers.
 
 We are a fully open source shop and big believers in contributing back
-to the community. If building open source cloud solutions from scratch
+to the community. If building open source IT stacks from scratch
 excites you, then our team might be your next career step.
 
 ** Role
