@@ -70,5 +70,3 @@ and big believers in contributing back to the community.
 - In depth understanding of the entire web development process
   including design, development and deployment with some back-end
   knowledge would be desirable.
-
-Post your details at [[jobs@vlabs.ac.in]]

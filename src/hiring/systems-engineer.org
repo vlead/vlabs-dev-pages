@@ -76,5 +76,3 @@ excites you, then our team might be your next career step.
   communicator.
 - Programming and scripting skills (e.g., shell scripts) and
   experience in OS and other applications would be desirable.
-
-Post your details at [[jobs@vlabs.ac.in]]
