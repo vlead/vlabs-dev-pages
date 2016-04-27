@@ -68,3 +68,5 @@ and big believers in contributing back to the community.
 - Work experience in designing at least two moderate sized websites
   with python based backends along with a good understanding of user
   interface aesthetics would be desirable.
+
+Please apply at jobs@vlabs.ac.in
