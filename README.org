@@ -1,0 +1,14 @@
+#+title:  Repository to hold the pages for vlabs dev
+#+SETUPFILE: ./org-templates/level-0.org
+
+* Making changes 
+  When making changes to the sources, always make them in a develop branch.  To
+  test your changes, run =make stage= that will build the changes and copy the
+  changes to =staging-dev.vlabs.ac.in=.  Once the changes are finalized, merge
+  changes to master and run =make export= that will build and copy the files to
+  =vlabs-dev.vlabs.ac.in=.
+
+  Never make changes in the =master= branch.
+
+
+
