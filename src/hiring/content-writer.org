@@ -2,7 +2,6 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
 * Job Description
-** Number of positions : 01
 Virtual Labs Engineering and Architecture Division (VLEAD) is looking
 for a competent technical content writer to work at Virtual Labs. You
 will be part of talented teams of engineers that demonstrates superb
@@ -56,3 +55,6 @@ community.
   backend and other frontend architectures would be desirable.
 - Curiosity to explore technology, quick self learner, proactive team
   player and an excellent communicator.
+
+Please apply at jobs@vlabs.ac.in
+

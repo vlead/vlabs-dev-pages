@@ -27,21 +27,21 @@ team:
 - Find solutions to complex issues that are unique to our project and
   integrate them across integration teams.
 
-- To make data-driven decisions in real-time or minimal latency.
+- Build low-latency systems and make data-driven decisions.
 
-- Build intelligent platforms that maximizes the value of our
+- Build intelligent platforms that maximize the value of our
   offering and helps us proactively reach out to more customers.
 
 We need someone who has good programming experience in HTML, CSS and
 Javascript. An in-depth understanding of web aesthetics would be
 appreciated. Our technology stack is primarily Python with HTML, CSS
 and Javascript on the frontend and a MySql, Jquery backend. We are
-looking at someone who has interest and experience in functional
-programming, Haskell, Scheme and Scala. We follow a technology
-agnostic approach and adopt the best technology for solving the
-problem at hand. We have a bias towards action, creative problem
-solving and a metrics driven mindset. We are a fully open source shop
-and big believers in contributing back to the community.
+looking at someone who has interest in functional programming,
+Haskell, Scheme and Scala. We follow a technology agnostic approach
+and adopt the best technology for solving the problem at hand. We have
+a bias towards action, creative problem solving and a metrics driven
+mindset. We are a fully open source shop and big believers in
+contributing back to the community.
 
 ** Role
 
@@ -70,3 +70,6 @@ and big believers in contributing back to the community.
 - In depth understanding of the entire web development process
   including design, development and deployment with some back-end
   knowledge would be desirable.
+
+Please apply at jobs@vlabs.ac.in
+
