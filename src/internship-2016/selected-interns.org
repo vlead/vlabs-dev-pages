@@ -13,7 +13,7 @@ A list of selected interns and information for the selected interns.
   |  1. | Raghav Mittal     | NIIT        | [[mailto:raghav.mittal@st.niituniversity.in][email]] / |            |
   |     |                   | Rajasthan   |         |            |
   |-----+-------------------+-------------+---------+------------|
-  |  2. | Sasank Viswanatha | MEC         | [[mailto:sasank14168@mechyd.ac.in][email]] / |            |
+  |  2. | Sasank Viswanadha | MEC         | [[mailto:sasank14168@mechyd.ac.in][email]] / |            |
   |     |                   |             |         |            |
   |-----+-------------------+-------------+---------+------------|
   |  3. | T. Guru Pradeep   | NITK        | [[mailto:Gurupradeept@gmail.com][email]] / |            |
@@ -73,7 +73,7 @@ A list of selected interns and information for the selected interns.
        will be part of [[https://github.com][GitHub]].
 
   2. Formal Application :: If you have not already done so, please visit
-       [[http://vlabs-dev.vlabs.ac.in/internship-2016/interns.html][interns]] and fill out the application form.  Make sure you mention your
+       [[http://vlabs-dev.vlabs.ac.in/internship-2016/interns.html][interns page]] and fill out the application form.  Make sure you mention your
        GitHub profile.  For others, who have filled out the application and
        missed out on providing the GitHub profile, please edit the application
        and provide the GitHub profile.
