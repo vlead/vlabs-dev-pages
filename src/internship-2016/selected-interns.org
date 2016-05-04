@@ -1,42 +1,63 @@
-#+title: Interns
+#+title: Selected Interns
 #+SETUPFILE: ../org-templates/level-1.org
 
 
 A list of selected interns and information for the selected interns. 
 
 * Selected Interns
-
-  |-----+-------------------+-----------------+---------+------------|
-  | No. | Candidate Name    | Affiliation     | Email/  | GitProfile |
-  |     |                   |                 | Resume  |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  1. | Raghav Mittal     | NIIT Rajasthan  | [[mailto:raghav.mittal@st.niituniversity.in][email]] / |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  2. | Sasank Viswanatha | MEC             | [[mailto:sasank14168@mechyd.ac.in][email]] / |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  3. | T. Guru Pradeep   | NITK            | [[mailto:Gurupradeept@gmail.com][email]] / |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  4. | Sheetal Reddy     | MEC             | [[mailto:sheetalkreddy03@gmail.com][email]]   |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  5. | Vishal Aditya     | Amity Rajasthan | [[mailto:er.vishaladitya.tech@gmail.com][email]] / | [[https://github.com/vsl-tech][link]]       |
-  |     |                   |                 | [[http://1drv.ms/1SAUM8B][resume]]  |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  6. | Prajwala TM       | NITK            | [[mailto:prajwala.tm@gmail.com][email]] / | [[https://github.com/PrajwalaTM][link]]       |
-  |     |                   |                 | [[https://drive.google.com/file/d/0ByCgZ0H1r7ykUjJ3V1J1eU9sNE0/view?usp=sharing][resume]]  |            |
-  |     |                   |                 |         |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
-  |  7. | Ammanamanchi      | NITK            | [[mailto:namratha8a@gmail.com][email]] / | [[https://github.com/namrathadeepthi/][link]]       |
-  |     | Namratha Deepthi  |                 | [[https://drive.google.com/open?id=0B3V-JZZTqUKWYTc2U0pWWDRKTW8][resume]]  |            |
-  |     |                   |                 |         |            |
-  |-----+-------------------+-----------------+---------+------------|
+  |-------+----------------------+----------------+------------|
+  | S.No. | Candidate Name       | Affiliation,   | GitProfile |
+  |       |                      | Branch & Year  |            |
+  |-------+----------------------+----------------+------------|
+  |    1. | Raghav Mittal        | NIIT Rajasthan | [[https://github.com/raghavmittal101][link]]       |
+  |       |                      | B.Tech, CSE    |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
+  |    2. | Raj Manvar           | IIITH          | [[https://github.com/rajma996][link]]       |
+  |       |                      | B.Tech, CSE    |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
+  |    3. | Sasank Viswanatha    | MEC            | [[https://github.com/shashankviswanadha][link]]       |
+  |       |                      | B.Tech, CSE    |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
+  |    4. | Srivalya Elluru      | NITK           | [[https://github.com/Siri-NITK][link]]       |
+  |       |                      | B.Tech, IT     |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
+  |    5. | Ammanamanchi         | NITK           | [[https://github.com/namrathadeepthi/][link]]       |
+  |       | Namratha Deepthi     | B.Tech, IT     |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
+  |    6. | Rama Shanbhag        | NITK           | [[https://github.com/Ramas31][link]]       |
+  |       |                      | B.Tech, IT     |            |
+  |       |                      | I Year         |            |
+  |-------+----------------------+----------------+------------|
+  |    7. | Harsha Vattem        | IIT KGP        | [[https://github.com/harshavattem][link]]       |
+  |       |                      | B.Tech, CSE    |            |
+  |       |                      | I Year         |            |
+  |       |                      |                |            |
+  |-------+----------------------+----------------+------------|
+  |    8. | Anshuman             | IIT M          |            |
+  |       |                      | B.Tech, Mech   |            |
+  |       |                      | I Year         |            |
+  |-------+----------------------+----------------+------------|
+  |    9. | Dheeraj              | IIT M          |            |
+  |       |                      | B.Tech, Mech   |            |
+  |       |                      | I Year         |            |
+  |-------+----------------------+----------------+------------|
+  |   10. | Ian Galvin Fernandes | NITK           | [[https://github.com/iangfernandes96][link]]       |
+  |       |                      | B.Tech, CSE    |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
+  |   11. | Kavya Atmakuri       | NITK           | [[https://github.com/kavya-a][link]]       |
+  |       |                      | B.Tech, CSE    |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
+  |   12. | Varsha Dyavaiah      | NITK           | [[https://github.com/varshadyavaiah][link]]       |
+  |       |                      | B.Tech, CSE    |            |
+  |       |                      | II Year        |            |
+  |-------+----------------------+----------------+------------|
 
 * Terms & Conditions
   Please confirm your acceptance by April 30th, 2016 after reading the terms
@@ -47,7 +68,7 @@ A list of selected interns and information for the selected interns.
        will be part of [[https://github.com][GitHub]].
 
   2. Formal Application :: If you have not already done so, please visit
-       [[http://vlabs-dev.vlabs.ac.in/internship-2016/interns.html][interns]] and fill out the application form.  Make sure you mention your
+       [[http://vlabs-dev.vlabs.ac.in/internship-2016/interns.html][interns page]] and fill out the application form.  Make sure you mention your
        GitHub profile.  For others, who have filled out the application and
        missed out on providing the GitHub profile, please edit the application
        and provide the GitHub profile.
