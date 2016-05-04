@@ -9,11 +9,11 @@ intelligent systems, understand the project ecosystem, identify issues
 and bottlenecks and proactively come up with solutions. Commonly used
 technologies for Virtual Labs are:
 
+- Version control: git
 - OS: Linux - CentOS, Ubuntu, etc 
 - Programming Languages: Javascript, Java and Python 
 - Tools: Selenium and other open source automation tools, Redmine
   (Project Management System), Mediawiki, Emacs (Org-mode)
-- Version control: git
 
 Some of the problems that you can solve while managing different
 teams:
