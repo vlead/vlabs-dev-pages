@@ -1,0 +1,78 @@
+#+title:  QA Automation Engineer
+#+SETUPFILE: ../org-templates/level-1.org
+
+Virtual Labs Engineering and Architecture Division (VLEAD) is looking
+for a competent and experienced Selenium Automation Engineer to work
+in the core technologies of Virtual Labs. The engineering team is
+looking for a technical architect who can conceptualize and design
+intelligent systems, understand the project ecosystem, identify issues
+and bottlenecks and proactively come up with solutions. Commonly used
+technologies for Virtual Labs are:
+
+- Version control: git
+- OS: Linux - CentOS, Ubuntu, etc 
+- Programming Languages: Javascript, Java and Python 
+- Tools: Selenium and other open source automation tools, Redmine
+  (Project Management System), Mediawiki, Emacs (Org-mode)
+
+Some of the problems that you can solve while managing different
+teams:
+
+- Setup QA automation framework for Virtual Labs 
+- Build common libraries and test cases that can be used across labs
+
+We need someone who has good experience in Selenium, Linux Operating
+Systems, object-oriented programming, JavaScript, jQuery, Java/Python
+and web services. Our technology stack is primarily Python with a
+MySql backend, Javascript, JQuery, HTML, CSS on the frontend.
+
+
+** Role
+
+- Drive QA automation design reviews and discussions. Inculcate
+  engineering best practices across the team.  
+- Strong emphasis on performance and quality with a sharp business
+  sense.
+- Be an advocate for an extensible, scalable and maintainable
+  automation design and lead by example.
+- Develop scripts, utilities, and data generators as required to
+  execute tests.
+- Should be able to accomplish the goals with little or no supervision.
+- Experience adjusting to changing priorities and handling multiple
+  tasks.
+
+** Requirements
+
+- B.Tech or higher in Computer Science or equivalent.  
+- 5+ years of relevant QA automation design and development experience
+  is desirable.
+- Extensive knowledge of automated test scripts and strong analytical
+  skills.
+- Exposure to a wide range of problem spaces and technologies and the
+  ability to evaluate upcoming technologies. Good understanding of
+  SDLC and the Program Management methods.
+- Solid foundation in computer science principles with good
+  requirements and design documentation skills.
+- Ability to create strong working relationships within and across
+  functional teams.
+- Deep understanding of distributed systems and familiarity with
+  design patterns.
+- LAMP stack proficiency (Expertise with Python is preferred.)
+- Prior startup experience (cloud-based product or service is a
+  bonus), AWS experience and contributions to open source projects
+  would be desirable.
+- Person should be customer and team-oriented, self-starters with
+  practical experience testing and supporting production released
+  applications.
+- Should have worked in AGILE/DevOps Methodology, Continuation
+  Integration/Continuous Automation delivery. (Min. 2 Years)
+- Hands on Experience in Automaton script writing and Execution.
+  (Selenium & Frame work) (Min. 3 Years)
+- Experience in mentoring and coaching technical team members would be
+  an added advantage.
+- Researches new Automation testing development tools and techniques,
+  making recommendations to improve overall testing processes.
+- Assist in the implement the product into production, providing
+  on-going customer support as needed.
+
+Please apply at jobs@vlabs.ac.in
