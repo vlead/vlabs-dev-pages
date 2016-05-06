@@ -58,6 +58,14 @@ A list of selected interns and information for the selected interns.
   |       |                      | B.Tech, CSE    |            |
   |       |                      | II Year        |            |
   |-------+----------------------+----------------+------------|
+  |   13. | Jahanvi Ayyanik      | NIT            | [[https://github.com/jahnavi925][link]]       |
+  |       |                      | Rourkela,      |            |
+  |       |                      | B.Tech         |            |
+  |-------+----------------------+----------------+------------|
+  |   14. | Meghana Bandaru      | NIT            | [[https://github.com/MeghanaBandaru][link]]       |
+  |       |                      | Durgapur,      |            |
+  |       |                      | IT, II Year    |            |
+  |-------+----------------------+----------------+------------|
 
 * Terms & Conditions
   Please confirm your acceptance by April 30th, 2016 after reading the terms
