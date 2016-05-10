@@ -50,19 +50,15 @@ A list of selected interns and information for the selected interns.
   |       |                      | B.Tech, CSE    |            |
   |       |                      | II Year        |            |
   |-------+----------------------+----------------+------------|
-  |   11. | Kavya Atmakuri       | NITK           | [[https://github.com/kavya-a][link]]       |
+  |   11. | Varsha Dyavaiah      | NITK           | [[https://github.com/varshadyavaiah][link]]       |
   |       |                      | B.Tech, CSE    |            |
   |       |                      | II Year        |            |
   |-------+----------------------+----------------+------------|
-  |   12. | Varsha Dyavaiah      | NITK           | [[https://github.com/varshadyavaiah][link]]       |
-  |       |                      | B.Tech, CSE    |            |
-  |       |                      | II Year        |            |
-  |-------+----------------------+----------------+------------|
-  |   13. | Jahanvi Ayyanik      | NIT            | [[https://github.com/jahnavi925][link]]       |
+  |   12. | Jahanvi Ayyanik      | NIT            | [[https://github.com/jahnavi925][link]]       |
   |       |                      | Rourkela,      |            |
   |       |                      | B.Tech         |            |
   |-------+----------------------+----------------+------------|
-  |   14. | Meghana Bandaru      | NIT            | [[https://github.com/MeghanaBandaru][link]]       |
+  |   13. | Meghana Bandaru      | NIT            | [[https://github.com/MeghanaBandaru][link]]       |
   |       |                      | Durgapur,      |            |
   |       |                      | IT, II Year    |            |
   |-------+----------------------+----------------+------------|
