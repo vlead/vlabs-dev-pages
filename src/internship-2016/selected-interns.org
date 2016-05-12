@@ -31,7 +31,7 @@ A list of selected interns and information for the selected interns.
   |-------+----------------------+----------------+------------|
   |    6. | Rama Shanbhag        | NITK           | [[https://github.com/Ramas31][link]]       |
   |       |                      | B.Tech, IT     |            |
-  |       |                      | I Year         |            |
+  |       |                      | II Year        |            |
   |-------+----------------------+----------------+------------|
   |    7. | Harsha Vattem        | IIT KGP        | [[https://github.com/harshavattem][link]]       |
   |       |                      | B.Tech, CSE    |            |
@@ -97,3 +97,5 @@ A list of selected interns and information for the selected interns.
   Please feel free to get in touch with us if you have questions by sending an
   email to (=2016-summer-interns@vlabs.ac.in=).
 
+* Internship Program
+  For a detailed program visit the [[https://github.com/vlead/2016-summer-internship/blob/master/src/index.org#virtual-labs-summer-internship-program-2016][2016-summer-internship]] [[https://github.com/vlead/2016-summer-internship/blob/master/src/index.org#virtual-labs-summer-internship-program-2016][pages]].
