@@ -3,11 +3,12 @@
 
 Virtual Labs Engineering and Architecture Division (VLEAD) is looking
 for a competent and experienced Selenium Automation Engineer to work
-in the core technologies of Virtual Labs. The engineering team is
-looking for a technical architect who can conceptualize and design
-intelligent systems, understand the project ecosystem, identify issues
-and bottlenecks and proactively come up with solutions. Commonly used
-technologies for Virtual Labs are:
+in the core technologies of Virtual Labs.You will be part of a talented 
+team of engineers that demonstrates superb technical competency for
+ensuring highest levels of performance and availability of critical infrastructure.
+The engineering team at Virtual Labs is looking at innovative ways to design, 
+develop and deploy the various applications with high uptime requirements. 
+Commonly used technologies for Virtual Labs are:
 
 - Version control: git
 - OS: Linux - CentOS, Ubuntu, etc 
@@ -15,8 +16,7 @@ technologies for Virtual Labs are:
 - Tools: Selenium and other open source automation tools, Redmine
   (Project Management System), Mediawiki, Emacs (Org-mode)
 
-Some of the problems that you can solve while managing different
-teams:
+Some of the problems that you can solve while at Virtual Labs:
 
 - Setup QA automation framework for Virtual Labs 
 - Build common libraries and test cases that can be used across labs
@@ -61,7 +61,7 @@ MySql backend, Javascript, JQuery, HTML, CSS on the frontend.
 - Prior startup experience (cloud-based product or service is a
   bonus), AWS experience and contributions to open source projects
   would be desirable.
-- Person should be customer and team-oriented, self-starters with
+- Person should be customer and team-oriented, self-starter with
   practical experience testing and supporting production released
   applications.
 - Should have worked in AGILE/DevOps Methodology, Continuation
@@ -72,7 +72,5 @@ MySql backend, Javascript, JQuery, HTML, CSS on the frontend.
   an added advantage.
 - Researches new Automation testing development tools and techniques,
   making recommendations to improve overall testing processes.
-- Assist in the implement the product into production, providing
-  on-going customer support as needed.
 
 Please apply at jobs@vlabs.ac.in
