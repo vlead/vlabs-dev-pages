@@ -1,6 +1,5 @@
-#+TITLE: Manual for Outreach Portal 
-#+AUTHOR: VLEAD
-#+DATE: [2016-10-13 Thu]
+#+title: Manual for Outreach Portal 
+#+SETUPFILE: ../org-templates/level-1.org
 
 * Login Scenarios
 <<Login Scenarios>>
