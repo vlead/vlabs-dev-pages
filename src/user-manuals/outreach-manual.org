@@ -1,4 +1,4 @@
-#+title: Manual for Outreach Portal 
+#+title: User Manual for Outreach Portal 
 #+SETUPFILE: ../org-templates/level-1.org
 
 * Login Scenarios
