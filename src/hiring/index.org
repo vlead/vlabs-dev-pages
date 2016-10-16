@@ -24,8 +24,11 @@ are around 150 labs which have been developed by various institutes.
 
 [[./frontend-web-developer.org][Frontend Web Developer]]     :   Number of positions - 02 
 
-[[./systems-engineer.org][Systems Engineer]]           :   Number of positions - 02 
+[[./systems-engineer.org][Systems Engineer]]    :   Number of positions - 02 
 
+[[./qa-automation-engineer.org][QA Automation Engineer]]    :   Number of positions - 01
+
+Please apply at jobs@vlabs.ac.in
 
 
 
