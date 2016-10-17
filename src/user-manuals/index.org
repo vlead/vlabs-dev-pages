@@ -4,3 +4,6 @@
 All the information on how to use the different services and portals
 to understand and contribute to virtual labs development is provided
 here.
+
+* Outreach Portal Manual
+  How to use all the scenarios of Outreach Portal are described here [[http://staging-dev.vlabs.ac.in/docs/outreach-manual/index.html][/here/]].
