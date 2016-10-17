@@ -1,0 +1,14 @@
+#+title:  Virtual Labs on Portable Media
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+* College Cloud on Portable Media
+  Virtual Labs are packaged such that the labs can run from a physical hard
+  drive.  As on [2016-10-14 Fri], 68 labs are ported to run from physical hard
+  drive.  
+
+  With the virtual labs running from a physical hard drive, the outreach of
+  virtual labs is extended without the need for internet connectivity.  A
+  college can host a machine connected to the physical hard drive with the
+  virtual labs on the local area network (LAN).  To create a bootable physical
+  hard drive with the virtual labs, please send an email to engg@vlabs.ac.in.
