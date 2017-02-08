@@ -6,8 +6,8 @@
   Commercial-ShareAlike 3.0]].
 
 * Virtual Labs Software Licensing
-  Virtual Labs software software - experiments, platform and services - is
-  licensed under [[https://opensource.org/licenses/agpl-3.0][GNU AFFERO GENERAL PUBLIC LICENSE, Version 3(AGPL-3.0)]])
+  Virtual Labs software - experiments, platform and services - is licensed
+  under [[https://opensource.org/licenses/agpl-3.0][GNU AFFERO GENERAL PUBLIC LICENSE, Version 3(AGPL-3.0)]])
   
 
 
