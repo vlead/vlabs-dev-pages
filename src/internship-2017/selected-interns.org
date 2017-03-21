@@ -1,0 +1,46 @@
+#+title: Selected Interns
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+A list of selected interns and information for the selected interns. 
+
+* Selected Interns
+  |-------+----------------------+----------------+------------|
+  | S.No. | Candidate Name       | Affiliation,   | GitProfile |
+  |       |                      | Branch & Year  |            |
+  |-------+----------------------+----------------+------------|
+
+* Terms & Conditions
+  Please confirm your acceptance by March 24th, 2017 after reading the terms
+  and conditions given below.
+
+  1. [[https://github.com][GitHub]] Profile :: Make sure you have a [[https://github.com][GitHub]] profile.  A GitHub handle is
+       mandatory since all material related to on-boarding, schedule, projects
+       will be part of [[https://github.com][GitHub]].
+
+  2. Formal Application :: If you have not already done so, please visit
+       [[http://vlabs-dev.vlabs.ac.in/internship-2017/interns.html][interns page]] and fill out the application form.  Make sure you mention your
+       GitHub profile.  For others, who have filled out the application and
+       missed out on providing the GitHub profile, please edit the application
+       and provide the GitHub profile.
+
+  3. Equipment :: You will need to bring your own laptop running Linux (A
+       Debian or its derivative like Ubuntu).  You will not be allowed to come
+       in to the internship without your laptop.
+
+  4. Id Proof :: You will need to bring a proof that you are registered with
+       your college (Your college ID should suffice.)
+
+  5. Stipend/Reimbursement :: If you are a IIIT-H student, you will be working
+       as an RA and will eligible for a stipend of Rs. 15,000 per month for 40
+       hours of work per week.  Your hostel and food bill will NOT be covered.
+
+       If you are an intern (not a IIIT-H student), you will receive a
+       reimbursement of up to Rs. 7,000 per month of your hostel rent plus
+       meals expenses should you choose to live on campus.
+* Communication
+  Please feel free to get in touch with us if you have questions by sending an
+  email to (=2017-summer-interns@vlabs.ac.in=).
+
+* Past Internship Program
+  Please visit the [[https://github.com/vlead/2016-summer-internship/blob/master/src/index.org#virtual-labs-summer-internship-program-2016][2016-summer-internship]] pages for past internship program details.
