@@ -1,0 +1,122 @@
+
+{
+  "lab": {
+    "description": {
+      "name": "Feedback portal",
+      "id": "feedbackv2",
+      "status": "working code",
+      "discipline": [],
+      "type": "",
+      "server-side": true,
+      "integration_level": 6,
+      "developer": [
+        {
+          "name": "Sripathi Kammari",
+          "title": "",
+          "role": "Project Engineer",
+          "organization": "VLEAD",
+          "institute": "IIIT Hyderabad",
+          "web": "",
+          "department": "Software Engg Research Lab (SERL)",
+          "contact": {
+            "email": "sripathi@vlabs.ac.in",
+            "alternate_email": "",
+            "mobile_number": "",
+            "office_number": ""
+          }
+        },
+	{
+          "name": "Sripathi",
+          "title": "",
+          "role": "Software Engineer",
+          "organization": "VLEAD",
+          "institute": "IIIT Hyderabad",
+          "web": "",
+          "department": "Software Engg Research Lab (SERL)",
+          "contact": {
+            "email": "sripathi@vlabs.ac.in",
+            "alternate_email": "",
+            "mobile_number": "",
+            "office_number": ""
+          }
+        },
+        {
+          "name": "Madhavi Puliraju",
+          "title": "",
+          "role": "Software Engineer",
+          "organization": "VLEAD",
+          "institute": "IIIT Hyderabad",
+          "web": "",
+          "department": "Software Engg Research Lab (SERL)",
+          "contact": {
+            "email": "madhavi@vlabs.ac.in",
+	    "alternate_email": "",
+            "mobile_number": "",
+            "office_number": ""
+          }
+        }
+      ]
+     },
+    "build_requirements": {
+      "platform": {
+        "os": "ubuntu",
+        "osVersion": "12",
+        "arch": "x64",
+        "service_pack": "",
+        "installer": [
+        ],
+        "build_steps": {
+          "configure": [],
+          "pre_build": [],
+          "build": [
+            "cd ../;make build"
+          ],
+          "post_build": [
+            "cp -R ../build/code/* /var/www/",
+            "chmod -R 755 /var/www",
+            "mkdir /var/www/logs",
+            "chmod -R 777 /var/www/logs"
+          ],
+          "status": []
+        }
+      }
+    },
+    "runtime_requirements": {
+      "platform": {
+        "os": "ubuntu",
+        "osVersion": "12",
+        "arch": "x64",
+        "servicepack": "",
+        "hosting": "dedicated",
+        "memory": {
+          "max_required": "4gb",
+          "min_required": "2gb"
+        },
+        "storage": {
+          "min_required": "10gb"
+        },
+        "installer": [
+          "bash /var/www/deployment/setup.sh",
+          "python /var/www/deployment/setup.py install",
+          "bash /var/www/deployment/configure.sh",
+          "PYTHONPATH=/var/www python /var/www/deployment/db_setup.py",
+          "echo '00 00 * * * root python /var/www/feedback_elastic_search.py' >> /etc/crontab"
+        ],
+        "lab_actions": {
+          "init"    : [],
+          "shutdown": [],
+          "pause"   : [],
+          "resume"  : [],
+          "start"   : [],
+          "stop"    : [],
+          "backup"  : [],
+          "restore" : [],
+          "clean"   : [],
+          "stats"   : [],
+          "publish" : []
+        }
+      }
+    }
+  },
+  "template": "1.0"
+}
