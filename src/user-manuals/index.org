@@ -6,7 +6,7 @@ to understand and contribute to virtual labs development is provided
 here.
 
 * Outreach Portal User Manual
-  How to use all the scenarios of Outreach Portal are described here [[http://community.vlabs.ac.in/docs/user-manuals/outreach-portal/][here]]
+  How to use all the scenarios of Outreach Portal are described [[http://community.vlabs.ac.in/docs/user-manuals/outreach-portal/][here]]
 * College Cloud User Manual
   Documentation can be found at [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/][here]]
 
