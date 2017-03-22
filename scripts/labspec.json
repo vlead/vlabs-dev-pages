@@ -1,60 +1,28 @@
-
 {
   "lab": {
     "description": {
-      "name": "Feedback portal",
-      "id": "feedbackv2",
+      "name": "Virtial -Labs Development",
+      "id": "virtual-labs-devv1",
       "status": "working code",
       "discipline": [],
       "type": "",
       "server-side": true,
-      "integration_level": 6,
+      "integration_level": 1,
       "developer": [
         {
-          "name": "Sripathi Kammari",
+          "name": "Raghupathi Kammari",
           "title": "",
-          "role": "Project Engineer",
+          "role": "Jr. Project Engineer",
           "organization": "VLEAD",
           "institute": "IIIT Hyderabad",
           "web": "",
           "department": "Software Engg Research Lab (SERL)",
           "contact": {
-            "email": "sripathi@vlabs.ac.in",
+            "email": "raghupathi@vlabs.ac.in",
             "alternate_email": "",
             "mobile_number": "",
             "office_number": ""
           }
-        },
-	{
-          "name": "Sripathi",
-          "title": "",
-          "role": "Software Engineer",
-          "organization": "VLEAD",
-          "institute": "IIIT Hyderabad",
-          "web": "",
-          "department": "Software Engg Research Lab (SERL)",
-          "contact": {
-            "email": "sripathi@vlabs.ac.in",
-            "alternate_email": "",
-            "mobile_number": "",
-            "office_number": ""
-          }
-        },
-        {
-          "name": "Madhavi Puliraju",
-          "title": "",
-          "role": "Software Engineer",
-          "organization": "VLEAD",
-          "institute": "IIIT Hyderabad",
-          "web": "",
-          "department": "Software Engg Research Lab (SERL)",
-          "contact": {
-            "email": "madhavi@vlabs.ac.in",
-	    "alternate_email": "",
-            "mobile_number": "",
-            "office_number": ""
-          }
-        }
       ]
      },
     "build_requirements": {
@@ -73,7 +41,7 @@
           ],
           "post_build": [
             "cp -R ../build/code/* /var/www/",
-            "chmod -R 755 /var/www",
+            "chmod -R 755 /var/www/",
             "mkdir /var/www/logs",
             "chmod -R 777 /var/www/logs"
           ],
