@@ -63,9 +63,9 @@
           "min_required": "10gb"
         },
         "installer": [
-          "sh /root/labs/vlabs-dev-pages/scripts/apache-conf.sh",
           "sudo apt-get update",
           "sudo apt-get install -y apache2",
+          "sh /root/labs/vlabs-dev-pages/scripts/apache-conf.sh",
           "sudo service apache2 restart"
         ],
         "lab_actions": {
