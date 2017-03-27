@@ -38,7 +38,7 @@
           "configure": [],
           "pre_build": [],
           "build": [
-            "cd ../;make"
+            "cd ../;make build"
           ],
           "post_build": [
             "cp -R ../build/prj/* /var/www/",
@@ -64,6 +64,8 @@
         },
         "installer": [
           "sh /root/labs/vlabs-dev-pages/scripts/apache-conf.sh",
+          "sudo apt-get update",
+          "sudo apt-get install -y apache2",
           "sudo service apache2 restart"
         ],
         "lab_actions": {
