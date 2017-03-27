@@ -1,13 +1,13 @@
 {
   "lab": {
     "description": {
-      "name": "Virtial -Labs Development",
-      "id": "virtual-labs-devv1",
+      "name": "VLABS Development",
+      "id": "VLABS Development-v1.0",
       "status": "working code",
       "discipline": [],
       "type": "",
       "server-side": true,
-      "integration_level": 1,
+      "integration_level": 6,
       "developer": [
         {
           "name": "Raghupathi Kammari",
@@ -23,6 +23,8 @@
             "mobile_number": "",
             "office_number": ""
           }
+        },
+      }
       ]
      },
     "build_requirements": {
@@ -37,11 +39,11 @@
           "configure": [],
           "pre_build": [],
           "build": [
-            "cd ../;make "
+            "cd ../;make"
           ],
           "post_build": [
-            "cp -R ../build/code/* /var/www/",
-            "chmod -R 755 /var/www/",
+            "cp -R ../build/prj/* /var/www/",
+            "chmod -R 755 /var/www",
             "mkdir /var/www/logs",
             "chmod -R 777 /var/www/logs"
           ],
@@ -64,11 +66,7 @@
           "min_required": "10gb"
         },
         "installer": [
-          "bash /var/www/deployment/setup.sh",
-          "python /var/www/deployment/setup.py install",
-          "bash /var/www/deployment/configure.sh",
-          "PYTHONPATH=/var/www python /var/www/deployment/db_setup.py",
-          "echo '00 00 * * * root python /var/www/feedback_elastic_search.py' >> /etc/crontab"
+          "bash /root/labs/vlabs-dev-pages/scripts/apache-conf.sh",
         ],
         "lab_actions": {
           "init"    : [],
