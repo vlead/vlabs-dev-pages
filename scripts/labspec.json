@@ -38,7 +38,7 @@
           "configure": [],
           "pre_build": [],
           "build": [
-            "cd ../;make build"
+            "cd ../;make"
           ],
           "post_build": [
             "cp -R ../build/prj/* /var/www/",
