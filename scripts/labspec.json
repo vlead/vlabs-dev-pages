@@ -23,8 +23,7 @@
             "mobile_number": "",
             "office_number": ""
           }
-        },
-      }
+        }
       ]
      },
     "build_requirements": {
@@ -66,7 +65,7 @@
           "min_required": "10gb"
         },
         "installer": [
-          "bash /root/labs/vlabs-dev-pages/scripts/apache-conf.sh",
+          "bash /root/labs/vlabs-dev-pages/scripts/apache-conf.sh"
         ],
         "lab_actions": {
           "init"    : [],
