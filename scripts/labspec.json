@@ -1,8 +1,8 @@
 {
   "lab": {
     "description": {
-      "name": "VLABS Development",
-      "id": "VLABS Development-v1.0",
+      "name": "VLEAD Dev Pages",
+      "id": "VLEAD Dev Pages-v1.0",
       "status": "working code",
       "discipline": [],
       "type": "",
@@ -42,9 +42,7 @@
           ],
           "post_build": [
             "cp -R ../build/prj/* /var/www/",
-            "chmod -R 755 /var/www",
-            "mkdir /var/www/logs",
-            "chmod -R 777 /var/www/logs"
+            "chmod -R 755 /var/www"
           ],
           "status": []
         }
@@ -65,7 +63,8 @@
           "min_required": "10gb"
         },
         "installer": [
-          "bash /root/labs/vlabs-dev-pages/scripts/apache-conf.sh"
+          "sh /root/labs/vlabs-dev-pages/scripts/apache-conf.sh",
+          "sudo service apache2 restart"
         ],
         "lab_actions": {
           "init"    : [],
