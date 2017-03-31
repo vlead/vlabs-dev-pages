@@ -11,7 +11,7 @@ A list of selected interns and information for the selected interns.
   |-------+----------------------+----------------+------------|
 
 * Terms & Conditions
-  Please confirm your acceptance by March 24th, 2017 after reading the terms
+  Please confirm your acceptance by April 07th, 2017 after reading the terms
   and conditions given below.
 
   1. [[https://github.com][GitHub]] Profile :: Make sure you have a [[https://github.com][GitHub]] profile.  A GitHub handle is
