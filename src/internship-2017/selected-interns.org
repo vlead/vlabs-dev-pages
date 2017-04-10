@@ -9,7 +9,7 @@ A list of selected interns and information for the selected interns.
 | SNo | Name                 | Email ID             | College        | github |
 |     |                      |                      | & Year         |        |
 |-----+----------------------+----------------------+----------------+--------|
-|   1 | Anukul Sangwan       | anukul.sangwan@      | IIITH B.tech   | [[https://github.com/anukul][link]]   |
+|   1. | Anukul Sangwan       | anukul.sangwan@      | IIITH B.tech   | [[https://github.com/anukul][link]]   |
 |     |                      | research.iiit.ac.in  | 1st year       |        |
 |-----+----------------------+----------------------+----------------+--------|
 |   2 | Shubh Maheshwari     | shubh.maheshwari@    | IIITH B.tech   | [[https://github.com/shubhMaheshwari][link]]   |
