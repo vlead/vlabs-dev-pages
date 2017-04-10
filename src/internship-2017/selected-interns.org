@@ -5,10 +5,117 @@
 A list of selected interns and information for the selected interns. 
 
 * Selected Interns
-  |-------+----------------------+----------------+------------|
-  | S.No. | Candidate Name       | Affiliation,   | GitProfile |
-  |       |                      | Branch & Year  |            |
-  |-------+----------------------+----------------+------------|
+|-----+----------------------+----------------------+----------------+--------|
+| SNo | Name                 | Email ID             | College        | github |
+|     |                      |                      | & Year         |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   1 | Anukul Sangwan       | anukul.sangwan@      | IIITH B.tech   | [[https://github.com/anukul][link]]   |
+|     |                      | research.iiit.ac.in  | 1st year       |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   2 | Shubh Maheshwari     | shubh.maheshwari@    | IIITH B.tech   | [[https://github.com/shubhMaheshwari][link]]   |
+|     |                      | students.iiit.ac.in  | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   3 | Mridul Nagpal        | mridulnagpal07@      | IIITH B.tech   | [[https://github.com/mridulnagpal/][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   4 | Neha Motlani         | nmotlani6@           | IIITH B.tech   | [[https://github.com/NehaMotlani][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   5 | Vivek Kaushal        | vivek.kaushal@       | IIITH B.tech   | [[https://github.com/kaushalvivek][link]]   |
+|     |                      | research.iiit.ac.in  | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   6 | Shyamgopal Karthik   | shyamgopal.karthik@  | IIITH B.tech   | [[http://github.com/sgk98][link]]   |
+|     |                      | research.iiit.ac.in  | 1st year       |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   7 | Poobesh Gowtham      | poobesh.g@           | IIITH B.tech   | [[https://github.com/wanderling][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   8 | Sounak Pradhan       | sounak.pradhan@      | IIITH B.tech   | [[https://github.com/sounak98][link]]   |
+|     |                      | research.iiit.ac.in  | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|   9 | Aditya Todi          | adityaat909@         | IIITH B.tech   | [[https://github.com/aditya-todi][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  10 | Yahnit Sirineni      | yahnit.gogeta@       | IIITH B.tech   | [[https://github.com/Yahnit/Projects][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  11 | Pratik Kamble        | Pratik.kamble@       | IIITH B.tech   | [[https://github.com/pk13055][link]]   |
+|     |                      | students.iiit.ac.in  | 1st year       |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  12 | Mahathi Vempati      | mahathi.vempati@     | IIITH B.tech   | [[https://github.com/Tinkidinki][link]]   |
+|     |                      | research.iiit.ac.in  | 1st year       |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  13 | Utkarsh              | utkarshazad98@       | IIITH B.tech   | [[https://github.com/obliviateandsurrender][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  14 | Nikhil Bansal        | nikhilbansal3456@    | IIITH B.tech   | [[https://github.com/nikhil3456][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  15 | K.L.MaheeSurya       | 16101998ms@          | IIITH B.tech   | [[https://github.com/blazingeagle1002][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  16 | Kalpit Pokra         | kalpitpokra@         | IIITH B.tech   | [[https://github.com/kalpit4088][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  17 | Projit Bandyopadhyay | projit.bandy@        | IIITH B.tech   | [[https://github.com/ProjitB][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  18 | Kanay Gupta          | kanaygupta@          | IIITH B.tech   | [[https://github.com/kanaygupta][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  19 | Trunapushpa          | trunapushpa@         | IIITH B.tech   | [[https://github.com/trunapushpa][link]]   |
+|     |                      | students.iiit.ac.in  | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  20 | Atreyee Ghosal       | ghosalatreyee@       | IIITH B.tech   | [[https://github.com/AdLucem][link]]   |
+|     |                      | gmail.com            | 1st year       |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  21 | Savar mehrotra       | savarmehrotra@       | MIT, B.tech,   | [[https://github.com/savarmehrotra][link]]   |
+|     |                      | gmail.com            | 3rd Year       |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  22 | Keshav Krishnamurti  | keshavkms@           | IIITH,         | [[https://github.com/keshavkms][link]]   |
+|     |                      | gmail.com            | Computational  |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  23 | R Anirudh Reddy      | ravulaanirudh7       | IIITH B.tech   | [[https://github.com/anirudh456/CV/blob/master/CV.org][link]]   |
+|     |                      | @research.iiit.ac.in | 1st year       |        |
+|     |                      |                      |                |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  24 | P Krishna Swaroop    | swaroop14095         | Mahindra Ecole | [[https://github.com/npkswaroop][link]]   |
+|     |                      | @mechyd.ac.in        | centrale       |        |
+|-----+----------------------+----------------------+----------------+--------|
+|  25 | Srikara Srikanth     | srikanth15193        | Mahindra Ecole | [[https://github.com/psrikar97][link]]   |
+|     | Pakala               | @mechyd.ac.in        | Centrale       |        |
+|-----+----------------------+----------------------+----------------+--------|
 
 * Terms & Conditions
   Please confirm your acceptance by April 07th, 2017 after reading the terms
