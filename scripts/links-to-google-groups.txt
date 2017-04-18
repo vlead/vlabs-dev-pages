@@ -1,0 +1,19 @@
+	<Location /users>
+         Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+         </Location>
+	<Location /users/join>
+	Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+	<Location /engineers>
+        Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+        </Location>
+	<Location /engineers/join>
+        Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+        <Location /announce>
+        Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+        <Location /announce/join>
+        Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+        </Location>
+
