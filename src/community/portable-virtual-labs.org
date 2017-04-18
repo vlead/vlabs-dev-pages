@@ -2,7 +2,7 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
 
-* College Cloud on Portable Media
+* Virtual Labs on College Cloud
   Virtual Labs are packaged such that the labs can run from a physical hard
   drive.  As on [2016-10-14 Fri], 68 labs are ported to run from physical hard
   drive.  

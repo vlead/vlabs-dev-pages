@@ -1,0 +1,73 @@
+* Virtual Labs Workshops
+** verview and Motivation 
+  Virtual Labs Team organizes workshops and hands-on practice sessions
+  on Virtual Labs (both Offline College Cloud version and Online
+  version) for interested Science & Engineering Institutions. Training
+  sessions would be conducted for faculty members and students of
+  interested institutes upon expression of their interest in Virtual
+  Labs workshop.
+  
+  Virtual Labs College Cloud Edition is the Offline and Portable Edition
+  for Virtual Labs. It offers the offline version of Virtual labs,
+  experiments and theoretical content. This edition addresses the lack
+  of internet access or poor internet connectivity across different
+  institutes/colleges. It results in a very cost-effective Learning
+  Management System. This edition could be used effectively when
+  specific experiments are being done by students of a class, for
+  specific course requirements. These labs are not dependent on the
+  quality and availability of the Internet and hence would be a stable
+  edition for longer sessions.
+  
+  On the other hand the online version is available at all times but is
+  dependent on a good Internet link. Any of the 1700+ odd experiments
+  could be performed at all times providing a good opportunity for
+  continuous usage. Thus, it is suggested that the college cloud edition
+  and the online versions should be used together in a college. On
+  completion of the demonstrations and hands-on sessions, the faculty
+  members and the students would be encouraged to submit the feedback
+  form to the Virtual Labs team. These forms would be compiled and
+  analyzed for further improvements in the Virtual Labs.
+** Audience 
+   Workshops could be requested by faculty members or college
+   management of the interested Science & Engineering Institutions.
+   
+** Requirements
+*** Requirements for Online version 
+    - The institute should be a Central/State University or
+      institute/college approved by AICTE/UGC.
+    - The institute must have an auditorium with a seating capacity of
+      at least 100 and a designated/common lab space having 35 PCs or
+      more.
+    - In the event that the Internet operates behind a firewall, the
+      specific communication ports 3306, 5900, 5902, and 8700 would
+      need to be opened to facilitate Virtual Labs network traffic.
+    - Java must be downloadable through the Internet and Gmail should
+      be accessible.
+      System configuration (Recommended) 
+      
+      - Browser: Firefox, Chrome
+      - Plugins: Flash, Java 1.6 version, and IcedTea
+      - JavaScript should be enabled on the browser
+      - No pop-up blockers
+      - Internet connection (1 Mbps) and a multimedia projector
+    Pre-Workshop checklist
+    
+      - Vlabs web page should be accessible from the browser.
+      - Registration should be successful from registration page.
+      - Within a lab, lab-level and experiment-level feedback links should be working within the institute network.
+    
+*** Requirements for Offline College Cloud Edition
+    The Institute should be a Central/State University or
+    Institute/college approved by AICTE/UGC. Kindly follow the link to get
+    detailed requirements for Virtual Labs College Cloud 
+** Request for Workshops
+   Follow the steps below to have a workshop conducted at your college :
+1. Please make sure that the requirements (offline College Cloud version/online version) are met.
+2. Fill the Expression of Interest form.
+3. Virtual Labs Outreach Team would contact you in 5-10 working days. Further communications would happen through email.
+4. On confirmation from the Virtual Labs team on the workshop date (as filled in the Expression of Interest) , a checklist form for online version and a checklist form for offline College Cloud version needs to be duly filled , scanned and mailed to workshops@vlabs.ac.in .
+5. On receipt of the above form, Virtual Labs Outreach Team would conduct the workshop on the scheduled date. 
+
+[[http://vlabs.ac.in:5959/faq/][Frequently Asked Questions]]
+
+[[http://outreach.virtual-labs.ac.in/ws_details#ws-list][Past Workshops]]
