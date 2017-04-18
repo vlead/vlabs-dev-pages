@@ -1,5 +1,8 @@
+#+title:  Online Workshops
+#+SETUPFILE: ../org-templates/level-1.org
+
 * Virtual Labs Workshops
-** verview and Motivation 
+** Overview and Motivation 
   Virtual Labs Team organizes workshops and hands-on practice sessions
   on Virtual Labs (both Offline College Cloud version and Online
   version) for interested Science & Engineering Institutions. Training

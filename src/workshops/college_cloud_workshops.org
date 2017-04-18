@@ -1,3 +1,6 @@
+#+title:  College Cloud Workshops
+#+SETUPFILE: ../org-templates/level-1.org
+
 * Virtual Labs College Cloud Edition
 
 ** Overview and Motivation

@@ -1,0 +1,9 @@
+#+title:  Workshops
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Online Workshops
+  Visit [[./online_workshops.org][Link]] to view the =Online Workshop= details.
+* College Cloud Workshops
+  Visit [[./college_cloud_workshops.org][Link]] to view the =College Cloud Workshop= details.
+
+
