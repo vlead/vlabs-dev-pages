@@ -28,6 +28,8 @@ are around 150 labs which have been developed by various institutes.
 
 [[./qa-automation-engineer.org][QA Automation Engineer]]    :   Number of positions - 01
 
+[[./research-assistant.org][Research Assistant]]    :   Number of positions - 02
+
 Please apply at jobs@vlabs.ac.in
 
 
