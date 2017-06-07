@@ -1,10 +1,10 @@
 #+title: Research Assistant
 #+SETUPFILE: ../org-templates/level-1.org
 
-* Project Name : Porting the image processing lab to JavaScript
-* Number of positions : 2
-* Objective
-** Month 1:
+** Project Name : Porting the image processing lab to JavaScript
+** Number of positions : 2
+** Objective
+*** Month 1:
  - Study the lab (experiment). understand the interfaces, document flow diagrams - 2 weeks
 
  - Study and understand the C/C++ to JS bitcode converter - 1 week.
@@ -13,7 +13,7 @@
 
  - *Outcome:* A document with recommendations on porting or even to consider pure JS based image processing libraries. 
 
-** Month 2:
+*** Month 2:
  - If Porting is recommended: Complete Porting of C/++ to JS - 2 weeks to 3 weeks.
 
  - Main challenge will be in handling threads - else, the porting should be straight forward.
@@ -24,22 +24,22 @@
 
  - *Additional effort:* Automate the testing if time permits.
 
-** Tools to use:
+*** Tools to use:
  - Compilers: LLVM 
 
  - OS: Linux
 
  - C/C++ to JS: EmScripten (http://kripken.github.io/emscripten-site/)
 
-* Project Name : Building/Collating image assets for Virtual Labs.
-* Number of positions : 2
+** Project Name : Building/Collating image assets for Virtual Labs.
+** Number of positions : 2
 
-* Objective
+** Objective
 The Virtual Labs projects needs collation of various image assets.  In
 many cases, such image assets will need to be built using WebGL and
 Web component technology.  Proper API's will need to be designed to
 search and retrieve them.
 
-** Tools to use:
+*** Tools to use:
 
  Javascript, Web/OpenGL, Web components (ideally), Python programming and good s/w engineering skills.
