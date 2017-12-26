@@ -1,0 +1,49 @@
+#+title:  Ideas List @ Virtual Labs 
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+* Ideas
+** Cloud Engineering for Virtual Labs  (MS)
+   The Virtual Labs project (http://www.vlabs.ac.in) is
+   currently hosting more than a thousand experiments and
+   has had more than 2 Million usages in 500 nodal centres
+   across the country.  The Virtual labs are currently
+   running from a commercial (AWS) cloud that costs us about
+   1.5 Lakh rupees per month.
+
+   The objective of this project is to carry out performance
+   analysis and aggressive optimizations and
+   re-architecturing to improve performance and bring down
+   the costs by at least 50 percent.  The second part of the
+   project coming up with an architecture that can run out
+   of a desktop computer with modest (4-8GB) RAM serving
+   about 50 students in a classroom.
+
+** Automated renarration and curation for Virtual Labs (MS)
+   Renarration is a way of adapting web content for local
+   contexts.  This project involves mining NPTEL content
+   (about 16000+ hours of lectures) and virtual labs and
+   creating an environment where appropriate learning
+   resources are juxtaposed together to enhance the
+   student's experience of learning.  The work will build on
+   existing work already being done at SERC (with PhD
+   student Sai Gollapudi and MS student MS Soumya).  The
+   work may require working closely with the NPTEL team at
+   IIT Madras.
+
+** Data Structures Lab
+   The aim here is to develop a browser based visual
+   programming editor specifically for the data structures
+   in Computer Science.  Each data structure exposes the
+   behavior visually when actions are performed on them.
+   This property for example on an array is used to compose
+   actions and build an experiment to perform merge sort.  A
+   repertoire of such visual data structures is made
+   comprehensive by building multiple other data structures.
+
+** Experiment Implementation from a paper prototype
+   To meet the objectives and standards of a lab, there will
+   be certain guidelines to be followed.  The effort here is
+   how can these guidelines be defined such that the
+   development invariably meets those standards.
+
