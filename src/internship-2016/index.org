@@ -1,0 +1,22 @@
+#+title: Internship 2016
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+Welcome to the Virtual Labs internship program.  The internship is defined as a
+collaboration between [[./mentors.org][=mentors=]] and [[./interns.org][=students/interns=]] working on realization of
+[[./ideas-list.org][=ideas/projects=]].  The duration of the internship program is between
+=[2016-05-16 Mon]= and =[2016-07-15 Fri]=
+
+
+[[./interns.org][=Click here=]] for more information on participating as interns.
+
+[[./mentors.org][=Click here=]] for more information on participating as mentors.
+
+[[./ideas-list.org][=Click here=]] for a full list of ideas / projects. 
+
+
+   
+
+
+
+

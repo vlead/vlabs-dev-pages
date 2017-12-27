@@ -1,0 +1,43 @@
+#+title: Mentors
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+All information for the mentors is provided here. 
+
+* List of Mentors
+  1. [[https://www.iiit.ac.in/people/faculty/choppell/][Prof. Venkatesh Choppella]]
+  2. [[http://www.che.iitb.ac.in/online/faculty/santosh-noronha][Prof. Santosh Noronha]]
+  3. [[http://cse.nitk.ac.in/faculty/mohit-p-tahiliani][Prof. Mohit Tahiliani]]
+  4. [[https://github.com/DeviPrasad][Prof. Devi Prasad]]
+  5. [[https://github.com/travula][Thirumal Ravula]]
+
+* Program
+  Each [[./ideas-list.org][idea]] has an associated mentor.  The mentor is solely responsible for
+  defining the set of deliverable(s) for each project and engaging with the
+  interns for the entire duration of the internship.
+
+* Responsibilities
+  1. A mentor contributes to the [[./ideas-list.org][ideas list]].  The current idea list is
+     predominantly platform centric.  Other participating institutions can
+     contribute to the list on projects that are applicable to an institute's
+     virtual labs.
+  2. A mentor is comfortable with [[https://guides.github.com/introduction/flow/][GitHub work flow]] of development.
+  3. A mentor is has prior knowledge about Virtual Labs.
+  4. A mentor defines a set of deliverable(s) for the project suggested and is
+     the developer, collaborator and manager - all roles rolled into one - of
+     that project.
+  5. A mentor is responsible for the presentation of the project at the end of
+     the internship. 
+
+
+* Communication
+  All the mentors will use [[http://vlabs.ac.in/engineers][forum]] for any communication with Virtual Labs and
+  interns regarding contribution to ideas or internship or for any other
+  information. 
+
+
+   
+
+
+
+
