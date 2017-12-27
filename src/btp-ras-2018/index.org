@@ -1,12 +1,11 @@
-#+title: B.Tech Projects
+#+title: Research Projects @  Virtual Labs
 #+SETUPFILE: ../org-templates/level-1.org
 
 
-Welcome to the Virtual Labs BTP and Reseach Assistantship
-program.  Virtual Labs is looking for students to
-participate in either the BTP or research assistantship
-program and use the opportunity to work on the projects
-listed in the program.
+Welcome to the SERC Virtual Labs BTech Projects and Reseach
+Assistantship/Internship programs.  
+
+
 
 [[./ideas-list.org][=Click here=]] for a full list of ideas / projects.
 
