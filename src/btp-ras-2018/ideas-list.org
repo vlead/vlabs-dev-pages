@@ -1,8 +1,8 @@
-#+title:  Ideas List @ Virtual Labs 
+#+title:  Projects @ Virtual Labs 
 #+SETUPFILE: ../org-templates/level-1.org
 
 
-* Ideas
+* Projects
 ** Cloud Engineering for Virtual Labs  (MS)
    The Virtual Labs project (http://www.vlabs.ac.in) is
    currently hosting more than a thousand experiments and
