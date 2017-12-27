@@ -1,0 +1,44 @@
+#+TITLE: Design of Virtual Labs Development
+#+AUTHOR: VLEAD
+#+DATE: [2017-03-22 Wed]
+#+SETUPFILE: ../org-templates/level-1.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+
+* Introduction
+This document describes the auto deployment of =apache-webserver=
+
+* Configuration steps for apache web server
+ * *Step1* : Open apache virtual host configuration file path using below command
+#+BEGIN_EXAMPLE
+sudo vim /etc/apache2/sites-available/000-default.conf
+#+END_EXAMPLE
+ * *Step2* : Add the following lines in above configuration file
+#+BEGIN_EXAMPLE
+<VirtualHost *:80>
+	<Location /users>
+	Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+	<Location /users/join>
+	Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+	<Location /engineers>
+	Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+	<Location /engineers/join>
+	Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+	<Location /announce>
+	Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+	<Location /announce/join>
+	Redirect "/" "https://groups.google.com/a/vlabs.ac.in/forum/#!forum/"
+	</Location>
+</VirtualHost>
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+sudo service apache2 restart
+#+END_EXAMPLE
+ * *Step3* : Restart apache web server using below command

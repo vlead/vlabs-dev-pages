@@ -18,23 +18,22 @@
     [[http://xchat.org/][xchat]] which can be downloaded and installed is a recommended client for
     conducting communication on IRC channels.
 
-   
 ** Mailing Lists
 *** Google Groups
-    1. A mailing list for the [[http://vlabs.ac.in/users][=users=]] of Virtual Labs.  This list is used by all
+    1. A mailing list for the [[http://dev.vlabs.ac.in/users][=users=]] of Virtual Labs.  This list is used by all
        external users not associated with development of Virtual Labs, but
        actively use Virtual Labs to report and seek answers for anything
        related to using Virtual Labs.  For example, a user could report a
        non-working simulation that he or she encounters.  
 
-       [[http://vlabs.ac.in/users][=Subscribe/Unsubscribe=]] to the [[http://vlabs.ac.in/users][=users=]] mailing list. 
+       [[http://dev.vlabs.ac.in/users/join][=Subscribe/Unsubscribe=]] to the [[http://dev.vlabs.ac.in/users/][=users=]] mailing list. 
        
-    2. A mailing list for [[http://vlabs.ac.in/engineers][engineers]] contributing to Virtual Labs.  This list is
+    2. A mailing list for [[http://dev.vlabs.ac.in/engineers/][engineers]] contributing to Virtual Labs.  This list is
        used by all the engineers who contribute to the development of Virtual
        Labs.  A concrete feature requirement could evolve out of a discussion
        on this mailing list. 
        
-       [[http://vlabs.ac.in/engineers][=Subscribe/Unsubscribe=]] to the [[http://vlabs.ac.in/engineers][=engineers=]] mailing list. 
+       [[http://dev.vlabs.ac.in/engineers/join][=Subscribe/Unsubscribe=]] to the [[http://dev.vlabs.ac.in/engineers/][=engineers=]] mailing list. 
 
 ** Engineers' Forum
    This [[https://github.com/virtual-labs/engineers-forum/issues][forum]] is conducted using GitHub [[https://guides.github.com/features/issues/][issues]].  Any issue faced with the
@@ -45,7 +44,7 @@
    This is the mailing list that all the announcements related to Virtual Labs
    are made. 
 
-   [[http://vlabs.ac.in/announce][=Subscribe/Unsubscribe=]] to the [[http://vlabs.ac.in/announce][=announce=]] mailing list. 
+   [[http://dev.vlabs.ac.in/announce/join/][=Subscribe/Unsubscribe=]] to the [[http://dev.vlabs.ac.in/announce/][=announce=]] mailing list. 
         
 
 

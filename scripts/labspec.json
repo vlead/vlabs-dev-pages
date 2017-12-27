@@ -1,0 +1,88 @@
+{
+  "lab": {
+    "description": {
+      "name": "VLEAD Dev Pages",
+      "id": "VLEAD Dev Pages-v1.0",
+      "status": "working code",
+      "discipline": [],
+      "type": "",
+      "server-side": true,
+      "integration_level": 6,
+      "developer": [
+        {
+          "name": "Raghupathi Kammari",
+          "title": "",
+          "role": "Jr. Project Engineer",
+          "organization": "VLEAD",
+          "institute": "IIIT Hyderabad",
+          "web": "",
+          "department": "Software Engg Research Lab (SERL)",
+          "contact": {
+            "email": "raghupathi@vlabs.ac.in",
+            "alternate_email": "",
+            "mobile_number": "",
+            "office_number": ""
+          }
+        }
+      ]
+     },
+    "build_requirements": {
+      "platform": {
+        "os": "ubuntu",
+        "osVersion": "12",
+        "arch": "x64",
+        "service_pack": "",
+        "installer": [
+        ],
+        "build_steps": {
+          "configure": [],
+          "pre_build": [],
+          "build": [
+            "cd ../;make"
+          ],
+          "post_build": [
+            "cp -R ../build/prj/* /var/www/",
+            "chmod -R 755 /var/www"
+          ],
+          "status": []
+        }
+      }
+    },
+    "runtime_requirements": {
+      "platform": {
+        "os": "ubuntu",
+        "osVersion": "12",
+        "arch": "x64",
+        "servicepack": "",
+        "hosting": "dedicated",
+        "memory": {
+          "max_required": "4gb",
+          "min_required": "2gb"
+        },
+        "storage": {
+          "min_required": "10gb"
+        },
+        "installer": [
+          "sudo apt-get update",
+          "sudo apt-get install -y apache2",
+          "bash /root/labs/vlabs-dev-pages/scripts/apache-conf.sh",
+          "sudo service apache2 restart"
+        ],
+        "lab_actions": {
+          "init"    : [],
+          "shutdown": [],
+          "pause"   : [],
+          "resume"  : [],
+          "start"   : [],
+          "stop"    : [],
+          "backup"  : [],
+          "restore" : [],
+          "clean"   : [],
+          "stats"   : [],
+          "publish" : []
+        }
+      }
+    }
+  },
+  "template": "1.0"
+}
