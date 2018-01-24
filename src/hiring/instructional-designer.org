@@ -1,0 +1,65 @@
+#+title:  Instruction Designer
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Job Description
+
+  Virtual Labs Engineering and Architecture Division (VLEAD) is
+  looking for a competent and experienced Instruction Designer to work
+  for the development of Virtual experiments. Instructional Content
+  for new virtual experiments such as learning objectives, outcomes
+  activities, procedures, simulated experiments, quiz and feedback
+  would be developed in collaboration and association with subject
+  matter experts.
+
+  We need someone who can develop such instructional material,
+  particularly suitable for virtual experiments and online content
+  rendering. We, as a practice use open source technologies such as
+  Python, work with the open source communities, open source tools,
+  GitHub and Emacs. The instruction designer should be familiar and
+  have hands on experience with these technologies. If not
+  experienced, must be able to align with these quickly with
+  demonstrable passion for learning and teaching others.
+
+
+
+** Role
+
+  - Development of Instructional material for virtual experiments and
+    other course material.
+  - Work collaboratively with faculty and colleagues to analyze
+    instructional outcomes and provide expertise in the planning,
+    development, and delivery of high-quality learning experiences,
+    particularly ones delivered online.
+  - Design online training courses and instructor-led classroom
+    training. Identify methodologies to be used to deliver
+    content. Organize content and flow of information.  
+  - Analyze and apply trends in learning technologies. Instructional
+    design should be in line with standard practices. Develop learning
+    objectives, structure learning activities, create visual aids for
+    online and face-to-face interactions.
+  - Write effective copy, instructional text, audio and video scripts.
+    Devise modes of assessment, such as tests or quizzes, to measure
+    the effectiveness of the course.  Utilize eLearning development
+    tools and software as part of their course development. Plan and
+    manage course development and design of projects.
+
+
+
+** Requirements
+
+   - B. Tech or other equivalent degrees consistent with Instruction
+     Design.
+   - Should have at least 6-8 years of experience in design of
+     courses, particularly for simulated content, virtual experiments
+     and for game design.
+   - Experience in Learning technology application, popular
+     educational pedagogies, and effectiveness model application.
+   - Be able to apply VR to learning content and collaborate with
+     visual designers.
+   - Possess superior communication skills in every aspect. Knowledge
+     to create powerful assessment elements to accompany courses.
+   - Knowledge on the usage of open source and visual designing
+     tools. Creatively inclined towards storyboarding and fact
+     presentations would be preferred.
+
+Please apply at jobs@vlabs.ac.in

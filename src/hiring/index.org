@@ -30,7 +30,9 @@ are around 150 labs which have been developed by various institutes.
 
 [[./research-assistant.org][Research Assistant]]    :   Number of positions - 02
 
-[[./digital-classroom.org][Digital Classroom]]    :   Number of positions - 03
+[[./digital-classroom.org][Digital Classroom]]   :   Number of positions - 03
+
+[[./instructional-designer.org][Instructional Designer]]    :   Number of positions - 01
 
 Please apply at jobs@vlabs.ac.in
 
