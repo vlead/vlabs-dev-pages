@@ -1,21 +1,21 @@
-#+title:  Instruction Designer
+#+title:  Instructional Designer
 #+SETUPFILE: ../org-templates/level-1.org
 
 * Job Description
 
   Virtual Labs Engineering and Architecture Division (VLEAD) is
-  looking for a competent and experienced Instruction Designer to work
-  for the development of Virtual experiments. Instructional Content
-  for new virtual experiments such as learning objectives, outcomes
-  activities, procedures, simulated experiments, quiz and feedback
-  would be developed in collaboration and association with subject
-  matter experts.
+  looking for a competent and experienced Instructional Designer to
+  work for the development of Virtual experiments. Instructional
+  Content for new virtual experiments such as learning objectives,
+  outcomes activities, procedures, simulated experiments, quiz and
+  feedback would be developed in collaboration and association with
+  subject matter experts.
 
   We need someone who can develop such instructional material,
   particularly suitable for virtual experiments and online content
   rendering. We, as a practice use open source technologies such as
   Python, work with the open source communities, open source tools,
-  GitHub and Emacs. The instruction designer should be familiar and
+  GitHub and Emacs. The instructional designer should be familiar and
   have hands on experience with these technologies. If not
   experienced, must be able to align with these quickly with
   demonstrable passion for learning and teaching others.
@@ -29,7 +29,7 @@
   - Work collaboratively with faculty and colleagues to analyze
     instructional outcomes and provide expertise in the planning,
     development, and delivery of high-quality learning experiences,
-    particularly ones delivered online.
+    particularly the ones delivered online.
   - Design online training courses and instructor-led classroom
     training. Identify methodologies to be used to deliver
     content. Organize content and flow of information.  
@@ -39,7 +39,7 @@
     online and face-to-face interactions.
   - Write effective copy, instructional text, audio and video scripts.
     Devise modes of assessment, such as tests or quizzes, to measure
-    the effectiveness of the course.  Utilize eLearning development
+    the effectiveness of the course.  Utilize e-Learning development
     tools and software as part of their course development. Plan and
     manage course development and design of projects.
 
