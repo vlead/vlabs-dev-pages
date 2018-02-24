@@ -14,7 +14,7 @@ GitHub
 
 * New Labs
   
-  The process for creating new labs is delineated [[http://vlabs.iitb.ac.in/gitlab/Community-Docs/about_newlabs][here]]. 
+  The process for creating new labs is delineated [[http://community.virtual-labs.ac.in/docs/exp-pedagogy/exp-dev-process.html][here]]. 
   
 
 
