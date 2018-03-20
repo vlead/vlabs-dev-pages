@@ -4,37 +4,74 @@
 
 All information for the prospective interns is provided here. 
 
-* Duration 
+* What is duration of the program ? 
   The internship program is planned to run through the summer of 2018 between the tentative dates
-  =[2018-06-01 Fri]= and =[2018-07-20 Fri]=
+  =[2018-05-14 Mon]= and =[2018-07-13 Fri]=
 
-* Prerequisites for applying
+* Where will the intership program be conducted ?  
+
+  On Campus ( B-204, Vindhya C6 )
+
+* What do we expect from you ?
+
+  We need committed and ambitious students who can understand
+  technology, are never shy of rolling their sleeves, love ownership
+  and believe in end-to-end delivery.  We need students with the
+  skills in the following areas -
+
+  - Full stack web development
+  - Graphics
+  - UI/UX
+
+* What is in it for you ?
+
+ - Contribute to the flagship national level project initiative of
+    MHRD, Govt. of India.  
+ - Hands on experience in state of the art technology.
+
+/*Summer Interns*/
+
+ - Accommodation on campus for the duration of the internship.  
+ - A certificate of participation at the end of internship and
+   references from the mentors on a need basis.
+ - Intern stipend of Rs. 15,000 per month for 40 hours of work per
+   week. Hostel and food bill will NOT be covered.
+
+/*Research Assistants*/
+
+ - Research Assistant will be paid their regular MS scholarship + INR
+   5000 on satisfactory delivery of Virtual Labs engineering
+   solutions.
+
+* What is the Eligibility Criteria ?
+
+/*Summer Interns*/
+
+ - Enrolled full time students in Computer Science and Engineering
+    stream.  
+ - Open for all BTech 2nd/3rd Year, Dual 2nd/3rd/4th Year students
+
+/*Research Assistants*/
+
+ - Enrolled full time MS & MTech students
+
+
+* What are the prerequisites for applying ? 
+
   Each prospective intern should have a [[https://github.com/join?source=header-home][github profile]] and a hyper-linked resume. 
 
-* Applying to the Program
-  Each prospective intern goes through the application process by filling out
-  the [[https://docs.google.com/a/vlabs.ac.in/forms/d/e/1FAIpQLSfFrU033HQ7WXhYhjf9bdzJnsPwwSTPgAroYEGYEYdOFrM-QA/viewform][=form=]].  Each intern works along with a [[./mentors.org][=mentor=]] on an idea/project of
-  his choice chosen from the list of [[./ideas-list.org][=ideas=]].  The mentor sets a set of
-  deliverable(s) for each project.  The application form is self explanatory.
 
-* Communication
-  All the interns can send an email to  =2018-summer-interns@vlabs.ac.in= for any communication with Virtual Labs
-  regarding internship.
+* How to apply ?
 
-* Intern Benefits
-  Being an intern has the following benefits:
+  Each prospective intern goes through the application process by
+  filling out the [[https://docs.google.com/a/vlabs.ac.in/forms/d/e/1FAIpQLSfFrU033HQ7WXhYhjf9bdzJnsPwwSTPgAroYEGYEYdOFrM-QA/viewform][=form=]].  Each intern works along with a [[./mentors.org][=mentor=]] on
+  building Virtual Lab experiments. Deadline to apply is 2nd
+  April, 2018.
 
-  1. Accommodation on campus for the duration of the internship.
-  2. A certificate of participation at the end of internship.
-  3. Stipend/Reimbursement :: If you are a IIIT-H student, you will be working
-       as an RA and will eligible for a stipend of Rs. 15,000 per month for 40
-       hours of work per week.  Your hostel and food bill will NOT be covered.
+* How to communicate ?
 
-       If you are an intern (not a IIIT-H student), you will receive a
-       reimbursement of up to Rs. 7,000 per month of your hostel rent plus
-       meals expenses should you choose to live on campus.
-
-
+  Applicants can send an email to =2018-summer-interns@vlabs.ac.in=
+  for any communication with Virtual Labs regarding internship.
 
 
 
