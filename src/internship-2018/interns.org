@@ -58,13 +58,14 @@ All information for the prospective interns is provided here.
 
 * What are the prerequisites for applying ? 
 
-  Each prospective intern should have a [[https://github.com/join?source=header-home][github profile]] and a hyper-linked resume. 
+  Each prospective intern should have a [[https://github.com/join?source=header-home][github profile]] and a
+  hyper-linked resume.
 
 
 * How to apply ?
 
   Each prospective intern goes through the application process by
-  filling out the [[https://docs.google.com/a/vlabs.ac.in/forms/d/e/1FAIpQLSfFrU033HQ7WXhYhjf9bdzJnsPwwSTPgAroYEGYEYdOFrM-QA/viewform][=form=]].  Each intern works along with a [[./mentors.org][=mentor=]] on
+  filling out the [[https://docs.google.com/forms/d/e/1FAIpQLSfUchGp2VToOi71J48fQs2wEM3BI0RG75hjTCX_u56kTMDrEQ/viewform][=form=]].  Each intern works along with a [[./mentors.org][=mentor=]] on
   building Virtual Lab experiments. Deadline to apply is 2nd
   April, 2018.
 
