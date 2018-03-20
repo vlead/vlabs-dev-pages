@@ -8,8 +8,11 @@
        (list 
 
 ;; we don't want it yet.
+ "~/emacs/lisp/org-8.3.1/lisp"
+ "~/emacs/lisp/org-8.3.1/contrib/lisp"
  "~/emacs/lisp/org-8.3.3/lisp"
  ; "~/emacs/lisp/org-8.2.10/contrib/lisp"
+
 
 ; we need this:
              "elisp"
@@ -28,6 +31,8 @@
 
 (require 'org)
 
+(setq org-html-doctype "html5")
+; (setq org-html-html5-fancy t)
 ;;; default-dir is the directory from where the emacs to run
 ;;; this script is called.
 (defvar base-dir default-directory)
