@@ -6,7 +6,7 @@ All information for the prospective interns is provided here.
 
 * Duration 
   The internship program is planned to run through the summer of 2018 between the tentative dates
-  =[2018-06-01 Thu]= and =[2018-07-20 Thu]=
+  =[2018-06-01 Fri]= and =[2018-07-20 Fri]=
 
 * Prerequisites for applying
   Each prospective intern should have a [[https://github.com/join?source=header-home][github profile]] and a hyper-linked resume. 

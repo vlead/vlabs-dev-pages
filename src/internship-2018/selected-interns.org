@@ -99,7 +99,7 @@ A list of selected interns and information for the selected interns.
        meals expenses should you choose to live on campus.
 * Communication
   Please feel free to get in touch with us if you have questions by sending an
-  email to (=2017-summer-interns@vlabs.ac.in=).
+  email to (=2018-summer-interns@vlabs.ac.in=).
 
 * Past Internship Program
   Please visit the [[https://github.com/vlead/2016-summer-internship/blob/master/src/index.org#virtual-labs-summer-internship-program-2016][2016-summer-internship]] pages for past internship program details.
