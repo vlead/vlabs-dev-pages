@@ -32,8 +32,6 @@ are around 150 labs which have been developed by various institutes.
 
 [[./digital-classroom.org][Digital Classroom]]    :   Number of positions - 03
 
-[[./2018-ms-students.org][2018 MS Student Positions]] : Number of positions - 05
-
 Please apply at jobs@vlabs.ac.in
 
 

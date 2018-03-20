@@ -1,4 +1,4 @@
-#+title:  2018 MS Students 
+#+title:  2018 MS by Research Assistantships
 #+SETUPFILE: ../org-templates/level-1.org
 
 We have several MS/Dual Degree positions available at
@@ -53,4 +53,11 @@ assistantships.  In addition, MS students will receive INR
 3,000 per month as Project Internship subject to
 satisfactory performance on delivering solutions related to
 the Virtual Lab project.
+
+* Application Process
+
+To apply, please email =jobs@vlabs.ac.in,
+venkatesh.choppella@iiit.ac.in= with links to online resume.
+Please include courses (electives) taken in the resume.
+
 
