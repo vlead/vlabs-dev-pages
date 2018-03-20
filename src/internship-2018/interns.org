@@ -1,0 +1,40 @@
+#+title: Interns
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+All information for the prospective interns is provided here. 
+
+* Duration 
+  The internship program is planned to run through the summer of 2017 between the tentative dates
+  =[2017-06-01 Thu]= and =[2017-07-20 Thu]=
+
+* Prerequisites for applying
+  Each prospective intern should have a [[https://github.com/join?source=header-home][github profile]] and a hyper-linked resume. 
+
+* Applying to the Program
+  Each prospective intern goes through the application process by filling out
+  the [[https://docs.google.com/a/vlabs.ac.in/forms/d/e/1FAIpQLSfFrU033HQ7WXhYhjf9bdzJnsPwwSTPgAroYEGYEYdOFrM-QA/viewform][=form=]].  Each intern works along with a [[./mentors.org][=mentor=]] on an idea/project of
+  his choice chosen from the list of [[./ideas-list.org][=ideas=]].  The mentor sets a set of
+  deliverable(s) for each project.  The application form is self explanatory.
+
+* Communication
+  All the interns can send an email to  =2017-summer-interns@vlabs.ac.in= for any communication with Virtual Labs
+  regarding internship.
+
+* Intern Benefits
+  Being an intern has the following benefits:
+
+  1. Accommodation on campus for the duration of the internship.
+  2. A certificate of participation at the end of internship.
+  3. Stipend/Reimbursement :: If you are a IIIT-H student, you will be working
+       as an RA and will eligible for a stipend of Rs. 15,000 per month for 40
+       hours of work per week.  Your hostel and food bill will NOT be covered.
+
+       If you are an intern (not a IIIT-H student), you will receive a
+       reimbursement of up to Rs. 7,000 per month of your hostel rent plus
+       meals expenses should you choose to live on campus.
+
+
+
+
+
