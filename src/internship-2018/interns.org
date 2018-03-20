@@ -5,8 +5,8 @@
 All information for the prospective interns is provided here. 
 
 * Duration 
-  The internship program is planned to run through the summer of 2017 between the tentative dates
-  =[2017-06-01 Thu]= and =[2017-07-20 Thu]=
+  The internship program is planned to run through the summer of 2018 between the tentative dates
+  =[2018-06-01 Thu]= and =[2018-07-20 Thu]=
 
 * Prerequisites for applying
   Each prospective intern should have a [[https://github.com/join?source=header-home][github profile]] and a hyper-linked resume. 
@@ -18,7 +18,7 @@ All information for the prospective interns is provided here.
   deliverable(s) for each project.  The application form is self explanatory.
 
 * Communication
-  All the interns can send an email to  =2017-summer-interns@vlabs.ac.in= for any communication with Virtual Labs
+  All the interns can send an email to  =2018-summer-interns@vlabs.ac.in= for any communication with Virtual Labs
   regarding internship.
 
 * Intern Benefits
