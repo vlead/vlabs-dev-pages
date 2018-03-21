@@ -13,7 +13,6 @@ but are not limited to the following:
       This is joint work with Prof. Lavanya Ramapantulu.
 
 
-
  -  Automatic Program synthesis for E-learning :: The main
       goal is to use machine learning and deep learning
       techniques to drive the generation of examples,
@@ -49,15 +48,19 @@ but are not limited to the following:
 * Scholarships/Assistantships      
 
 Students will be paid according to the institute norms for
-assistantships.  In addition, MS students will receive INR
-3,000 per month as Project Internship subject to
+assistantships.  In addition, MS students could receive up
+to INR 5,000 per month as Project Internship subject to
 satisfactory performance on delivering solutions related to
 the Virtual Lab project.
 
 * Application Process
 
 To apply, please email =jobs@vlabs.ac.in,
-venkatesh.choppella@iiit.ac.in= with links to online resume.
-Please include courses (electives) taken in the resume.
+venkatesh.choppella@iiit.ac.in= with Subject line
+
+  "Application for MS by Research Position".  
+
+Please include an online link to resume and courses
+(electives) taken in the resume.
 
 
