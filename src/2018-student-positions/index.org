@@ -1,21 +1,20 @@
-#+title: 2018 Student Programs
+#+title: 2018 Student Positions
 #+SETUPFILE: ../org-templates/level-1.org
 
 We are looking for research students in the areas of
 software systems and technologies.  We have three different
 programs:
 
- - [[./ms.org][MS by Research Assistantships]] :: These positions are for
+ - [[./ms.org][MS by Research Positions]] :: These positions are for
       full-time or part time IIIT MS/Dual Degree students.
-
-
- - [[./btp-mtech.org][BTech and MTech Projects]] :: These is open to all students,
-      with preference to  students from IIIT Hyderabad.
-
 
  - [[./interns.org][2018 Summer Internships]] :: These positions are open to
       all students with preference to students from IIIT
       Hyderabad.  
+
+ - [[./btp-mtech.org][BTech and MTech Projects]] :: These is open to all students,
+      with preference to  students from IIIT Hyderabad.
+
 
 
 

@@ -1,4 +1,4 @@
-#+title: 2018 Summer Internship program
+#+title: 2018 Summer Internship Positions
 #+SETUPFILE: ../org-templates/level-1.org
 
 * Required skills
