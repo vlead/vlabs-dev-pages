@@ -1,0 +1,66 @@
+#+title:  2018 MS by Research Positions
+#+SETUPFILE: ../org-templates/level-1.org
+
+We have several MS/Dual Degree positions available at
+Virtual Labs and SERC.  Possible research topics include,
+but are not limited to the following:
+
+ -  Models for Cloud Performance :: The research
+      investigates the role of feedback control and models
+      to cloud performance.  The implementation will be
+      tested live on Virtual Labs and solutions to port the
+      labs to a 'College Cloud' will need to be designed.
+      This is joint work with Prof. Lavanya Ramapantulu.
+
+
+ -  Automatic Program synthesis for E-learning :: The main
+      goal is to use machine learning and deep learning
+      techniques to drive the generation of examples,
+      quizzes and programs, based on analytics of student
+      performance.  There is a possibility of working with
+      Microsoft on this project.  
+
+
+ - Experiment as a service :: Design and implement a
+      micro-services and semantic web driven service for
+      curating, cataloging, and authoring e-learning
+      artefacts to Virtual Labs.  The work will involve data
+      and knowledge engineering and web services.
+
+
+ - Renarration techniques for Program Comprehension :: S/W
+      maintenance is the costliest part of the software
+      lifecycle.  This research investigates applying
+      renarration techniques from web accessibility to
+      increase program comprehension.  The work will involve
+      Web Information Retrieval, Empirical S/W Engineering
+      and web architectures.  
+
+
+ - Formal Methods for Secure System Software :: This
+      involves using dependently typed programming languages
+      like [[https://www.fstar-lang.org/][F*]] to build provably secure system software.
+      This work will need a background in programming
+      languages, systems (OS/Networks) and formal logic.
+
+
+
+* Scholarships/Assistantships      
+
+Students will be paid according to the institute norms for
+assistantships.  In addition, MS students could receive up
+to INR 5,000 per month as Project Internship subject to
+satisfactory performance on delivering solutions related to
+the Virtual Lab project.
+
+* Application Process
+
+To apply, please email =jobs@vlabs.ac.in,
+venkatesh.choppella@iiit.ac.in= with Subject line
+
+  "Application for MS by Research Position".  
+
+Please include an online link to resume and courses
+(electives) taken in the resume.
+
+

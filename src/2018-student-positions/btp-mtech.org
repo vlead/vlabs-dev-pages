@@ -1,0 +1,44 @@
+#+title:  Virtual Labs BTech and MTech Projects
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+* BTech/MTech Projects
+
+** Interaction Design for Virtual Labs (BTP/MS)
+   The objective of this project is to come up with a
+   uniform interface for interacting with virtual labs based
+   on solid interaction design and usability principles.
+
+
+** Searchable widget library for virtual labs (2 students)
+   Effectively building experiments for Virtual Labs depends
+   on having large libraries of widgets for each discipline.
+   The objective of this project is to build a library of
+   widgets and provide the library as a micro-service usable
+   by a lab authoring environment.
+
+
+** Threat model and security hardening of virtual labs project (1 student)
+   The virtual labs are currently running a cluster of over
+   a 100 VMs/Containers.  The objective of this project is
+   to do security hardening of the virtual labs cluster and
+   the experiments running from it.
+
+** Lab Development Environment for Computer Science Virtual Labs  (2 students) 
+   The aim here is to develop a browser based visual
+   programming editor for building graph based computer
+   science experiments, specially in data structures,
+   algorithms, and programming language interpreters.
+
+
+** Development of virtual labs experiments  using Augmented Reality/Virtual Reality (1 student)
+
+   The objective is to construct AR/VR experiments in
+   science/engineering or computing.
+
+
+* Application Process
+
+To apply, please email =jobs@vlabs.ac.in= with link to
+online resume.
+

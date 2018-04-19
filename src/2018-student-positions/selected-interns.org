@@ -1,0 +1,27 @@
+#+title: Selected Interns
+#+SETUPFILE: ../org-templates/level-1.org
+
+* List of Candidates selected for 2018 summer internship
+1. Abhishek Shrivastava
+2. Aditya Srivastava
+3. Aditya Todi
+4. Ananya Arun
+5. Daksh Lalwani
+6. Debojit Das
+7. Devansh Gupta
+8. Devansh Manu
+9. Gayatri Purigilla
+10. Keshav Seshadri
+11. Mayank Modi
+12. Mayank Taluja
+13. Mishal Shah
+14. Rachit Jain
+15. Sanjana Sunil
+16. Sathwik Aileneni
+17. Sri Keshav Kothapalli
+18. Srinivas Nishant V
+19. Sumaid Syed
+20. Surendra Kumar reddy
+21. Swapnil Pakhare
+22. Vikrant Deshmukh
+
