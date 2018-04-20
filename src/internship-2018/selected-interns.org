@@ -2,7 +2,6 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
 * Selected Candidates
-
 |-----+----------------------+---------------------------------------+----------------------+--------+---------+---------|
 | SNo | Name                 | Email ID                              | College              | github | Worklog | Project |
 |     |                      |                                       | & Year               |        |         |         |
