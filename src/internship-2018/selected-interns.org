@@ -72,7 +72,6 @@
 
   6. Certificate :: You will be awarded a certificate only on the
                     successful completion of your assigned work.
-		      
 
   7. Equipment :: You will need to bring your own laptop running Linux
                   (A Debian or its derivative like Ubuntu).  You will
