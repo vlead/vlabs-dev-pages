@@ -1,55 +1,36 @@
-#+title: Selected Interns
+#+title: List of selected interns for 2018 summer intership
 #+SETUPFILE: ../org-templates/level-1.org
 
-* Selected Candidates
-|-------------------+---+----------------------+---+--------|
-| Name              |   | College              |   | Github |
-|                   |   | & Year               |   |        |
-|-------------------+---+----------------------+---+--------|
-| Devansh Manu      |   | IIIT-H, B.Tech       |   | [[https://devanshmanu.github.io/DevanshManu.pdf][Link]]   |
-|                   |   | CSE & M.S            |   |        |
-|                   |   | 3rd Year             |   |        |
-|                   |   | (2015-2020)          |   |        |
-|-------------------+---+----------------------+---+--------|
-| Swapnil Pakhare   |   | IIIT-H, B.Tech       |   | [[https://drive.google.com/open?id=1txVFBGg7DMbP_Vmu0GvUhrmw4rOgc4dJ][Link]]   |
-|                   |   | ECE, 2nd Year        |   |        |
-|-------------------+---+----------------------+---+--------|
-| Mayank Taluja     |   | IIIT-H, B.Tech       |   | [[https://researchweb.iiit.ac.in/~mayank.taluja/CV.pdf][Link]]   |
-|                   |   | ECE, 2nd Year        |   |        |
-|-------------------+---+----------------------+---+--------|
-| Sumaid Syed       |   | IIIT-H, B.Tech       |   | [[https://drive.google.com/file/d/1e6af_wu9AvKws6qxRVxGlWlrZxXlsAe1/view][Link]]   |
-|                   |   | CSE 2nd Year         |   |        |
-|-------------------+---+----------------------+---+--------|
-| Mishal Shah       |   | NITK, Surathkal      |   | [[https://drive.google.com/open?id=1gyWYXRT1-2qhSboAYSLKjxhXezTek6DF][Link]]   |
-|                   |   | B.Tech CSE 2nd Year  |   |        |
-|-------------------+---+----------------------+---+--------|
-| Surendra Kumar    |   | IIIT-H, B.Tech       |   | [[https://drive.google.com/file/d/1Alq2lVYArEh6XvCIGJ3gQ74gUcoOvnma/view?usp=drivesdk][Link]]   |
-| reddy             |   | CSE & M.S            |   |        |
-|                   |   | 1st Year             |   |        |
-|                   |   | (2017-2022)          |   |        |
-|-------------------+---+----------------------+---+--------|
-| Daksh Lalwani     |   | IIIT-H, B.Tech       |   | [[https://github.com/dakshlalwani][Link]]   |
-|                   |   | CSE, 2nd Year        |   |        |
-|-------------------+---+----------------------+---+--------|
-| Rachit Jain       |   | IIIT-H, B.Tech       |   | [[https://github.com/rachitjain123][Link]]   |
-|                   |   | CSE, 2nd Year        |   |        |
-|-------------------+---+----------------------+---+--------|
-| Ananya Arun       |   | IIIT-H, B.Tech       |   | [[https://github.com/ananyaarun][Link]]   |
-|                   |   | CSE & MS 1st Year    |   |        |
-|-------------------+---+----------------------+---+--------|
-| Vikrant  Deshmukh |   | IIIT-H, B.Tech       |   | [[https://github.com/vikrant1697][Link]]   |
-|                   |   | (hons) CSE, 2nd Year |   |        |
-|-------------------+---+----------------------+---+--------|
-| Sanjana Sunil     |   | IIIT-H, B.Tech       |   | [[https://github.com/SanjanaSunil][Link]]   |
-|                   |   | CSE, 1st Year        |   |        |
-|-------------------+---+----------------------+---+--------|
-| Devansh Gupta     |   | IIIT-H, B.Tech       |   | [[https://github.com/devu1999/][Link]]   |
-|                   |   | CSE, 1st Year        |   |        |
-|-------------------+---+----------------------+---+--------|
-| Keshav  Seshadri  |   | IIIT-H, B.Tech CSE,  |   | [[https://github.com/K7S3][Link]]   |
-|                   |   | 1st Year             |   |        |
-|-------------------+---+----------------------+---+--------|
-
+#+ATTR_HTML: :border 2 :rules all :frame border 
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Name                 | E-maild                               | College & Year                                 | Github | Worklog | Project |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Devansh Manu         | devansh.manu@research.iiit.ac.in      | IIIT-H, B.Tech CSE & M.S  3rd Year (2015-2020) | [[https://devanshmanu.github.io/DevanshManu.pdf][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Swapnil Pakhare      | swapnil.pakhare@students.iiit.ac.in   | IIIT-H, B.Tech ECE, 2nd Year                   | [[https://drive.google.com/open?id=1txVFBGg7DMbP_Vmu0GvUhrmw4rOgc4dJ][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Mayank Taluja        | mtaluja11@gmail.com                   | IIIT-H, B.Tech ECE, 2nd Year                   | [[https://researchweb.iiit.ac.in/~mayank.taluja/CV.pdf][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Sumaid Syed          | sumaidsyed@gmail.com                  | IIIT-H, B.Tech CSE 2nd Year                    | [[https://drive.google.com/file/d/1e6af_wu9AvKws6qxRVxGlWlrZxXlsAe1/view][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Mishal Shah          | shahmishal1998@gmail.com              | NITK, Surathkal, B.Tech CSE 2nd Year           | [[https://drive.google.com/open?id=1gyWYXRT1-2qhSboAYSLKjxhXezTek6DF][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Surendra Kumar Reddy | surendra.kumar@research.iiit.ac.in    | IIIT-H, B.Tech CSE & M.S 1st Year (2017-2022)  | [[https://drive.google.com/file/d/1Alq2lVYArEh6XvCIGJ3gQ74gUcoOvnma/view?usp=drivesdk][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Daksh Lalwani        | daksh.lalwani@students.iiit.ac.in     | IIIT-H, B.Tech CSE, 2nd Year                   | [[https://github.com/dakshlalwani][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Rachit Jain          | jainrachit100@gmail.com               | IIIT-H, B.Tech CSE, 2nd Year                   | [[https://github.com/rachitjain123][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Ananya Arun          | ananya.arun@research.iiit.ac.in       | IIIT-H, B.Tech  CSE & MS 1st Year              | [[https://github.com/ananyaarun][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Vikrant Deshmukh     | vikrant.deshmukh@research.iiit.ac.in  | IIIT-H, B.Tech (hons) CSE, 2nd Year            | [[https://github.com/vikrant1697][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Sanjana Sunil        | sanjana.sunil@students.iiit.ac.in     | IIIT-H, B.Tech CSE, 1st Year                   | [[https://github.com/SanjanaSunil][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Devansh Gupta        | devansh.gupta@students.iiit.ac.in     | IIIT-H, B.Tech CSE, 1st Year                   | [[https://github.com/devu1999/][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
+| Keshav Seshadri      | keshavan.seshadri@research.iiit.ac.in | IIIT-H, B.Tech CSE, 1st Year                   | [[https://github.com/K7S3][Link]]   |         |         |
+|----------------------+---------------------------------------+------------------------------------------------+--------+---------+---------|
 
 
 * Terms & Conditions
