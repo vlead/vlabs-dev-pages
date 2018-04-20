@@ -3,7 +3,7 @@
 
 * Selected Candidates
 |----------------------+----------------------+--------|
-| Name                 | College              | github |
+| Name                 | College              | Github |
 |                      | & Year               |        |
 |----------------------+----------------------+--------|
 | Devansh Manu         | IIIT-H, B.Tech       | [[https://devanshmanu.github.io/DevanshManu.pdf][Link]]   |
