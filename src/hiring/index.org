@@ -32,6 +32,8 @@ are around 150 labs which have been developed by various institutes.
 
 [[./digital-classroom.org][Digital Classroom]]    :   Number of positions - 03
 
+[[./junior-software-developer.org][Junior Software Developer]]    :   Number of positions -04
+
 Please apply at jobs@vlabs.ac.in
 
 

@@ -1,0 +1,42 @@
+#+title: Junior Software Developer
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Job Description
+
+We are looking for a junior engineer developer primarily responsible
+for back-end/module development.  This position requires a combination
+of programming skills in Python, Python frameworks like flask.  In
+addition, an understanding of the entire web development process,
+including design, development and deployment, with some front-end
+knowledge is essential.
+
+** Role
+
+- Responsible for implementing new features and functionality
+- Work closely with other developers to ensure an effective, visually
+  appealing, and intuitive implementation.
+- Move to newer technologies as demanded by the environment and ensure
+  effective delivery of outcomes
+- Demonstrate comfort in working in Python and Node.js backend
+  architectures, and with Python frameworks such as flask.  Be a quick
+  self learner, passionate, proactive, and a good communicator.
+- Be a team player and be able to work with all the stakeholders.
+- Show flexibility to work for long hours if required.
+- Show Positive Attitude in work and with people.
+
+** Requirements
+
+- Basic knowledge of object-oriented Python programming, HTML, CSS,
+  and responsive Web
+- Knowledge of developer tools such as the Unix shell, Emacs, Git, and
+  Github;
+- Be able to apply skills to investigate HTTP, the Web's fundamental
+  protocol.  Full Stack development,
+- LINUX web server configuration and LINUX security essentials.
+- Be a quick learner adapting to new technologies and making changes
+  as required.
+- Be able to document requirements and specifications clearly and
+  effectively.
+
+Please apply at jobs@vlabs.ac.in
+
