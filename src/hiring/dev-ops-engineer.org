@@ -1,0 +1,71 @@
+#+title: Dev Ops engineer 
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Job Description
+
+Virtual Labs Engineering and Architecture Division (VLEAD) is looking
+for competent and experienced front end web developers to work in the
+core technologies of Virtual Labs. You will be part of a talented team
+of engineers that demonstrates superb technical competency for
+ensuring highest levels of performance and availability of critical
+infrastructure. The engineering team at Virtual Labs is looking at
+innovative ways to design, develop and deploy the various applications
+with high uptime requirements. We are looking for developers who can
+build high-quality front end modules in compliance with standards,
+quality guidelines and relevant best practices. Commonly used
+technologies for Virtual Labs are:
+
+   - OS: Linux/Unix
+   - Tools:  Emacs (Org-mode)
+   - Version control: git
+
+We need someone who has good experience in systems and cloud
+deployment technologies..  We follow a technology agnostic approach
+and adopt the best technology for solving the problem at hand. We have
+a bias towards action, creative problem solving and a metrics driven
+mindset. We are a fully open source shop and big believers in
+contributing back to the community.
+
+
+
+** Role
+
+We need a DevOps engineers who will  
+
+1. work collaboratively with software developers to deploy and operate
+  our systems.
+2. Work on clusters, containers etc, move developed products on to AWS,
+  monitor and optimize Usage etc,
+3. support applications, and developers in related services,
+4. if necessary be able to move applications from current cloud
+  environment to another.
+5. Guide teams through the process during outages ensure high
+   availability of systems.
+6. Work collaboratively with software developers to deploy and operate
+   systems.
+7. Help automate and streamline operations and processes.
+8. Build and maintain tools for deployment, monitoring and operations.
+9. Troubleshoot and resolve issues.
+
+
+
+** Requirements
+
+   - B.Tech or higher in Computer Science or equivalent.
+   - 5 - 8 years of relevant experience in Systems and Cloud services
+     is desirable.
+   - Cognizance with REST APIs and service-oriented-architecture
+     (SOA).
+   - Experience in functional programming,will be appreciated.
+   - Solid foundation in computer science principles with good
+     requirements and design documentation skills.
+   - Good problem solving skills with curiosity to explore technology.
+   - Quick self learner, proactive team player and an effective
+     communicator.
+   - In depth understanding of the entire web development process
+     including design, development and deployment with some back-end
+     knowledge would be desirable. Must have worked in Open source
+     projects
+
+Please apply at jobs@vlabs.ac.in
+
