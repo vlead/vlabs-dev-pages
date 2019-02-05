@@ -1,0 +1,234 @@
+#+title:  Ideas List @ Virtual Labs 
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Ideas
+** Seamless analytics integration to Virtual Labs 
+*** Idea
+    Seamless analytics integration to Virtual Labs
+*** Description
+    For the existing Virtual Labs there should be an analytics service
+    which provides data visualization requested on demand based on the
+    given parameter such as site visitor account, number of page
+    views, resources download, labwise usage, user time spent on each
+    experiment, day, month and year wise usage etc., to understand how
+    Virtual Labs are reaching to students, across remote areas, also
+    to understand the labs performance. The results of analytics will
+    helps virtual labs to improve better.
+    
+*** Problem -
+    There are several open source tools which helps in collecting the
+    data, but there are some limitations for these tools to get the
+    customized analytics for virtual labs.
+    
+*** Technical Required Skills
+    1. Google Analytics
+    2. Kibana
+    3. Python 
+    4. D3  
+    5. Mysql/MongoDB
+    6. Javascript
+    7. Ajax
+
+** Flash to Javascript  
+*** Idea
+    Flash to Javascript
+*** Description
+    *Problem Definition*: Converting Flash based Virtual Labs to
+    Javascript due to the following reasons:
+
+    1. There is an announcement from Adobe Flash Player that it
+       will stop supporting flash for the browsers by 2020, due to which
+       users will no longer have any ability to run Flash based
+       applications
+
+    2. Browsers doesn't have inbuilt support for Flash, the user
+       has to add it themselves as an addon and enable flash
+       everytime when they run the flash application.
+
+    3. Flash is not supported in apple products that includes
+       ipads, iphones etc., which most of the people use
+       nowadays
+
+       *Solution*: The solution is to convert Flash applications to
+       JavaScript, since most of the browsers will support this
+       technology.
+
+       *Alternative Solution* :There are some of the tools available
+       online, which converts Flash based apps to JavaScript but the
+       code which gets generated is more complicated, also not
+       readable and may have maintainance issues as well. Hence
+       building from scratch will resolve the issue.
+   
+*** Technical Required Skills
+    1. HTML5
+    2. CSS
+    3. Javascript
+
+** Virtual Reality Framework for Building virtual labs - Demonstrate with a lab (Biological/Physical Sciences Lab) 
+*** Idea
+    Virtual Reality Framework for Building virtual labs - Demonstrate
+    with a lab (Biological/Physical Sciences Lab)
+*** Description
+    Virtual reality is gradually starting to dominate many aspects of
+    our modern life and a variety of professional industrial
+    sectors. Virtual Labs with Virtual Reality will be about providing
+    interactive labs in 3D view for the students in the web
+    browser. We focus on using technologies like A-frame, unity.., for
+    generating 3D rendered labs. This would make students attain
+    knowledge with fun using these interactive 3D objects. Apart from
+    it, it also provides experimental environments for simulation,
+    augmentation, and 3D interaction.
+*** Scope of Work - 
+   1. 3D interaction 
+   2. Providing education with interactive models
+   3. Simulation of labs
+*** Technical Required Skills
+   1. Unity
+   2. A-frame
+   3. JavaScript 
+   4. HTML5
+** Converting Labs to WebGL 
+*** Idea
+    Converting Labs to WebGL
+*** Description
+    For Virtual Labs, we can make use of Blend4Web, where it includes
+    support for logic nodes, Virtual Reality and Animation. It also
+    has WebVR support, integration Audio, Animation and
+    modeling. Among them we require VR and animation modules as of now
+    for Virtual labs. Assume that we have some image related to
+    physics lab or some other lab. We can make every image in similar
+    to this which is of jpeg format and can employ it in our virtual
+    labs. In this the spacerocks is actually a jpeg image which has
+    multiple images which are created at various angles and are later
+    played one by one. The framework which we use for animating jpeg
+    images is tdl.js which is of open source.
+*** Scope of Work - 
+    1. Enhancing the understandability of the user with less effort of
+       assistance form the professor.
+    2. If the image is of 3D, the user can view the object in 360
+       degree without going to the physical lab.
+    3. And with the animation for the 3D image, the user can know how
+       the experiment is being performed without Video. (3D image is
+       preferred over Video since a 3D image will always be fun to
+       play with).
+*** Technical Required Skills
+    1. Javascript
+    2. tdl.js
+    3. Blend4Web
+** Converting Problem solving.. crowdsourcing approach.. 
+*** Idea
+    Enhancing the problem solving labs using crowdsourcing approach
+*** Description
+    In problem solving lab, C/ C++ are the programming languages
+    available and the hints they display are the lines of code that
+    has to be compiled. Predefined problem sets, implementation and
+    test cases is a hinder. In this model we are proposing to add new
+    programming languages and allow the students to pick the
+    difficulty level along with the utilization of the popups
+    /suggestions. This model will be implemented by involving students
+    from various engineering colleges remotely.
+    
+*** Scope of work - 
+   1. Allowing the student to select the difficulty level
+   2. Adding new programming languages to the text editor that gives
+      feasibilty to select any programming language irrepective of the
+      approach choosen.
+   3. Popups/suggestions has to be given as an assistance.
+   4. Option to give the own testcases and allow him to test with all
+      possible values
+   5. New problem sets can be added by the students to increase the
+      scope of learning.
+*** Technical Required Skills
+    1. HTML5
+    2. CSS5
+    3. Python
+    4. JavaScript
+    5. C/C++
+
+** Develop framework for generating test cases for client side applications  
+*** Idea
+    Develop framework for generating test cases for client side
+    applications
+*** Description
+    Software Testing is an investigation conducted to know about the
+    quality of the software product or service under test. Software
+    testing can also provide an objective, independent view of the
+    software to allow the organization to appreciate and understand
+    the risks of software implementation.
+
+*** Scope of work - 
+    1. All the functions in the applications are tested against the
+       requirements document to make sure that the product meets the
+       specifications
+    2. Automation tools to write and execute test cases, manual
+       involvement is not required while executing an automated test
+       suite.
+    3. Test the run time performance of software in an integrated
+       system.
+    4. The applications with huge amount of data and see whether the
+       application produces the anticipated results.
+    5. Validate the usability, functionality, compatibility, and
+       reliability testing.
+    6. Individual modules are tested to determine if there are any
+       issues by the developer.
+
+*** Technical Required Skills
+    1. Robot Framework is a test automation framework for acceptance
+       testing and acceptance test-driven development (ATDD)
+    2. Jasmine is a JavaScript-based library to perform unit tests
+    3. Protractor-End-2-End and Integration test Automation
+    4. KARMA-Test-Runner for Fast-And-Frequent software Unit
+       development
+
+** Building Chemistry Labs and related experiments  
+*** Idea: 
+    Model Driven Development of Chemical Sciences Lab
+*** Description
+    In existing Virtual Chemical Sciences Lab, procedures and
+    interaction with lab apparatus are hardwired. We prototyped a
+    model driven approach to make the lab interactive and
+    scalable. This provides faculty and students to design new
+    experiments. The virtual apparatus and chemicals can be used
+    without any fear of reactions and try different 'what if'
+    scenarios. The solution of this problem would also help 8th-12th
+    grade students who are creative but highly restricted from using
+    any chemical solutions and apparatus. Existing Virtual Labs,
+    ChemCollective from CMU and Phet Labs from University of Colorado
+    have been studied and compared before finalizing this
+    approach. The approach also brings in the rigour of model driven
+    development and usage of design patterns.
+
+*** Scope of work - 
+    1. Enhance existing prototype with features to add new apparatus
+       and chemicals without a need of a programmer
+    2. Understanding the hows and whys of the reaction
+    3. Improve the Usability of the prototype
+    4. Generate results for the completed steps of an experiment
+    5. Understand the Chemical Valencies to allow/dis-allow chemical
+       reactions
+    6. Helping easy conclusion drawing method for a reaction
+
+*** Technical Required Skills
+    1. Javascript
+    2. D3
+    3. Model Driven Development
+
+
+** NLP lab from PHP to Javascript  
+*** Idea
+    NLP lab from PHP to Javascript 
+*** Description
+    The existing Natural Langauage Processing lab was built with PHP,
+    the performance of the lab is low. Would like to convert to
+    Javascript (client-side-language) which is supported by all
+    browers and also makes the performance of the lab faster.
+   
+*** Scope of Work - 
+    1. Enhancements to the existing experiment for better usability
+    2. Converstion from php to javascript
+    
+*** Technical Required Skills
+    1) Javascript 
+    2) HTML5
+    3) CSS3
+   
