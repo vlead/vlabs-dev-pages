@@ -2,7 +2,7 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
 * GSOC Projects 
-** Project Administrators
+** Organization Administrators
    *Name:* Prof. Venkatesh Choppella
 ** Project Coordinators 
     *Name:* Priya Raman
@@ -13,19 +13,17 @@
 
     *Gitlab/Github:*  [[https://github.com/lalitsanagavarapu][Profile]]
 
-    *Name:* Ravi Shankar
-
-    *Gitlab/Github:* 
+    *Name:* Ravi Shankar  
 
 ** Virtual Reality Framework for Building Virtual Labs
 *** Mentors details:
-    Name: Pavan Nallamothu 
+    *Name:* Pavan Nallamothu 
 
-    Gitlab/Github: [[https://gitlab.com/pavanchow][Profile]] 
+    *Gitlab/Github:* [[https://gitlab.com/pavanchow][Profile]] 
 
-    Name:* Balamma Boya
+    *Name:* Balamma Boya
     
-    Gitlab/Github: [[https://github.com/BalammaBoya][Profile]]
+    *Gitlab/Github:* [[https://github.com/BalammaBoya][Profile]]
 *** Description
     Virtual reality is gradually starting to dominate many aspects of
     our modern life and a variety of industrial sectors. Virtual Labs
@@ -49,9 +47,9 @@
     4. HTML5 and CSS
 ** Development of Problem Solving Lab with support for additional programming languages and flexibility to add new problem statements without developer intervention
 *** Mentors details:
-    Name: Mrudhvika Dhamaraju
+    *Name:* Mrudhvika Dhamaraju
 
-    Gitlab/Github: [[https://github.com/mrudhvika940][Profile]]
+    *Gitlab/Github:* [[https://github.com/mrudhvika940][Profile]]
 *** Description
     The existing problem solving lab supports C, C++ as the
     programming languages. There are hints ranging from logic to
@@ -76,9 +74,9 @@
 
 ** Converting Java3D Labs to WebGL 
 *** Mentor details:
-    Name: Niranjan Sodanapalli
+    *Name:* Niranjan Sodanapalli
     
-    Gitlab/Github: [[https://github.com/niranjanreddy891][Profile]]
+    *Gitlab/Github:* [[https://github.com/niranjanreddy891][Profile]]
 *** Description
     VLSI and Digital Logic Design labs are using Java3D for experiment
     simulation. Java3D has is deprecated and Virtual Labs had to keep
@@ -98,13 +96,13 @@
 
 ** NLP lab from PHP to Javascript
 *** Mentors details:
-    Name: Balamma Boya
+    *Name:* Balamma Boya
 
-    Gitlab/Github: [[https://github.com/BalammaBoya][Profile]]
+    *Gitlab/Github:* [[https://github.com/BalammaBoya][Profile]]
     
-    Name: Sravanthi Modepu
+    *Name:* Sravanthi Modepu
 
-    Gitlab/Github: [[https://github.com/sravanthimodepu][Profile]] 
+    *Gitlab/Github:* [[https://github.com/sravanthimodepu][Profile]] 
 *** Description
     All 10 experiments of the existing Natural Language Processing [[https://nlp-iiith.vlabs.ac.in/][Lab]]
     are built on PHP requiring server side components, making it
@@ -130,9 +128,9 @@
 
 ** Develop framework for generating test cases for client side applications
 *** Mentors details:
-    Name: Sravanthi Modepu
+    *Name:* Sravanthi Modepu
 
-    Gitlab/Github: [[https://github.com/sravanthimodepu][Profile]] 
+    *Gitlab/Github:* [[https://github.com/sravanthimodepu][Profile]] 
 
 *** Description
     Software Testing is an investigation conducted to know about the
@@ -165,9 +163,9 @@
 
 ** Model Driven Development of Chemical Sciences
 *** Mentors details:
-    Name: Krutam Hathi
+    *Name:* Krutam Hathi
 
-    Gitlab/Github: [[https://github.com/newbazz][Profile]]
+    *Gitlab/Github:* [[https://github.com/newbazz][Profile]]
 *** Description
     In existing Virtual Chemical Sciences Lab, procedures and
     interaction with lab apparatus are hardwired. We [[https://ieeexplore.ieee.org/document/8433505/][prototyped]] a
@@ -197,13 +195,13 @@
     4. HTML5 and CSS
 ** Conversion of 10 Experiments from Flash to Javascript
 *** Mentors details:
-    Name: Madhavi Puliraju
+    *Name:* Madhavi Puliraju
 
-    Gitlab/Github: [[https://github.com/madhavipuliraju][Profile]] 
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
 
-    Name: Sadhana Virupaksha 
+    *Name:* Sadhana Virupaksha 
 
-    Gitlab/Github: [[https://github.com/sadhanareddy][Profile]]
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
     Converting Flash based Virtual Labs to Javascript due to the
     following reasons: 
@@ -234,13 +232,13 @@
 
 ** Automatic Generation of Questions and Answers from Reference Text of an Experiment for Data Structures Lab
 *** Mentors details:
-    Name: Madhavi Puliraju
+    *Name:* Madhavi Puliraju
 
-    Gitlab/Github: [[https://github.com/madhavipuliraju][Profile]] 
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
 
-    Name: Sadhana Virupaksha 
+    *Name:* Sadhana Virupaksha 
 
-    Gitlab/Github: [[https://github.com/sadhanareddy][Profile]]
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
     Existing experiments have multiple choice questions (MCQ) as an
     assessment. These questions and their corresponding answers are
@@ -263,9 +261,9 @@
     4. Javascript
 ** Visualization of data present in Outreach portal
 *** Mentors details:
-    Name: Mrudhvika Dhamaraju
+    *Name:* Mrudhvika Dhamaraju
 
-    Gitlab/Github: [[https://github.com/mrudhvika940][Profile]]   
+    *Gitlab/Github:* [[https://github.com/mrudhvika940][Profile]]   
 *** Description
     [[http://outreach.vlabs.ac.in/][Outreach portal]] contains data of Virtual Labs usage conducted
     through outreach programs. The data is collected at college ,
@@ -287,13 +285,13 @@
 
 ** Visualization of Virtual Experiments Online Usage
 *** Mentors details:
-    Name: Madhavi Puliraju
+    *Name:* Madhavi Puliraju
 
-    Gitlab/Github: [[https://github.com/madhavipuliraju][Profile]] 
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
 
-    Name: Sadhana Virupaksha 
+    *Name:* Sadhana Virupaksha 
 
-    Gitlab/Github: [[https://github.com/sadhanareddy][Profile]]
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
     Data visualization on demand based on a given parameter such as
     site visitor account, number of page views, resources download,
@@ -327,13 +325,13 @@
 
 ** Containerize Virtual Labs for optimizing resource usage
 *** Mentors details:
-    Name: Madhavi Puliraju
+    *Name:* Madhavi Puliraju
     
-    Gitlab/Github: [[https://github.com/madhavipuliraju][Profile]] 
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
 
-    Name: Sadhana Virupaksha 
+    *Name:* Sadhana Virupaksha 
 
-    Gitlab/Github: [[https://github.com/sadhanareddy][Profile]]
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
     Labs contain 8-10 experiments and each lab is hosted on a separate
     virtual machine instance. Some labs use Client side scripting and
