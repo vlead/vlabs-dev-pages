@@ -2,7 +2,22 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
 * Ideas
+** Project Administrators
+   *Name:* Prof. Venkatesh Choppella
+** Project Coordinators 
+    *Name:* Priya Raman
+    *Gitlab/Github:*  [[https://github.com/priya100raman][Profile]]
+    *Name:* Lalit Mohan Sanagavarapu
+    *Gitlab/Github:*  [[https://github.com/lalitsanagavarapu][Profile]]
+    *Name:* Ravi Shankar
+    *Gitlab/Github:* 
+
 ** Virtual Reality Framework for Building Virtual Labs
+*** Mentors details:
+    *Name:* Pavan Nallamothu 
+    *Gitlab/Github:* [[https://gitlab.com/pavanchow][Profile]] 
+    Name:* Balamma Boya
+    *Gitlab/Github:* [[https://github.com/BalammaBoya][Profile]]
 *** Description
     Virtual reality is gradually starting to dominate many aspects of
     our modern life and a variety of industrial sectors. Virtual Labs
@@ -24,7 +39,120 @@
     2. A-frame
     3. JavaScript
     4. HTML5 and CSS
+** Development of Problem Solving Lab with support for additional programming languages and flexibility to add new problem statements without developer intervention
+*** Mentors details:
+    *Name:* Mrudhvika Dhamaraju
+    *Gitlab/Github:* [[https://github.com/mrudhvika940][Profile]]
+*** Description
+    The existing problem solving lab supports C, C++ as the
+    programming languages. There are hints ranging from logic to
+    pseudo-code to syntax for guiding students conduct problem solving
+    experiments. The problem sets, implementation and test cases are
+    predefined with no flexibility to add new programming language and
+    new problems. As part of the idea, we plan to provide flexibility
+    to program in Java, Javascript, PHP, Ruby on Rails, Python, Bash
+    Shell along with C and C++. The lab should also be enhanced to
+    provide flexibility to add new problems (complexity based), hints,
+    test cases, expected output without developer intervention.
+*** Scope of Work 
+    1. Identify a programming interface such as Jupyter Notebook that
+       supports multiple programming languages (Java, Javascript, PHP,
+       Ruby on Rails, Python, Bash Shell along with C and C)
+    2. Enhance to provide an interface for adding new problems,
+       related hints, test cases and expected output
+*** Technical Required Skills
+    1. HTML5 and CSS
+    2. Javascript
+    3. Python
+
+** Converting Java3D Labs to WebGL 
+*** Mentor details:
+    *Name:* Niranjan Sodanapalli
+    *Gitlab/Github:* [[https://github.com/niranjanreddy891][Profile]]
+*** Description
+    VLSI and Digital Logic Design labs are using Java3D for experiment
+    simulation. Java3D has is deprecated and Virtual Labs had to keep
+    a library in GitHub repository to support usage of the labs. The
+    experiments in these labs need to be migrated to WebGL/GWT from
+    Java3D.
+*** Scope of Work 
+    1. Understanding the functionality and usage of VLSI and Digital
+       Logic Design Labs
+    2. Implement the functionality using WebGL/GWT
+    3. Test the implementation
+*** Technical Required Skills
+    1. Javascript
+    2. WebGL/GWT
+    3. Java3D
+    4. HTML and CSS
+
+** NLP lab from PHP to Javascript
+*** Mentors details:
+    *Name:* Balamma Boya
+    *Gitlab/Github url:* [[https://github.com/BalammaBoya][Profile]]
+    *Name:* Sravanthi Modepu
+    *Gitlab/Github:* [[https://github.com/sravanthimodepu][Profile]] 
+*** Description
+    All 10 experiments of the existing Natural Language Processing [[https://nlp-iiith.vlabs.ac.in/][Lab]]
+    are built on PHP requiring server side components, making it
+    vulnerable to attackers, slow in performance and does not provide
+    rich UI. The experiments of the lab need to be converted to
+    Javascript while making it responsive in design, scalable to
+    multiple instances based on usage and has less than 3-5 seconds
+    response time.
+*** Scope of Work 
+    1. Understand the functionality of the experiments
+    2. Convert the PHP Lab to Javascript
+    3. Fix the existing functionality issues logged on [[https://github.com/virtual-labs/natural-language-processing-iiith/issues][GitHub]]
+    4. Make the lab responsive in design and align to Virtual Labs
+       Usability guidelines
+    5. Understanding of NLP Concepts such as POS Tagging,
+       Tokenization, CFG, etc
+*** Technical Required Skills
+    1. Javascript
+    2. HTML5 and CSS
+    3. PHP
+    4. MySQL
+    5. XML/JSON
+
+** Develop framework for generating test cases for client side applications
+*** Mentors details:
+    *Name:* Sravanthi Modepu
+    *Gitlab/Github:* [[https://github.com/sravanthimodepu][Profile]] 
+
+*** Description
+    Software Testing is an investigation conducted to know about the
+    quality of the software product or service under test. Software
+    testing can also provide an objective, independent view of the
+    software to allow the organization to appreciate and understand
+    the risks of software implementation.
+*** Scope of Work 
+    1. All the functions in the applications are tested against the
+       requirements document to make sure that the product meets the
+       specifications
+    2. Automation tools to write and execute test cases, manual
+       involvement is not required while executing an automated test
+       suite.
+    3. Test the run time performance of software in an integrated
+       system.
+    4. The applications with huge amount of data and see whether the
+       application produces the anticipated results.
+    5. Validate the usability, functionality, compatibility, and
+       reliability testing.
+    6. Individual modules are tested to determine if there are any
+       issues by the developer.
+*** Technical Required Skills
+    1. Robot Framework is a test automation framework for acceptance
+       testing and acceptance test-driven development (ATDD)
+    2. Jasmine is a JavaScript-based library to perform unit tests
+    3. Protractor - End-2-End and Integration test Automation
+    4. KARMA - Test-Runner for Fast-And-Frequent software Unit
+       development
+
 ** Model Driven Development of Chemical Sciences
+*** Mentors details:
+    *Name:* Krutam Hathi
+    *Gitlab/Github:* [[https://github.com/newbazz][Profile]]
 *** Description
     In existing Virtual Chemical Sciences Lab, procedures and
     interaction with lab apparatus are hardwired. We [[https://ieeexplore.ieee.org/document/8433505/][prototyped]] a
@@ -52,29 +180,46 @@
     2. Javascript
     3. D3
     4. HTML5 and CSS
-** Development of Problem Solving Lab with support for additional programming languages and flexibility to add new problem statements without developer intervention
+** Conversion of 10 Experiments from Flash to Javascript
+*** Mentors details:
+    *Name:* Madhavi Puliraju
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
+    *Name:* Sadhana Virupaksha 
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
-    The existing problem solving lab supports C, C++ as the
-    programming languages. There are hints ranging from logic to
-    pseudo-code to syntax for guiding students conduct problem solving
-    experiments. The problem sets, implementation and test cases are
-    predefined with no flexibility to add new programming language and
-    new problems. As part of the idea, we plan to provide flexibility
-    to program in Java, Javascript, PHP, Ruby on Rails, Python, Bash
-    Shell along with C and C++. The lab should also be enhanced to
-    provide flexibility to add new problems (complexity based), hints,
-    test cases, expected output without developer intervention.
+    Converting Flash based Virtual Labs to Javascript due to the
+    following reasons: 
+    1. An announcement from Adobe Flash Player that it will stop
+       supporting flash for the browsers by 2020, due to which users
+       will no longer have any ability to run Flash based applications
+    2. Browsers do not have inbuilt support for Flash, the user has to
+       add it themselves as an addon and enable Flash every time they
+       run Flash based application.
+    3. Flash is not supported in most of the mobile devices including
+       Apple ipads, iphones etc.,
+    which has become a regular device for students and faculty to
+    access internet Our approach for approximately 35 experiments has
+    been to decompile swf to get scripts and use the scripts(images)
+    to recreate the experiments using Javascript. However, this is
+    painful and time taking.
 *** Scope of Work 
-    1. Identify a programming interface such as Jupyter Notebook that
-       supports multiple programming languages (Java, Javascript, PHP,
-       Ruby on Rails, Python, Bash Shell along with C and C)
-    2. Enhance to provide an interface for adding new problems,
-       related hints, test cases and expected output
+    1. Understand functionality of Computer Organization experiments
+    2. Build a utility that can be used to model new experiments or a
+       utility that decompiles to get Actionscript and generates
+       Javascript
+    3. Test the functionality after changes
 *** Technical Required Skills
     1. HTML5 and CSS
     2. Javascript
-    3. Python
+    3. Action Script
+    4. Python/C/Java for building utility 
+
 ** Automatic Generation of Questions and Answers from Reference Text of an Experiment for Data Structures Lab
+*** Mentors details:
+    *Name:* Madhavi Puliraju
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
+    *Name:* Sadhana Virupaksha 
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
     Existing experiments have multiple choice questions (MCQ) as an
     assessment. These questions and their corresponding answers are
@@ -96,6 +241,9 @@
     3. HTML and CSS
     4. Javascript
 ** Visualization of data present in Outreach portal
+*** Mentors details:
+    *Name:* Mrudhvika Dhamaraju
+    *Gitlab/Github:* [[https://github.com/mrudhvika940][Profile]]   
 *** Description
     [[http://outreach.vlabs.ac.in/][Outreach portal]] contains data of Virtual Labs usage conducted
     through outreach programs. The data is collected at college ,
@@ -116,6 +264,11 @@
     4. Javascript
 
 ** Visualization of Virtual Experiments Online Usage
+*** Mentors details:
+    *Name:* Madhavi Puliraju
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
+    *Name:* Sadhana Virupaksha 
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
     Data visualization on demand based on a given parameter such as
     site visitor account, number of page views, resources download,
@@ -146,75 +299,13 @@
     7. Python
     8. D3  
     9. Mysql/MongoDB
-** Conversion of 10 Experiments from Flash to Javascript
-*** Description
-    Converting Flash based Virtual Labs to Javascript due to the
-    following reasons: 
-    1. An announcement from Adobe Flash Player that it will stop
-       supporting flash for the browsers by 2020, due to which users
-       will no longer have any ability to run Flash based applications
-    2. Browsers do not have inbuilt support for Flash, the user has to
-       add it themselves as an addon and enable Flash every time they
-       run Flash based application.
-    3. Flash is not supported in most of the mobile devices including
-       Apple ipads, iphones etc.,
-    which has become a regular device for students and faculty to
-    access internet Our approach for approximately 35 experiments has
-    been to decompile swf to get scripts and use the scripts(images)
-    to recreate the experiments using Javascript. However, this is
-    painful and time taking.
-*** Scope of Work 
-    1. Understand functionality of Computer Organization experiments
-    2. Build a utility that can be used to model new experiments or a
-       utility that decompiles to get Actionscript and generates
-       Javascript
-    3. Test the functionality after changes
-*** Technical Required Skills
-    1. HTML5 and CSS
-    2. Javascript
-    3. Action Script
-    4. Python/C/Java for building utility 
-** Converting Java3D Labs to WebGL 
-*** Description
-    VLSI and Digital Logic Design labs are using Java3D for experiment
-    simulation. Java3D has is deprecated and Virtual Labs had to keep
-    a library in GitHub repository to support usage of the labs. The
-    experiments in these labs need to be migrated to WebGL/GWT from
-    Java3D.
-*** Scope of Work 
-    1. Understanding the functionality and usage of VLSI and Digital
-       Logic Design Labs
-    2. Implement the functionality using WebGL/GWT
-    3. Test the implementation
-*** Technical Required Skills
-    1. Javascript
-    2. WebGL/GWT
-    3. Java3D
-    4. HTML and CSS
-** NLP lab from PHP to Javascript
-*** Description
-    All 10 experiments of the existing Natural Language Processing [[https://nlp-iiith.vlabs.ac.in/][Lab]]
-    are built on PHP requiring server side components, making it
-    vulnerable to attackers, slow in performance and does not provide
-    rich UI. The experiments of the lab need to be converted to
-    Javascript while making it responsive in design, scalable to
-    multiple instances based on usage and has less than 3-5 seconds
-    response time.
-*** Scope of Work 
-    1. Understand the functionality of the experiments
-    2. Convert the PHP Lab to Javascript
-    3. Fix the existing functionality issues logged on [[https://github.com/virtual-labs/natural-language-processing-iiith/issues][GitHub]]
-    4. Make the lab responsive in design and align to Virtual Labs
-       Usability guidelines
-    5. Understanding of NLP Concepts such as POS Tagging,
-       Tokenization, CFG, etc
-*** Technical Required Skills
-    1. Javascript
-    2. HTML5 and CSS
-    3. PHP
-    4. MySQL
-    5. XML/JSON
+
 ** Containerize Virtual Labs for optimizing resource usage
+*** Mentors details:
+    *Name:* Madhavi Puliraju
+    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
+    *Name:* Sadhana Virupaksha 
+    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
 *** Description
     Labs contain 8-10 experiments and each lab is hosted on a separate
     virtual machine instance. Some labs use Client side scripting and
@@ -235,34 +326,4 @@
     1. Docker and Kubernetes
     2. Virtualization
     3. Ansible for lab deployment
-** Develop framework for generating test cases for client side applications
-*** Description
-    Software Testing is an investigation conducted to know about the
-    quality of the software product or service under test. Software
-    testing can also provide an objective, independent view of the
-    software to allow the organization to appreciate and understand
-    the risks of software implementation.
-*** Scope of Work 
-    1. All the functions in the applications are tested against the
-       requirements document to make sure that the product meets the
-       specifications
-    2. Automation tools to write and execute test cases, manual
-       involvement is not required while executing an automated test
-       suite.
-    3. Test the run time performance of software in an integrated
-       system.
-    4. The applications with huge amount of data and see whether the
-       application produces the anticipated results.
-    5. Validate the usability, functionality, compatibility, and
-       reliability testing.
-    6. Individual modules are tested to determine if there are any
-       issues by the developer.
-*** Technical Required Skills
-    1. Robot Framework is a test automation framework for acceptance
-       testing and acceptance test-driven development (ATDD)
-    2. Jasmine is a JavaScript-based library to perform unit tests
-    3. Protractor - End-2-End and Integration test Automation
-    4. KARMA - Test-Runner for Fast-And-Frequent software Unit
-       development
-
 
