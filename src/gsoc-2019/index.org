@@ -1,9 +1,25 @@
-#+title:  Ideas List @ Virtual Labs 
+#+title:  Google Summer of Code 2019 - Virtual Labs Ideas list
 #+SETUPFILE: ../org-templates/level-1.org
 
-* GSOC Projects 
-** Organization Administrators
+** Organization Administrator
    *Name:* Prof. Venkatesh Choppella
+
+   Associate Professor at the International Institute of Information
+   Technology, Hyderabad, India.
+   
+   He is co-PI of Virtual Labs, Phase II and III (2016-2020).
+   Sponsor: MHRD, Govt. of India. Consortium partners: IITs at Bombay
+   Delhi, Guwahati Kanpur, Kharagpur, Roorkee, Amrita University, COE
+   Pune, Dayalbagh University, NIT Surathkal. Total Budget: Rs. 100
+   Crores for 5 years.
+   
+   Venkatesh's current research interests are in formal methods and
+   software architectures. In addition, he has an interest in computer
+   science education and FOSS-based educational technology. He has
+   published over 50 research papers and technical reports in the area
+   of automated deduction, type systems, formal methods, compilers,
+   and educational technology.
+
 ** Project Coordinators 
     *Name:* Priya Raman
 
@@ -15,16 +31,47 @@
 
     *Name:* Ravi Shankar  
 
-** 1. Virtual Reality Framework for Building Virtual Labs
-*** Mentors details:
-    *Name:* Pavan Nallamothu 
-
-    *Gitlab/Github:* [[https://gitlab.com/pavanchow][Profile]] 
-
-    *Name:* Balamma Boya
-    
-    *Gitlab/Github:* [[https://github.com/BalammaBoya][Profile]]
-*** Description
+** Projects list
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   | S.No | Project title                                                  | Project Details | Mentors Details      |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   1. | Virtual Reality Framework for Building Virtual Labs            | [[#project-details-one][link]]            | [[https://gitlab.com/pavanchow][Pavan Nallamothu]]     |
+   |      |                                                                |                 | [[https://github.com/BalammaBoya][Balamma Boya]]         |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   2. | Model Driven Development of Chemical Sciences                  | [[#project-details-two][link]]            | [[https://github.com/newbazz][ Krutam Hathi]]        |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   3. | Development of Problem Solving Lab with support for additional | [[#project-details-three][link]]            | [[https://github.com/mrudhvika940][Mrudhvika Dhamaraju]]  |
+   |      | programming languages and flexibility to add new problem       |                 |                      |
+   |      | statements without developer intervention                      |                 |                      |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   4. | Automatic Generation of Questions and Answers from Reference   | [[#project-details-four][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      | Text of an Experiment for Data Structures Lab                  |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   5. | Visualization of data present in Outreach portal               | [[#project-details-five][link]]            | [[https://github.com/mrudhvika940][Mrudhvika Dhamaraju]]  |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   6. | Visualization of Virtual Experiments Online Usage              | [[#project-details-six][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      |                                                                |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   7. | Conversion of 10 Experiments from Flash to Javascript          | [[#project-details-seven][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      |                                                                |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   8. | Converting Java3D Labs to WebGL                                | [[#project-details-eight][link]]            | [[https://github.com/niranjanreddy891][Niranjan Sodanapalli]] |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |   9. | NLP lab from PHP to Javascript                                 | [[#project-details-nine][link]]            | [[https://github.com/BalammaBoya][Balamma Boya]]         |
+   |      |                                                                |                 | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |  10. | Containerize Virtual Labs for optimizing resource usage        | [[#project-details-ten][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      |                                                                |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |  11. | Develop framework for generating test cases for client side    | [[#project-details-eleven][link]]            | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
+   |      | applications                                                   |                 |                      |
+   |------+----------------------------------------------------------------+-----------------+----------------------|
+  
+** 1. Virtual Reality Framework for Building Virtual Labs    
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-one
+ :END:
+*** *Description*
     Virtual reality is gradually starting to dominate many aspects of
     our modern life and a variety of industrial sectors. Virtual Labs
     with Virtual Reality will be about providing interactive labs in
@@ -35,22 +82,21 @@
     applicable for demonstration to 10 Physical Sciences Labs of our
     organization. The experimental environment should have simulation,
     augmentation, and 3D interaction.
-*** Scope of Work - 
+*** *Scope of Work*  
     1. 3D interaction
     2. Providing education with interactive models
     3. Development of simulation labs using VR toolkit
     4. Understanding of Physical Sciences Labs and their existing issues
-*** Technical Required Skills
+*** *Technical Requirements*
     1. Unity/OSVR
     2. A-frame
     3. JavaScript
     4. HTML5 and CSS
 ** 2. Model Driven Development of Chemical Sciences
-*** Mentors details:
-    *Name:* Krutam Hathi
-
-    *Gitlab/Github:* [[https://github.com/newbazz][Profile]]
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-two
+ :END:      
+*** *Description* *
     In existing Virtual Chemical Sciences Lab, procedures and
     interaction with lab apparatus are hardwired. We [[https://ieeexplore.ieee.org/document/8433505/][prototyped]] a
     model driven approach to make the lab interactive and
@@ -64,7 +110,7 @@
     have been studied and compared before finalizing this
     approach. The approach also brings in the rigour of model driven
     development and usage of design patterns.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Enhance existing prototype with features to add new apparatus
        and chemicals without a need of a programmer
     2. Improve the Usability of the prototype
@@ -72,18 +118,17 @@
     4. Understand atomic valency to allow/disallow chemical reactions
     5. Generate results for the completed steps of an experiment
     6. Helping easy conclusion drawing method for a reaction
-*** Technical Required Skills
+*** *Technical Requirements*
     1. Model Driven Development
     2. Javascript
     3. D3
     4. HTML5 and CSS
 
 ** 3. Development of Problem Solving Lab with support for additional programming languages and flexibility to add new problem statements without developer intervention
-*** Mentors details:
-    *Name:* Mrudhvika Dhamaraju
-
-    *Gitlab/Github:* [[https://github.com/mrudhvika940][Profile]]
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-three
+ :END:
+*** *Description*
     The existing problem solving lab supports C, C++ as the
     programming languages. There are hints ranging from logic to
     pseudo-code to syntax for guiding students conduct problem solving
@@ -94,37 +139,29 @@
     Shell along with C and C++. The lab should also be enhanced to
     provide flexibility to add new problems (complexity based), hints,
     test cases, expected output without developer intervention.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Identify a programming interface such as Jupyter Notebook that
        supports multiple programming languages (Java, Javascript, PHP,
        Ruby on Rails, Python, Bash Shell along with C and C)
     2. Enhance to provide an interface for adding new problems,
        related hints, test cases and expected output
-*** Technical Required Skills
+*** *Technical Requirements*
     1. HTML5 and CSS
     2. Javascript
     3. Python
 
-
-
-
 ** 4. Automatic Generation of Questions and Answers from Reference Text of an Experiment for Data Structures Lab
-*** Mentors details:
-    *Name:* Madhavi Puliraju
-
-    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
-
-    *Name:* Sadhana Virupaksha 
-
-    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-four
+ :END:      
+*** *Description*
     Existing experiments have multiple choice questions (MCQ) as an
     assessment. These questions and their corresponding answers are
     all static. Students who have not been able to answer the
     questions for the first time will be able to answer it easily the
     next time. This defeats the purpose and seriousness of conducting
     virtual experiments.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Identify ground truth for each of the experiments in Data
        structures Lab
     2. Use NLP techniques to generate questions and related answers
@@ -132,17 +169,16 @@
     3. Develop Assessment page with randomized Q&A
     4. Build a repeatable process to generate MCQ based on provided
        ground truth in text/prescribed format
-*** Technical Required Skills
+*** *Technical Requirements*
     1. NLP parsers
     2. ML algorithms
     3. HTML and CSS
     4. Javascript
 ** 5. Visualization of data present in Outreach portal
-*** Mentors details:
-    *Name:* Mrudhvika Dhamaraju
-
-    *Gitlab/Github:* [[https://github.com/mrudhvika940][Profile]]   
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-five
+ :END:
+*** *Description*
     [[http://outreach.vlabs.ac.in/][Outreach portal]] contains data of Virtual Labs usage conducted
     through outreach programs. The data is collected at college ,
     Nodal coordinator conducting at various colleges, Institute
@@ -151,26 +187,21 @@
     contains information on usage (location, labs, time period, target
     vs actual and so on). This data needs to be represented at various
     roles using D3 visualization.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Understanding data model of Outreach portal
     2. Identifying various charts required
     3. Building various charts/graphs using D3
-*** Technical Required Skills
+*** *Technical Requirements*
     1. MySQL
     2. Python
     3. D3 js
     4. Javascript
 
 ** 6. Visualization of Virtual Experiments Online Usage
-*** Mentors details:
-    *Name:* Madhavi Puliraju
-
-    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
-
-    *Name:* Sadhana Virupaksha 
-
-    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-six
+ :END:
+*** *Description*
     Data visualization on demand based on a given parameter such as
     site visitor account, number of page views, resources download,
     labwise usage, user time spent on each experiment, day, month and
@@ -182,7 +213,7 @@
     into the code to gather usage of experiments will help in
     enhancing experiments - usability, usefulness and additional
     topics.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Identify tools that can generate analytics in web applications
        with minimal/non intrusive code
     2. List the analytics that can be generated with the shortlisted
@@ -190,7 +221,7 @@
     3. Identify an approach/utility for incorporating the change in
        all 1100+ experiments
     4. Test the generated analytics
-*** Technical Required Skills
+*** *Technical Requirements*
     1. Javascript
     2. Ajax
     3. Web Server Configurations that includes Apache and Nginx
@@ -202,21 +233,11 @@
     9. Mysql/MongoDB
 
 
-
-
-
-
-
 ** 7. Conversion of 10 Experiments from Flash to Javascript
-*** Mentors details:
-    *Name:* Madhavi Puliraju
-
-    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
-
-    *Name:* Sadhana Virupaksha 
-
-    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-seven
+ :END:
+*** *Description*
     Converting Flash based Virtual Labs to Javascript due to the
     following reasons: 
     1. An announcement from Adobe Flash Player that it will stop
@@ -232,51 +253,44 @@
     been to decompile swf to get scripts and use the scripts(images)
     to recreate the experiments using Javascript. However, this is
     painful and time taking.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Understand functionality of Computer Organization experiments
     2. Build a utility that can be used to model new experiments or a
        utility that decompiles to get Actionscript and generates
        Javascript
     3. Test the functionality after changes
-*** Technical Required Skills
+*** *Technical Requirements*
     1. HTML5 and CSS
     2. Javascript
     3. Action Script
     4. Python/C/Java for building utility 
 
-
 ** 8. Converting Java3D Labs to WebGL 
-*** Mentor details:
-    *Name:* Niranjan Sodanapalli
-    
-    *Gitlab/Github:* [[https://github.com/niranjanreddy891][Profile]]
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-eight
+ :END:
+*** *Description*
     VLSI and Digital Logic Design labs are using Java3D for experiment
     simulation. Java3D has is deprecated and Virtual Labs had to keep
     a library in GitHub repository to support usage of the labs. The
     experiments in these labs need to be migrated to WebGL/GWT from
     Java3D.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Understanding the functionality and usage of VLSI and Digital
        Logic Design Labs
     2. Implement the functionality using WebGL/GWT
     3. Test the implementation
-*** Technical Required Skills
+*** *Technical Requirements*
     1. Javascript
     2. WebGL/GWT
     3. Java3D
     4. HTML and CSS
 
 ** 9. NLP lab from PHP to Javascript
-*** Mentors details:
-    *Name:* Balamma Boya
-
-    *Gitlab/Github:* [[https://github.com/BalammaBoya][Profile]]
-    
-    *Name:* Sravanthi Modepu
-
-    *Gitlab/Github:* [[https://github.com/sravanthimodepu][Profile]] 
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-nine
+ :END:
+*** *Description*
     All 10 experiments of the existing Natural Language Processing [[https://nlp-iiith.vlabs.ac.in/][Lab]]
     are built on PHP requiring server side components, making it
     vulnerable to attackers, slow in performance and does not provide
@@ -284,7 +298,7 @@
     Javascript while making it responsive in design, scalable to
     multiple instances based on usage and has less than 3-5 seconds
     response time.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Understand the functionality of the experiments
     2. Convert the PHP Lab to Javascript
     3. Fix the existing functionality issues logged on [[https://github.com/virtual-labs/natural-language-processing-iiith/issues][GitHub]]
@@ -292,7 +306,7 @@
        Usability guidelines
     5. Understanding of NLP Concepts such as POS Tagging,
        Tokenization, CFG, etc
-*** Technical Required Skills
+*** *Technical Requirements*
     1. Javascript
     2. HTML5 and CSS
     3. PHP
@@ -300,15 +314,10 @@
     5. XML/JSON
 
 ** 10. Containerize Virtual Labs for optimizing resource usage
-*** Mentors details:
-    *Name:* Madhavi Puliraju
-    
-    *Gitlab/Github:* [[https://github.com/madhavipuliraju][Profile]] 
-
-    *Name:* Sadhana Virupaksha 
-
-    *Gitlab/Github:* [[https://github.com/sadhanareddy][Profile]]
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-ten
+ :END:
+*** *Description*
     Labs contain 8-10 experiments and each lab is hosted on a separate
     virtual machine instance. Some labs use Client side scripting and
     some use server side code such as Apache, MySQL, Java, PHP, etc.
@@ -316,7 +325,7 @@
     the day. Movement of these labs from virtual instances to
     containers such as Docker with Kubernetes as Orchestration layer
     would optimize the usage.
-*** Scope of Work 
+*** *Scope of Work* 
     1. Identify labs that can be hosted on Docker containers
     2. Finalization of Virtual Machine requirement for installing
        Docker
@@ -324,24 +333,22 @@
     4. Changes to existing Ansible scripts to deploy on Docker
        containers
     5. Testing of labs for performance and availability
-*** Technical Required Skills
+*** *Technical Requirements*
     1. Docker and Kubernetes
     2. Virtualization
     3. Ansible for lab deployment
 
 ** 11. Develop framework for generating test cases for client side applications
-*** Mentors details:
-    *Name:* Sravanthi Modepu
-
-    *Gitlab/Github:* [[https://github.com/sravanthimodepu][Profile]] 
-
-*** Description
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-eleven
+ :END:
+*** *Description*
     Software Testing is an investigation conducted to know about the
     quality of the software product or service under test. Software
     testing can also provide an objective, independent view of the
     software to allow the organization to appreciate and understand
     the risks of software implementation.
-*** Scope of Work 
+*** *Scope of Work* 
     1. All the functions in the applications are tested against the
        requirements document to make sure that the product meets the
        specifications
@@ -356,7 +363,7 @@
        reliability testing.
     6. Individual modules are tested to determine if there are any
        issues by the developer.
-*** Technical Required Skills
+*** *Technical Requirements*
     1. Robot Framework is a test automation framework for acceptance
        testing and acceptance test-driven development (ATDD)
     2. Jasmine is a JavaScript-based library to perform unit tests
