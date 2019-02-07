@@ -54,6 +54,7 @@
    |------+----------------------------------------------------------------+-----------------+----------------------|
    |   7. | Conversion of 10 Experiments from Flash to Javascript          | [[#project-details-seven][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
    |      |                                                                |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |      |                                                                |                 | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
    |------+----------------------------------------------------------------+-----------------+----------------------|
    |   8. | Converting Java3D Labs to WebGL                                | [[#project-details-eight][link]]            | [[https://github.com/niranjanreddy891][Niranjan Sodanapalli]] |
    |------+----------------------------------------------------------------+-----------------+----------------------|
@@ -231,7 +232,6 @@
     7. Python
     8. D3  
     9. Mysql/MongoDB
-
 
 ** 7. Conversion of 10 Experiments from Flash to Javascript
  :PROPERTIES:
