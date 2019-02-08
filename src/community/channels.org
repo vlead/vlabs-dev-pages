@@ -20,9 +20,8 @@
 
 ** Open Slack Channel
 *** Open Slack Channel
-    vlead used [[https://vleadworkspace.slack.com/messages/CAPGMJT4N/][vlead-open-slack-channel]] for collaboration and also
-    communication strings focused on project specific or role specific
-    chat.
+    Use [[https://vleadworkspace.slack.com/messages/CAPGMJT4N/][vlead-open-slack-channel]] for collaboration and communication
+    on virtual labs project/role specific activities.
 ** Mailing Lists
 *** Google Groups
     1. A mailing list for the [[http://dev.vlabs.ac.in/users][=users=]] of Virtual Labs.  This list is used by all
