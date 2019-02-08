@@ -33,41 +33,41 @@
     *Gitlab/Github:*  [[https://gitlab.com/prs1234][Profile]]
 
 ** Projects list
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   | S.No | Project title                                                  | Project Details | Mentors Details      |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   1. | Virtual Reality Framework for Building Virtual Labs            | [[#project-details-one][link]]            | [[https://gitlab.com/pavanchow][Pavan Nallamothu]]     |
-   |      |                                                                |                 | [[https://github.com/BalammaBoya][Balamma Boya]]         |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   2. | Model Driven Development of Chemical Sciences                  | [[#project-details-two][link]]            | [[https://github.com/newbazz][ Krutam Hathi]]        |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   3. | Development of Problem Solving Lab with support for additional | [[#project-details-three][link]]            | [[https://github.com/mrudhvika940][Mrudhvika Dhamaraju]]  |
-   |      | programming languages and flexibility to add new problem       |                 |                      |
-   |      | statements without developer intervention                      |                 |                      |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   4. | Automatic Generation of Questions and Answers from Reference   | [[#project-details-four][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
-   |      | Text of an Experiment for Data Structures Lab                  |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   5. | Visualization of data present in Outreach portal               | [[#project-details-five][link]]            | [[https://github.com/mrudhvika940][Mrudhvika Dhamaraju]]  |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   6. | Visualization of Virtual Experiments Online Usage              | [[#project-details-six][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
-   |      |                                                                |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   7. | Conversion of 10 Experiments from Flash to Javascript          | [[#project-details-seven][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
-   |      |                                                                |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
-   |      |                                                                |                 | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   8. | Converting Java3D Labs to WebGL                                | [[#project-details-eight][link]]            | [[https://github.com/niranjanreddy891][Niranjan Sodanapalli]] |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |   9. | NLP lab from PHP to Javascript                                 | [[#project-details-nine][link]]            | [[https://github.com/BalammaBoya][Balamma Boya]]         |
-   |      |                                                                |                 | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |  10. | Containerize Virtual Labs for optimizing resource usage        | [[#project-details-ten][link]]            | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
-   |      |                                                                |                 | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
-   |  11. | Develop framework for generating test cases for client side    | [[#project-details-eleven][link]]            | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
-   |      | applications                                                   |                 |                      |
-   |------+----------------------------------------------------------------+-----------------+----------------------|
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   | S.No |   |   | Project title                                                  |   |   | Project Details |   |   | Mentors Details      |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   1. |   |   | Virtual Reality Framework for Building Virtual Labs            |   |   | [[#project-details-one][link]]            |   |   | [[https://gitlab.com/pavanchow][Pavan Nallamothu]]     |
+   |      |   |   |                                                                |   |   |                 |   |   | [[https://github.com/BalammaBoya][Balamma Boya]]         |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   2. |   |   | Model Driven Development of Chemical Sciences                  |   |   | [[#project-details-two][link]]            |   |   | [[https://github.com/newbazz][ Krutam Hathi]]        |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   3. |   |   | Development of Problem Solving Lab with support for additional |   |   | [[#project-details-three][link]]            |   |   | [[https://github.com/mrudhvika940][Mrudhvika Dhamaraju]]  |
+   |      |   |   | programming languages and flexibility to add new problem       |   |   |                 |   |   |                      |
+   |      |   |   | statements without developer intervention                      |   |   |                 |   |   |                      |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   4. |   |   | Automatic Generation of Questions and Answers from Reference   |   |   | [[#project-details-four][link]]            |   |   | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      |   |   | Text of an Experiment for Data Structures Lab                  |   |   |                 |   |   | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   5. |   |   | Visualization of data present in Outreach portal               |   |   | [[#project-details-five][link]]            |   |   | [[https://github.com/mrudhvika940][Mrudhvika Dhamaraju]]  |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   6. |   |   | Visualization of Virtual Experiments Online Usage              |   |   | [[#project-details-six][link]]            |   |   | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      |   |   |                                                                |   |   |                 |   |   | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   7. |   |   | Conversion of 10 Experiments from Flash to Javascript          |   |   | [[#project-details-seven][link]]            |   |   | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      |   |   |                                                                |   |   |                 |   |   | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |      |   |   |                                                                |   |   |                 |   |   | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   8. |   |   | Converting Java3D Labs to WebGL                                |   |   | [[#project-details-eight][link]]            |   |   | [[https://github.com/niranjanreddy891][Niranjan Sodanapalli]] |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |   9. |   |   | NLP lab from PHP to Javascript                                 |   |   | [[#project-details-nine][link]]            |   |   | [[https://github.com/BalammaBoya][Balamma Boya]]         |
+   |      |   |   |                                                                |   |   |                 |   |   | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |  10. |   |   | Containerize Virtual Labs for optimizing resource usage        |   |   | [[#project-details-ten][link]]            |   |   | [[https://github.com/madhavipuliraju][Madhavi Puliraju]]     |
+   |      |   |   |                                                                |   |   |                 |   |   | [[https://github.com/sadhanareddy][Sadhana Virupaksha]]   |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
+   |  11. |   |   | Develop framework for generating test cases for client side    |   |   | [[#project-details-eleven][link]]            |   |   | [[https://github.com/sravanthimodepu][Sravanthi Modepu]]     |
+   |      |   |   | applications                                                   |   |   |                 |   |   |                      |
+   |------+---+---+----------------------------------------------------------------+---+---+-----------------+---+---+----------------------|
   
 ** 1. Virtual Reality Framework for Building Virtual Labs    
  :PROPERTIES:
