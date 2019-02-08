@@ -7,11 +7,10 @@
    Associate Professor at the International Institute of Information
    Technology, Hyderabad, India.
    
-   He is co-PI of Virtual Labs, Phase II and III (2016-2020).
+   Venkatesh is the co-PI of Virtual Labs, Phase II and III (2016-2020).
    Sponsor: MHRD, Govt. of India. Consortium partners: IITs at Bombay
    Delhi, Guwahati Kanpur, Kharagpur, Roorkee, Amrita University, COE
-   Pune, Dayalbagh University, NIT Surathkal. Total Budget: Rs. 100
-   Crores for 5 years.
+   Pune, Dayalbagh University, NIT Surathkal.
    
    Venkatesh's current research interests are in formal methods and
    software architectures. In addition, he has an interest in computer
@@ -23,13 +22,15 @@
 ** Project Coordinators 
     *Name:* Priya Raman
 
-    *Gitlab/Github:*  [[https://github.com/priya100raman][Profile]]
+    *Gitlab/Github:*  [[https://gitlab.com/Priya100][Profile]]
 
     *Name:* Lalit Mohan Sanagavarapu
 
     *Gitlab/Github:*  [[https://github.com/lalitsanagavarapu][Profile]]
 
     *Name:* Ravi Shankar  
+
+    *Gitlab/Github:*  [[https://gitlab.com/prs1234][Profile]]
 
 ** Projects list
    |------+----------------------------------------------------------------+-----------------+----------------------|
