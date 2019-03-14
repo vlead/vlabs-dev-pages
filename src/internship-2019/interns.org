@@ -1,0 +1,67 @@
+#+title: 2019 Summer Internship Positions
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Required skills
+
+We are looking for interns and students with at least one of
+the following skills:
+
+  - Full stack web development:  Python, JS, Git, Linux
+  - Graphics:   (Web GL and Game Development)
+  - UI/UX
+
+* Duration of internship program
+ 
+  =[2019-05-20 Mon]= and =[2019-07-12 Fri]=.  Longer
+  internships of 6 months or more duration are also
+  possible.  Please write to us at =jobs@vlabs.ac.in= if you
+  are interested.
+
+* Location  and Work schedule
+
+  B6-204, Vindhya C6, IIIT Hyderabad.  Work hours:
+  Monday-Friday 9am-6pm.
+
+* COMMENT What do we expect from you ?
+
+  We need committed and ambitious students who can understand
+  technology, are never shy of rolling their sleeves, love ownership
+  and believe in end-to-end delivery.  We need students with the
+  skills in the following areas -
+
+* Professional Advancement
+
+ - Contribute to a National Level Project of MHRD, Govt. of
+   India.
+
+ - Acquire hands-on experience in state of the art open
+   source technologies.
+
+* Benefits/Stipend
+
+ 1. Certificate of participation at the end of internship
+    and references from the mentors on a need basis.
+
+ 2. Availability of campus accommodation and mess for the
+    duration of the internship.  Interns need to pay for
+    accommodation and mess food on their own.  The project
+    will not cover or reimburse any of these expenses.
+
+ 3. Stipend of Rs. 15,000 per month.
+
+* Application Process
+
+  Make sure you have your =github= handle and a resume
+  available online.  Then fill the online application
+  [[https://docs.google.com/forms/d/e/1FAIpQLSfEkhS5vEL_ZPSvJcSl7E4nP9h1IiHRptzHdrQv06Csq6SeLg/viewform][=form=]].
+
+* Application Deadline 
+
+12th April, 2019.
+
+* Questions
+
+  Please email =2019-summer-interns@vlabs.ac.in=.
+
+
+
