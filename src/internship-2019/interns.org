@@ -9,6 +9,8 @@ the following skills:
   - Full stack web development:  Python, JS, Git, Linux
   - Graphics:   (Web GL and Game Development)
   - UI/UX
+  - Must have contributed to =github.com/virtual-labs= repository by
+    fixing issues in experiments.
 
 * Duration of internship program
  
@@ -20,7 +22,7 @@ the following skills:
 * Location  and Work schedule
 
   B6-204, Vindhya C6, IIIT Hyderabad.  Work hours:
-  Monday-Friday 9am-6pm.
+  Monday-Saturday 9am-6pm.
 
 * COMMENT What do we expect from you ?
 
@@ -37,18 +39,27 @@ the following skills:
  - Acquire hands-on experience in state of the art open
    source technologies.
 
+* Deliverable
+  1. Completed, reviewed and accepted two assigned experiments - video
+     recordings, test cases, code and literate documentation as per
+     Virtual Labs norms.
+
+  2. Detailed peer reviews of two experiments - testing, code and
+     literate documentation as per Virtual Labs norms.
+
+  3. Fix and/or Validate 50 Virtual Labs issues on GitHub.
+
+  4. Any other priority task that may come up on a need basis.
 * Benefits/Stipend
 
- 1. Certificate of participation at the end of internship
-    and references from the mentors on a need basis.
-
- 2. Availability of campus accommodation and mess for the
-    duration of the internship.  Interns need to pay for
-    accommodation and mess food on their own.  The project
-    will not cover or reimburse any of these expenses.
-
- 3. Stipend of Rs. 15,000 per month.
-
+  *Remuneration :* As part of this program, you will be eligible for
+  Rs.15,000 per month which will be given to you at the end of the
+  internship period on successful delivery of the deliverables assigned
+  to you.
+  
+  *Certificate :* You will be awarded a certificate only on the successful
+  completion of your assigned work.
+  
 * Application Process
 
   Make sure you have your =github= handle and a resume
