@@ -3,14 +3,14 @@
 
 * Required skills
 
-We are looking for interns and students with at least one of
-the following skills:
-
+  We are only looking for students who have contributed to
+  =github.com/virtual-labs= repository by fixing issues in experiments and
+  with at least one of the following skills
+  
   - Full stack web development:  Python, JS, Git, Linux
   - Graphics:   (Web GL and Game Development)
   - UI/UX
-  - Must have contributed to =github.com/virtual-labs= repository by
-    fixing issues in experiments.
+
 
 * Duration of internship program
  
@@ -40,9 +40,10 @@ the following skills:
    source technologies.
 
 * Deliverable
-  1. Completed, reviewed and accepted two assigned experiments - video
-     recordings, test cases, code and literate documentation as per
-     Virtual Labs norms.
+
+  1. Completed, reviewed and accepted two/ three(depending on
+     complexity) assigned experiments - video recordings, test cases,
+     code and literate documentation as per Virtual Labs norms.
 
   2. Detailed peer reviews of two experiments - testing, code and
      literate documentation as per Virtual Labs norms.
@@ -68,7 +69,7 @@ the following skills:
 
 * Application Deadline 
 
-12th April, 2019.
+  27th March 2019, Selected candidates will be informed by 3rd April 2019.
 
 * Questions
 
