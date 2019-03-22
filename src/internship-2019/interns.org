@@ -11,7 +11,6 @@
   - Graphics:   (Web GL and Game Development)
   - UI/UX
 
-
 * Duration of internship program
  
   =[2019-05-20 Mon]= and =[2019-07-12 Fri]=.  Longer
@@ -69,7 +68,8 @@
 
 * Application Deadline 
 
-  27th March 2019, Selected candidates will be informed by 3rd April 2019.
+  27th March 2019, Selected candidates will be informed by 3rd
+  April 2019.
 
 * Questions
 
