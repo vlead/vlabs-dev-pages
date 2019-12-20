@@ -14,10 +14,6 @@ not have access to adequate laboratory infrastructure. Currently there
 are around 150 labs which have been developed by various institutes.
 
 
-[[./technical-project-manager.org][Technical Project Manager]]  :   Number of positions - 01
-
-[[./technical-team-leader.org][Technical Team Lead]]        :   Number of positions - 02
-
 [[./content-writer.org][Technical Content Writer]]   :   Number of positions - 01
    
 [[./backend-web-developer.org][Backend Web Developer]]      :   Number of positions - 01
