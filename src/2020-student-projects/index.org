@@ -8,8 +8,8 @@ time research assistants are eligible to apply.
 
 * Project Listing
 ** Development of Virtual Labs
-   Experiments in different areas of computer science
-   - Automata Theory, Principles of Programming Languages,
+   Experiments in different areas of computer science:
+   Automata Theory, Principles of Programming Languages,
    Data Structures - are developed as part of this project.
    The challenge is to define the structure of an
    experiment; build textual content, interactive artefacts,
