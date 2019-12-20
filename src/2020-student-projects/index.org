@@ -1,0 +1,71 @@
+#+title:  Student Positions for 2020 Spring and Monsoon
+#+SETUPFILE: ../org-templates/level-1.org
+
+We are looking for research students in the areas of
+software systems and technologies.  The research areas are
+listed below.  Students as part of either BTP or as full
+time research assistants are eligible to apply.
+
+* Project Listing
+** Development of Virtual Labs
+   Experiments in different areas of computer science
+   - Automata Theory, Principles of Programming Languages,
+   Data Structures - are developed as part of this project.
+   The challenge is to define the structure of an
+   experiment; build textual content, interactive artefacts,
+   quizzes and videos to demonstrate and test the
+   understanding of various concepts.
+
+** Component Driven Experiment Authoring
+   Today, an interactive artefact is a monolithic.  For
+   example, the artefacts to illustrate merging an array and
+   an artefact to illustrate dividing an array have nothing
+   in common.  Both there artefacts do not use any reusable
+   components.  Therefore, the challenge is to build
+   reusable components that can be composed to illustrate a
+   series of actions.  The composition can be driven from a
+   specification.
+   
+   
+** Development of Services
+   An experiment instrumented with state trackers, loggers,
+   analytics monitors, components that assist in grading and
+   evaluating learner's performance, reactive elements
+   representing the UI and UX of the phases and steps in an
+   experiment, and such.
+
+   These trackers are connected to services.  The effort
+   here is build such services with a defined API.
+
+
+** Development of Hosting Platform
+   Hundreds of experiments are already hosted and many more
+   are are in the process of being built and hosted.  The
+   effort here will involve: building a CI/CD environment
+   using containerization of applications; allow setting up
+   security and performance rules from a specification while
+   maintaining a minimal resource footprint.
+
+** Experiment as a Service
+   Experiment as a service is a demonstration of packaging
+   an experiment as a service.  This entails both the
+   definition of an interface for each experiment and
+   building the runtime of an experiment that has the
+   ability to track it's state, log the progress, capture
+   analytics, authenticate and authorize.  These trackers
+   deposit data using services and provide the same data to
+   the application consuming the experiment via an
+   experiment service layer.
+
+** Interaction Design And UX for Virtual Labs
+   Virtual Labs is looking for students who can help design
+   how an interactive artefact be structured.  It is an
+   immense challenge to come up with the right interaction
+   design to allow a rich user experience.  Every experiment
+   is a virtual learning environment and how do we position
+   the leaning artefacts for a greater bang.
+
+
+
+* Apply
+  Please send an email to jobs@vlabs.ac.in 
