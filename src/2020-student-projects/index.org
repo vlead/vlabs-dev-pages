@@ -7,65 +7,103 @@ listed below.  Students as part of either BTP or as full
 time research assistants are eligible to apply.
 
 * Project Listing
-** Development of Virtual Labs
-   Experiments in different areas of computer science:
-   Automata Theory, Principles of Programming Languages,
-   Data Structures - are developed as part of this project.
-   The challenge is to define the structure of an
-   experiment; build textual content, interactive artefacts,
-   quizzes and videos to demonstrate and test the
-   understanding of various concepts.
+** Virtual Labs
+*** Development of Virtual Labs
+    Experiments in different areas of computer science -
+    automata and grammars, programming languages, data
+    structures, machine learning, AI, compilers, operating
+    systems and IOT - are developed as part of this project.
+    The challenge is to define the structure of an
+    experiment; build textual content, interactive artefacts,
+    quizzes and videos to demonstrate and test the
+    understanding of various concepts.
 
-** Component Driven Experiment Authoring
-   Today, an interactive artefact is a monolithic.  For
-   example, the artefacts to illustrate merging an array and
-   an artefact to illustrate dividing an array have nothing
-   in common.  Both there artefacts do not use any reusable
-   components.  Therefore, the challenge is to build
-   reusable components that can be composed to illustrate a
-   series of actions.  The composition can be driven from a
-   specification.
+*** Component Driven Experiment Authoring
+    Today, an interactive artefact is a monolith.  For
+    example, an artefact to illustrate merging an array and
+    an artefact to illustrate dividing an array have nothing
+    in common.  Both these artefacts do not use any reusable
+    components.  Therefore, the challenge is to build
+    components that can be composed to illustrate a series of
+    actions.  The composition can be driven from a
+    specification.
    
-   
-** Development of Services
-   An experiment instrumented with state trackers, loggers,
-   analytics monitors, components that assist in grading and
-   evaluating learner's performance, reactive elements
-   representing the UI and UX of the phases and steps in an
-   experiment, and such.
+*** Development of Services
+    An experiment is instrumented with state trackers,
+    loggers, analytics monitors, components that assist in
+    grading and evaluating learner's performance, reactive
+    elements representing the UI and UX of the phases and
+    steps in an experiment, and such.
 
-   These trackers are connected to services.  The effort
-   here is build such services with a defined API.
+    These trackers are connected to services.  The effort
+    here is build such services with a defined API.
 
+*** Cloud architecture of Hosting Platform
+    Hundreds of experiments are already hosted and many more
+    are in the process of being built and hosted.  The effort
+    here will involve: building a CI/CD environment using
+    containerization of applications; allow setting up
+    security and performance rules from a specification while
+    maintaining a minimal resource footprint.
 
-** Development of Hosting Platform
-   Hundreds of experiments are already hosted and many more
-   are are in the process of being built and hosted.  The
-   effort here will involve: building a CI/CD environment
-   using containerization of applications; allow setting up
-   security and performance rules from a specification while
-   maintaining a minimal resource footprint.
+*** Experiment as a Service
+    Experiment as a service is a demonstration of packaging
+    an experiment as a service.  This entails both the
+    definition of a common interface for all the experiments
+    and building the runtime of an experiment that has the
+    ability to track it's state, log the progress, capture
+    analytics, authenticate and authorize.  These trackers
+    deposit data using services and provide the same data to
+    the application consuming the experiment via an
+    experiment service layer.
 
-** Experiment as a Service
-   Experiment as a service is a demonstration of packaging
-   an experiment as a service.  This entails both the
-   definition of an interface for each experiment and
-   building the runtime of an experiment that has the
-   ability to track it's state, log the progress, capture
-   analytics, authenticate and authorize.  These trackers
-   deposit data using services and provide the same data to
-   the application consuming the experiment via an
-   experiment service layer.
+*** Interaction Design and User Experience of Virtual Labs
+    Virtual Labs is looking for students who can help design
+    how an interactive artefact should be structured.  It is
+    an immense challenge to come up with the right
+    interaction design to allow a rich user experience.
+    Every experiment is a virtual learning environment and
+    therefore will entail how the leaning artefacts are
+    positioned for a greater impact.  The starting point can
+    be an analysis of UI and UX of several hundreds of
+    existing experiments.
 
-** Interaction Design And UX for Virtual Labs
-   Virtual Labs is looking for students who can help design
-   how an interactive artefact be structured.  It is an
-   immense challenge to come up with the right interaction
-   design to allow a rich user experience.  Every experiment
-   is a virtual learning environment and how do we position
-   the leaning artefacts for a greater bang.
+*** Analysis and visualization of Vlabs Outreach Data
+    Take a sample from a data of about 1L records to analyse
+    usage and measure impact of virtual labs.
 
+*** Development of Virtual Labs using VR/AR
+    Design virtual labs in VR/AR
 
+*** Adaptible Vlab experiments
+    We are looking at building experiments that statically
+    and dynamically adapt to a student's level and
+    background.  This works involves gather analytics and
+    building ML algorithms as recommender systems.
 
+*** Renarration of vlabs
+    Renarration of virtual labs by including local context
+    (language, place, relevant examples, etc.) increases
+    their usability.  The project is to study, and design an
+    interface for renarration of virtual labs and other
+    learning environments.
+
+** S/W engineering and Literate Programming
+   [[https://en.wikipedia.org/wiki/Literate_programming][Literate Programming]] (LP) is a way of combining code and
+   narrative so as to increase programming
+   comprehensibility. 
+*** LP and Programming Education
+    Analyse the impact of literate programming on learning
+    programming.
+*** LP and  productivity and maintenance  of s/w
+    Study the impact of LP intervention in the maintenance
+    of s/w.  This is an industry combined project.
+*** Implementation of LP tools
+    One weakness of LP is lack of tools that integrate
+    debugging of code via the source files, which are in
+    plain text with code snippets interspersed.  New
+    programming environments will allow fixing code embedded
+    in the narrative in order to reduce the write-test-debug
+    cycle of code development.
 * Apply
-  Please send an email to jobs@vlabs.ac.in 
+  Please send an email to jobs@vlabs.ac.in
