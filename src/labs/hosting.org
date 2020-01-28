@@ -4,7 +4,7 @@
 #+DATE: [2020-01-08 Wed]
 #+PROPERTY: results output
 #+PROPERTY: exports code
-#+SETUPFILE: ./org-templates/level-0.org
+#+SETUPFILE: ../org-templates/level-1.org
 #+LANGUAGE: en
 #+OPTIONS: ^:nil
 
