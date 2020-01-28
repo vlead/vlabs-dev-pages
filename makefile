@@ -12,7 +12,8 @@ all:  publish
 
 publish: 
 	emacs --script elisp/prj.el
-
+	mkdir -p build/prj/images
+	cp src/images/* build/prj/images
 clean:
 	rm -rf ${BUILD}
 

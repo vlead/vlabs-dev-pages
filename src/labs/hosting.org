@@ -263,15 +263,10 @@
 
 The flow diagram depicting lifecycle of a hosting request is below:
 
- #+BEGIN_HTML
- #+END_HTML
-
- /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?ts=5e258af8][image]]/
-
  
- #+CAPTION: This is the caption for the next figure link (or table)
-#+NAME:   fig:flowchart
-[[../images/hosting-process.png]]
+ #+CAPTION: Hosting process 
+ #+NAME:   fig:flowchart
+ [[file:../images/hosting-process.png]]
 
 * Roles and Responsibilities
 
