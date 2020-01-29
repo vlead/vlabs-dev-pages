@@ -312,7 +312,7 @@
 #+NAME:   fig:flowchart
  [[file:../images/hosting-process-table.png]]
 
- /[[https://docs.google.com/drawings/d/1JfrZerBuMvTBFFfbhiMKKmePMNJ0GsbfTnsnvRbCLZw/edit][edit image]]/
+ /[[https://docs.google.com/drawings/d/1JfrZerBuMvTBFFfbhiMKKmePMNJ0GsbfTnsnvRbCLZw/edit][edit table]]/
  
 * Conclusion 
   This document highlights the hosting process of Virtual
