@@ -39,7 +39,7 @@
   want to avail the hosting service provided by VLEAD, IIITH
   team.
 * Definitions and Pre-requisites
-  Vlabs hosting process will require certain prerequisites
+  Virtual Labs hosting process will require certain prerequisites
   to be met by the experiments that need to be hosted. The
   following paragraphs define terminologies used during the
   hosting process.
@@ -58,7 +58,7 @@
    have one designated owner. The owner will be the single
    entity responsible for all the code that resides in the
    repository. The owner will also be the final approval
-   authority for a hosting request. The owner should ensure
+   authority for a [[https://github.com/virtual-labs/engineers-forum/issues/new/choose]['hosting request]]'. The owner should ensure
    that the master branch of the repository only contains
    the code that needs to be hosted. The latest code in the
    master branch should represent the hosted experiment.
@@ -71,8 +71,7 @@
    shared accessibility of the repo owner entity.
 
 ** Requester 
-   A repository owner or a developer who raises a hosting
-   request.
+   A repository owner or a developer who raises a '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'.
 ** Tags
    The repository owner will be responsible for tagging each
    merge to the master branch. The owner will have to follow
@@ -80,10 +79,10 @@
    combination of three numbers (MAJOR.MINOR.PATCH)
    separated by dots. The changes to these numbers represent
    the following:
-    1. MAJOR: A change incompatible with previous versions.
-    2. MINOR: A backwords compatible new feature.
-    3. PATCH: A backwords compatible bug fix.
-   All Virtual Labs hosting request should specify a tag.
+    1. *MAJOR* : A change incompatible with previous versions.
+    2. *MINOR* : A backwords compatible new feature.
+    3. *PATCH* : A backwords compatible bug fix.
+   All Virtual Labs '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' should specify a tag.
 
 ** Build Process
    Each hosting unit should have a well defined build
@@ -91,8 +90,8 @@
    a black box action.  This action will be triggerred to
    generate the artifacts to deploy.  The repository owner
    should ensure that the build process is well documented
-   and functioning as desired before raising a hosting
-   request.
+   and functioning as desired before raising a'[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+   request]]'.
 
 ** Testing
    The hosting process will result in a deployment with an
@@ -106,7 +105,9 @@
 
 * Hosting Process
   Virtual Labs hosting process consists of two steps - 
+
   1. Request the onboarding of a hosting unit 
+
   2. Request the hosting of hosting unit
 ** On-Boarding process of hosting unit 
   Each hosting unit that needs to be hosted by the Virtual
@@ -117,22 +118,41 @@
   following pieces of information :
   
   1. A non-conflicting name for the hosting unit.
+
   2. Repository URL for the hosting unit.
-  3. A designated repository owner with the following details:
+
+  3. A designated repository owner with the following
+     details:
+
      a. Repository owner name
+
      b. Repository owner github id
+
      c. Repository owner email address
+
      d. Repository owner phone
+
   4. The build command for the hosting unit along with the
      link to the build process documentation.
+
   5. Hardware specification including:
+     
      a. CPU
+
      b. Memory
+
      c. Network bandwidth
+
   6. Software environment specification including:
-     a. Host operating system with minimum compatible version
-     b. Any additional software packages with minimum compatile versions
+
+     a. Host operating system with minimum compatible
+     version
+
+     b. Any additional software packages with minimum
+     compatile versions
+
      c. Browser plugins required to view experiment
+             
      d. DB
 
   Repository owner will be reponsible for keeping the above
@@ -153,39 +173,47 @@
    information :
   
    1. Repository URL
+ 
    2. Branch/Tag to be deployed
+
    3. Contact details of the repository owner
    
-   A hosting request will be tied to this information.
+   A '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' will be tied to this information.
    This issue will be a single source of truth for that
    hosting request.  All communication related to the
-   hosting will be recorded on the raised hosting request.
+   hosting will be recorded on the raised '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'.
 
-*** Lifecycle of a Hosting Request
+*** *Lifecycle of a Hosting Request*
     
-    The hosting request will go through the following
+    The'[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' will go through the following
     lifecycle:
 
-    1.  Requester will raise a hosting request issue by duly
+    1.  Requester will raise a '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' issue by duly
         filling in the details in the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'.
+    
     2.  If requester is not the repository owner, the
         hosting team will seek approval from the repository
         owner. This will be through the above created GitHub
-        hosting request issue.
-    3.  The hosting team will honour the hosting request
-        only on receiving the approval from repository
-        owner else will label the hosting request issue 
-        as *Not Approved* 
+        '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' issue.
+
+    3.  The hosting team will honour the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'
+       only on receiving the approval from repository owner
+       else will label the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' issue as *Not
+       Approved*
+   
     4.  On a successful hosting, the hosting team will add
-        the link of the newly hosted content to the hosting
-        request issue. They will also label the issue as
-        *Hosted*.
+       the link of the newly hosted content to the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+       request]]' issue. They will also label the issue as
+       *Hosted*.
+   
     5.  However, on failure ( because of missing or
         incorrect information or repository problems,), the
         hosting team will label the issue as *Failed*.
+   
     6.  The requester will be responsible for fixing the
         failed hosting bug and will need to raise a new
         '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' to get the unit hosted.
+   
     7.  Once the hosting is successful, the requester will
         be responsible for the verification of the hosted
         link.  If the hosting is not as expected, the
@@ -193,131 +221,144 @@
         *Reopened*. The requester will also need to specify
         if he/she would like to revert to the previous
         hosted image.
+   
     8.  An issue with *Reopened* label will by default host
-        the repository and branch/tag as specified in the
-        hosting request initially. However, if the requester
-        has specifically requested a revert, the previously
-        hosted image will be restored and issue will be
-        labelled as *Reverted*.
+       the repository and branch/tag as specified in the
+       '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' initially. However, if the
+       requester has specifically requested a revert, the
+       previously hosted image will be restored and issue
+       will be labelled as *Reverted*.
+   
     9.  If the requester wants to revert to any earlier
         branch/tag, a new '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' will need to be
         raised to get the unit hosted.
-    10. Requester will be responsible for closing a hosting
-        request issue by changing the issue status from Open
-        to Closed when the issue is labelled as *Hosted* or
-        *Reopened* or *Reverted* or *Not Approved*.
+   
+    10. Requester will be responsible for closing a '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+        request]]' issue by changing the issue status from
+        Open to Closed when the issue is labelled as
+        *Hosted* or *Reopened* or *Reverted* or *Not
+        Approved*.
 
-*** Labels & Status of a Hosting Request 
+*** *Labels & Status of a Hosting Request* 
 
     At any given time a hosting issue should be marked with
     only one of the following labels. To change the label of
     an issue, the current label of the issue should be
     unchecked and the new label should be checked.
 
-    Hosted :  This label indicates that the hosting request
-    has been successful and the hosted url has been shared
-    in the hosting request issue. This label is used only by
-    the hosting team. 
+    *Hosted* : This label indicates that the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+    request]]' has been successful and the hosted url has been
+    shared in the [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]] issue. This label is used
+    only by the hosting team.
    
-    Failed : This label indicates that the hosting request
-    has not been successful. This label is used only by the
-    hosting team.
+    *Failed* : This label indicates that the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+    request]]' has not been successful. This label is used
+    only by the hosting team.
 
-    Reopened : This label is used by the requester to
+    *Reopened* : This label is used by the requester to
     indicate that the hosting url provided on a successful
     hosting of the hosting unit is not passing the validation.
    
-    Not Approved : This label indicates that the hosting
-    request issue raised by the requester was not approved
+    *Not Approved* : This label indicates that the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+    request ]]' issue raised by the requester was not approved
     by the Repository Owner.  This label is used only by the
     hosting team.
     
-    Reverted :  This label indicates that the hosting request
-    has been successfully revert to the previous hosted
-    image. This label is used only by
-    the hosting team. 
+    *Reverted* : This label indicates that the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+    request]]' has been successfully revert to the previous
+    hosted image. This label is used only by the hosting
+    team.
     
-    Apart from the above mentioned labels a hosting request
+    Apart from the above mentioned labels a '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'
     issue can either be in a closed or open status as
     provided by GitHub. 
 
-    Open : This status indicates that a new hosting request
+    *Open* : This status indicates that a new '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'
     issue has been raised and is waiting for the services of
     the hosting team. All issues are in this status when
     they are created on GitHub.
 
-    Closed : This status indicates that a hosting request
+    *Closed* : This status indicates that a [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]
     has been serviced by the hosting team and is labelled as
     *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
 
 * Central Hosting Data  
   The following information will be stored at a central
   place for a quick reference by the hosting team:
-    1. Hosting unit name
-    2. Repository URL
-    3. Currently hosted Branch/Tag
-    4. Previously hosted Branch/Tag
-    5. Date/Time of hosting
+  
+  1. Hosting unit name
+
+  2. Repository URL
+  
+  3. Currently hosted Branch/Tag
+  
+  4. Previously hosted Branch/Tag
+  
+  5. Date/Time of hosting
 
 * Flow Diagram of the Hosting Process
 
-The flow diagram depicting lifecycle of a hosting request is below:
+  The flow diagram depicting lifecycle of a hosting request is below:
 
- 
- #+CAPTION: Hosting process 
+
+  
  #+NAME:   fig:flowchart
  [[file:../images/hosting-process.png]]
 
+ /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
+
+
+
 * Roles and Responsibilities
 
-  |---------+-----------------------------------------------+------------------|
-  |---------+-----------------------------------------------+------------------|
-  | *S.No.* | *Task*                                        | *Responsibility* |
-  |---------+-----------------------------------------------+------------------|
-  |      1. | Raising an On-Boarding Request                | Repository owner |
-  |---------+-----------------------------------------------+------------------|
-  |      2. | Tagging the hosting unit release  in the      | Requester        |
-  |         | master branch while raising hosting request   |                  |
-  |---------+-----------------------------------------------+------------------|
-  |      3. | Testing the application before                | Requester        |
-  |         | making hosting request                        |                  |
-  |---------+-----------------------------------------------+------------------|
-  |      4. | Raising the hosting request and               | Requester        |
-  |         | providing all required information            |                  |
-  |---------+-----------------------------------------------+------------------|
-  |      5. | Seeking approval of the repository owner      | Hosting team     |
-  |         | if the request is raised by someone other     |                  |
-  |         | than the repository owner.                    |                  |
-  |         | Labelling the hosting request issue as        |                  |
-  |         | *Not Approved* if the request is not          |                  |
-  |         | approved by the repository owner              |                  |
-  |---------+-----------------------------------------------+------------------|
-  |      6. | Validating the information provided in the    | Hosting team     |
-  |         | hosting and on-boarding request               |                  |
-  |---------+-----------------------------------------------+------------------|
-  |      7. | Running the hosting process                   | Hosting team     |
-  |---------+-----------------------------------------------+------------------|
-  |      8. | Providing the hosted link to the              | Hosting team     |
-  |         | requester  and labelling the hosting          |                  |
-  |         | request issue to *Hosted*                     |                  |
-  |---------+-----------------------------------------------+------------------|
-  |      9. | Providing the causes/nature  of failure       | Hosting team     |
-  |         | and labelling the hosting request issue to    |                  |
-  |         | *Failed*                                      |                  |
-  |---------+-----------------------------------------------+------------------|
-  |     10. | Validating the hosted code                    | Requester        |
-  |---------+-----------------------------------------------+------------------|
-  |     11. | Labelling the hosting request issue as        | Requester        |
-  |         | *Reopened* if validation is unsuccessful      |                  |
-  |---------+-----------------------------------------------+------------------|
-  |     12. | Reverting the hosting unit to previous hosted | Hosting team     |
-  |         | image if validation fails and                 |                  |
-  |         | labelling the issue as *Reverted*             |                  |
-  |---------+-----------------------------------------------+------------------|
-  |     13. | Changing the status to *Closed* if the        | Requester        |
-  |         | request is labelled *Hosted* or *Reverted*    |                  |
-  |         | or *Not Approved* or *Failed*                 |                  |
-  |---------+-----------------------------------------------+------------------|
+  |---------+---+-----------------------------------------------+---+------------------|
+  |---------+---+-----------------------------------------------+---+------------------|
+  | *S.No.* |   | *Task*                                        |   | *Responsibility* |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      1. |   | Raising an On-Boarding Request                |   | Repository owner |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      2. |   | Tagging the hosting unit release  in the      |   | Requester        |
+  |         |   | master branch while raising hosting request   |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      3. |   | Testing the application before                |   | Requester        |
+  |         |   | making hosting request                        |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      4. |   | Raising the hosting request and               |   | Requester        |
+  |         |   | providing all required information            |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      5. |   | Seeking approval of the repository owner      |   | Hosting team     |
+  |         |   | if the request is raised by someone other     |   |                  |
+  |         |   | than the repository owner.                    |   |                  |
+  |         |   | Labelling the hosting request issue as        |   |                  |
+  |         |   | *Not Approved* if the request is not          |   |                  |
+  |         |   | approved by the repository owner              |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      6. |   | Validating the information provided in the    |   | Hosting team     |
+  |         |   | hosting and on-boarding request               |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      7. |   | Running the hosting process                   |   | Hosting team     |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      8. |   | Providing the hosted link to the              |   | Hosting team     |
+  |         |   | requester  and labelling the hosting          |   |                  |
+  |         |   | request issue to *Hosted*                     |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |      9. |   | Providing the causes/nature  of failure       |   | Hosting team     |
+  |         |   | and labelling the hosting request issue to    |   |                  |
+  |         |   | *Failed*                                      |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |     10. |   | Validating the hosted code                    |   | Requester        |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |     11. |   | Labelling the hosting request issue as        |   | Requester        |
+  |         |   | *Reopened* if validation is unsuccessful      |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |     12. |   | Reverting the hosting unit to previous hosted |   | Hosting team     |
+  |         |   | image if validation fails and                 |   |                  |
+  |         |   | labelling the issue as *Reverted*             |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
+  |     13. |   | Changing the status to *Closed* if the        |   | Requester        |
+  |         |   | request is labelled *Hosted* or *Reverted*    |   |                  |
+  |         |   | or *Not Approved* or *Failed*                 |   |                  |
+  |---------+---+-----------------------------------------------+---+------------------|
 
 * Conclusion 
   This document highlights the hosting process of Virtual
