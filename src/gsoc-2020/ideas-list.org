@@ -1,0 +1,120 @@
+#+title: Google Summer of Code 2020 - Ideas List
+
+* Organization Administrator
+
+  *Name*: Prof. Venkatesh Choppella
+  
+  Associate Professor at the International Institute of Information
+  Technology, Hyderabad, India.
+
+  Venkatesh is the co-PI of Virtual Labs, Phase II and III
+  (2016-2020). Sponsor: MHRD, Govt. of India. Consortium partners:
+  IITs at Bombay Delhi, Guwahati Kanpur, Kharagpur, Roorkee, Amrita
+  University, COE Pune, Dayalbagh University, NIT Surathkal.
+
+  Venkatesh's current research interests are in formal methods and
+  software architectures. In addition, he has an interest in computer
+  science education and FOSS-based educational technology. He has
+  published over 50 research papers and technical reports in the area
+  of automated deduction, type systems, formal methods, compilers, and
+  educational technology.
+
+* Layouts
+  =data-structure-components= is a graphics library.  Each of the
+  components is an =SVG= object.  To represent the conceptual
+  data-structures, these objects need to have a specific layout when
+  rendered on the screen.  Three basic layout categories are =List=,
+  =Tree=, and =Graph=.  Each of there categories have standard layout
+  algorithms which need to be implemented as view functions.
+
+  These view functions will then take the data and render the
+  component to the screen in the suitable layout.
+
+** Mentor
+
+   *Name*: Prof. Venkatesh Choppella
+
+** Scope of Work
+   1. Graphics programming
+   2. Understand and implment layout algorithms
+
+** Technical Requirements
+   1. Elm
+   2. Functional Programming
+
+* Interactions
+  Functions to define interaction behaviors on visual components.
+  There are a limited number of possible interactions a user can have
+  with a visual component.  Each of these can be mapped to a
+  particular user event.  In this project, we define functions that
+  handle user events and perform the required operations on the data
+  structures.
+
+  Interactions are also associated with transitions/animations that
+  indicate to the user that some event has been triggered by their
+  action and lets them analyze what changes have taken place in the
+  target component.
+
+** Mentor
+
+   *Name*: Prof. Venkatesh Choppella
+
+** Scope of Work
+   1. Understanding the Model View Update arhitecture
+   2. Implementing event handlers
+
+** Technical Requirements
+   1. Elm
+
+* Component Gallery
+  The =data-structure-components= library is aimed at developers building
+  interactive data structures and algorithms experiments.  A new API
+  library needs to have learning resources in the form of
+  documentation and working examples in order to make it easier for
+  developers to adopt the library.  The =component usage gallery= is a
+  place where developers planning to use the library can find usage
+  examples in the form of working web-apps.  It will contain
+  explanation of the implementation along with references to APIs
+  used.
+
+  For example, =List= is a component in the library and =selection=
+  one of the possible interactions on a data item.  A list with
+  selectable data items is a common scenario in many experiments.  The
+  gallery will demonstrate how to use build such composition using the
+  library APIs, along with the important parts of the code.
+** Mentor
+
+   *Name*: Prof. Venkatesh Choppella
+
+** Scope of Work
+   1. Web Application development
+   2. Understanding the use of a new API library to build applications
+   3. Building Graphical user interfaces
+
+** Technical Requirements
+   1. Elm
+
+* Experiment Statistics
+  The objective of building data-structure experiments is primarily to
+  help computer science educators incorporate active learning
+  pedagogical approaches into their teaching methodology in
+  introductory algorithms courses.  To achieve this objective, the
+  experiments need to have evaluation metrics that indicate student
+  performance and also let teachers analyze how students are
+  interacting with the experiment.
+
+  To facilitate this objective, interaction logging mechanisms are
+  needed, which can be used to trace the usage history of each
+  experiment component, which can be analyzed by instructors to guide
+  then in designing better experiments.
+** Mentor
+
+   *Name*: Prof. Venkatesh Choppella
+
+** Scope of Work
+   1. Design and implment Event Logging in a web application
+   2. Design interface to display experiment specific statistics to
+      users in real-time.
+
+** Technical Requirements
+   1. Elm
