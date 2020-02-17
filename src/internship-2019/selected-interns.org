@@ -1,0 +1,85 @@
+#+title: List of selected interns for 2018 summer intership
+#+SETUPFILE: ../org-templates/level-1.org
+
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Name               |   |   | e-mail ld                             |   |   | College & Year                      |   |   | Github |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Aditya Todi        |   |   | aditya.todi@students.iiit.ac.in       |   |   | IIIT-H, B.Tech CSE, 2nd Year        |   |   | [[https://github.com/aditya-todi][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Ananya Arun        |   |   | ananya.arun@research.iiit.ac.in       |   |   | IIIT-H, B.Tech CSE & MS, 1st Year   |   |   | [[https://github.com/ananyaarun][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Daksh Lalwani      |   |   | daksh.lalwani@students.iiit.ac.in     |   |   | IIIT-H, B.Tech CSE, 2nd Year        |   |   | [[https://github.com/dakshlalwani][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Debojit Das        |   |   | ddas1500@gmail.com                    |   |   | IIIT-H, B.Tech CSE, 1st Year        |   |   | [[https://drive.google.com/open?id=1UUZEQc4ZkrYEZmXw6EVjq-AXg0_UBbIh][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Devansh Gupta      |   |   | devansh.gupta@students.iiit.ac.in     |   |   | IIIT-H, B.Tech CSE, 1st Year        |   |   | [[https://github.com/devu1999/][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Devansh Manu       |   |   | devansh.manu@research.iiit.ac.in      |   |   | IIIT-H, B.Tech, CSE & M.S, 3rd Year |   |   | [[https://devanshmanu.github.io/DevanshManu.pdf][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Gayatri Purigilla  |   |   | gayatri.purigilla@research.iiit.ac.in |   |   | IIIT-H, B.Tech CSE & M.S, 1st Year  |   |   | [[https://github.com/gayatripurigilla][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Keshavan  Seshadri |   |   | keshavan.seshadri@research.iiit.ac.in |   |   | IIIT-H, B.Tech CSE, 1st Year        |   |   | [[https://github.com/K7S3][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Mayank Modi        |   |   | mayank.modi.iiit@gmail.com            |   |   | IIIT-H,B.Tech CSE& M.S, 3rd Year    |   |   | [[https://www.overleaf.com/read/yccxssdwvkhq][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Mayank Taluja      |   |   | mtaluja11@gmail.com                   |   |   | IIIT-H, B.Tech ECE, 2nd Year        |   |   | [[https://researchweb.iiit.ac.in/~mayank.taluja/CV.pdf][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Mishal Shah        |   |   | shahmishal1998@gmail.com              |   |   | NITK, B.Tech CSE, 2nd Year          |   |   | [[https://drive.google.com/open?id=1gyWYXRT1-2qhSboAYSLKjxhXezTek6DF][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Rachit Jain        |   |   | jainrachit100@gmail.com               |   |   | IIIT-H, B.Tech CSE, 2nd Year        |   |   | [[https://github.com/rachitjain123][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Sanjana Sunil      |   |   | sanjana.sunil@students.iiit.ac.in     |   |   | IIIT-H, B.Tech CSE, 1st Year        |   |   | [[https://github.com/SanjanaSunil][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Srinivas Nishant V |   |   | Srinivasnishant.2016@vitstudent.ac.in |   |   | VIT-Vellore B.Tech CSE, 2nd Year    |   |   | [[https://github.com/nishantviswanadha%20][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Sumaid Syed        |   |   | sumaidsyed@gmail.com                  |   |   | IIIT-H, B.Tech CSE, 2nd Year        |   |   | [[https://drive.google.com/file/d/1e6af_wu9AvKws6qxRVxGlWlrZxXlsAe1/view][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Surendra Kumar     |   |   | surendra.kumar@research.iiit.ac.in    |   |   | IIIT-H, B.Tech CSE & M.S, 1st Year  |   |   | [[https://drive.google.com/file/d/1Alq2lVYArEh6XvCIGJ3gQ74gUcoOvnma/view?usp=drivesdk][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Swapnil Pakhare    |   |   | swapnil.pakhare@students.iiit.ac.in   |   |   | IIIT-H, B.Tech ECE, 2nd Year        |   |   | [[https://drive.google.com/open?id=1txVFBGg7DMbP_Vmu0GvUhrmw4rOgc4dJ][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Thayi Sowrya deep  |   |   | sowryadeep.thayi@students.iiit.ac.in  |   |   | IIIT-H, B.Tech CSE, 2nd Year        |   |   | [[https://github.com/natsuset/][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Udaypartap Singh   |   |   | Udaypartap.singh@students.iiit.ac.in  |   |   | IIIT-H, B.Tech CSE, 2nd Year        |   |   | [[https://github.com/udaysd7897?tab%3Drepositories][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+| Vikrant  Deshmukh  |   |   | vikrant.deshmukh@research.iiit.ac.in  |   |   | IIIT-H, B.Tech (hons) CSE, 2nd Year |   |   | [[https://github.com/vikrant1697][Link]]   |
+|--------------------+---+---+---------------------------------------+---+---+-------------------------------------+---+---+--------|
+
+* Terms & Conditions
+
+  1. Duration :: 14th May 2018 to 13th July 2018
+
+  2. Working days :: Monday to Friday
+
+  3. Working hours :: 9:00 A.M to 6:00 P.M
+
+  4. Attendance :: You will adhere to the IIIT-H listed holidays only
+                   an dwill not be eligible for any leave durting th
+                   einternship program.
+
+  5. Equipment :: You will need to bring your own laptop running Linux
+                  (A Debian or its derivative like Ubuntu).  You will
+                  not be allowed to come in to the internship without
+                  your laptop.
+
+  6. Id Proof :: You will need to bring a proof that you are
+                 registered with your college (Your college ID should
+                 suffice.)
+
+  7. Remuneration :: As part of this program, you will be paid
+                     Rs. 15,000/- per month.
+
+  8. Certificate :: You will be awarded a certificate only on the
+                    successful completion of your assigned work.
+ 
+		    
+* Communication
+  Please feel free to get in touch with us if you have questions by sending an
+  email to (=2018-summer-interns@vlabs.ac.in=).
+
+
+
+
+
+* Past Internship Program
+  Please visit the [[https://github.com/vlead/2016-summer-internship/blob/master/src/index.org#virtual-labs-summer-internship-program-2016][2016-summer-internship]] and [[https://github.com/vlead/2017-summer-internship/blob/master/src/index.org][2017-summer-internship]] pages for past internship program details.

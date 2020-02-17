@@ -1,0 +1,37 @@
+#+title:  GSoC 2016 Student Application Template
+#+SETUPFILE: ../org-templates/level-1.org
+
+
+Please ensure that you have read the student instructions for GSOC 2016 before
+embarking on writing the application using this template.
+
+After your application is complete, ensure that you submit at GSOC 2016 official
+[[https://summerofcode.withgoogle.com][website]]
+
+* Template
+** Title
+   Title of your proposal is first thing to be included. 
+
+** Personal Information
+   * Your Full Name
+   * University
+   * Contact information - email
+   * A paragraph of 4-5 lines that describes you. 
+   * A few details about your foray into programming
+     + What programming language did you use?
+     + What platform ?
+     + A brief description about your projects with their source locations on
+       github
+     + What editor are you comfortable with? We use emacs and org-mode, even if
+       you have not used it before, we will train you. 
+
+** Project Information
+   * Which project did you choose from the ideas list?
+   * Tell us what excites you about the project you chose?
+   * Tell us what qualifications you have to contribute to the project you chose?
+   * Tell us if you have seen any alternate implementations or literature like
+     blog posts on similar implementation?
+
+
+
+  

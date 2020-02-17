@@ -1,0 +1,79 @@
+#+title: 2019 Summer Internship Positions
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Required skills
+
+  We are only looking for students who have contributed to
+  =github.com/virtual-labs= repository by fixing issues in experiments and
+  with at least one of the following skills
+  
+  - Full stack web development:  Python, JS, Git, Linux
+  - Graphics:   (Web GL and Game Development)
+  - UI/UX
+
+* Duration of internship program
+ 
+  =[2019-05-20 Mon]= and =[2019-07-12 Fri]=.  Longer
+  internships of 6 months or more duration are also
+  possible.  Please write to us at =jobs@vlabs.ac.in= if you
+  are interested.
+
+* Location  and Work schedule
+
+  B6-204, Vindhya C6, IIIT Hyderabad.  Work hours:
+  Monday-Saturday 9am-6pm.
+
+* COMMENT What do we expect from you ?
+
+  We need committed and ambitious students who can understand
+  technology, are never shy of rolling their sleeves, love ownership
+  and believe in end-to-end delivery.  We need students with the
+  skills in the following areas -
+
+* Professional Advancement
+
+ - Contribute to a National Level Project of MHRD, Govt. of
+   India.
+
+ - Acquire hands-on experience in state of the art open
+   source technologies.
+
+* Deliverable
+
+  1. Completed, reviewed and accepted two/ three(depending on
+     complexity) assigned experiments - video recordings, test cases,
+     code and literate documentation as per Virtual Labs norms.
+
+  2. Detailed peer reviews of two experiments - testing, code and
+     literate documentation as per Virtual Labs norms.
+
+  3. Fix and/or Validate 50 Virtual Labs issues on GitHub.
+
+  4. Any other priority task that may come up on a need basis.
+* Benefits/Stipend
+
+  *Remuneration :* As part of this program, you will be eligible for
+  Rs.15,000 per month which will be given to you at the end of the
+  internship period on successful delivery of the deliverables assigned
+  to you.
+  
+  *Certificate :* You will be awarded a certificate only on the successful
+  completion of your assigned work.
+  
+* Application Process
+
+  Make sure you have your =github= handle and a resume
+  available online.  Then fill the online application
+  [[https://docs.google.com/forms/d/e/1FAIpQLSfEkhS5vEL_ZPSvJcSl7E4nP9h1IiHRptzHdrQv06Csq6SeLg/viewform][=form=]].
+
+* Application Deadline 
+
+  27th March 2019, Selected candidates will be informed by 3rd
+  April 2019.
+
+* Questions
+
+  Please email =2019-summer-interns@vlabs.ac.in=.
+
+
+

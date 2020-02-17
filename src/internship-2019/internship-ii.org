@@ -1,0 +1,91 @@
+#+title: 2019 Summer Internship Positions
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Required skills
+
+** Technical
+1) Experience in building lightweight web applications. Javascript and
+   libraries such as AngularJS, ReactJS, WebGL, etc
+
+2) Ability to understand and debug Java code
+
+** Behavioral
+1) Problem Solving
+
+2) Collaboration and willingness to assist others
+
+** Other Expectations
+1) Should have completed ITWS-II, SSAD and SE (optional) courses with
+   B grade or higher
+
+2) Should have been TA to a course
+
+3) Should be physically present during the office hours.
+
+* Duration of internship program
+ 
+  =[2019-05-06 Mon]= and =[2019-07-13 Sat]=.  Longer
+  internships of 6 months or more duration are also
+  possible.  Please write to us at =jobs@vlabs.ac.in= if you
+  are interested.
+
+* Location  and Work schedule
+
+  B6-204, Vindhya C6, IIIT Hyderabad.  Work hours:
+  Monday-Saturday 9am-6pm.
+
+* COMMENT What do we expect from you ?
+
+  We need committed and ambitious students who can understand
+  technology, are never shy of rolling their sleeves, love ownership
+  and believe in end-to-end delivery.  We need students with the
+  skills in the following areas -
+
+* Professional Advancement
+
+ - Contribute to a National Level Project of MHRD, Govt. of
+   India.
+
+ - Acquire hands-on experience in state of the art open
+   source technologies.
+
+* Deliverable
+
+  1. Rewrite existing 4 Java/Java3D to Javascript Virtual Lab experiments
+
+  2. Mentor 25+ students in building/rewriting open source labs
+
+  
+
+* Benefits/Stipend
+
+  *Remuneration :* As part of this program, you will be eligible for
+  Rs.15,000 per month which will be given to you at the end of the
+  internship period on successful delivery of the deliverables assigned
+  to you.
+  
+  *Certificate :* You will be awarded a certificate only on the successful
+  completion of your assigned work.
+  
+* Application Process
+
+  Make sure you have your =github= handle and a resume
+  available online.  Then fill the online application
+  [[https://docs.google.com/forms/d/e/1FAIpQLSdi-0kqcEp7fhF1q2PJQdH1DPhgukUIlCXKuEUJHf1g2-ooLg/viewform][=form=]].
+
+  Students who had applied to the Virtual Labs internship program
+earlier this month but were not offered can also apply.
+
+
+* Application Deadline 
+
+  23rd April 2019
+
+
+* Questions
+
+  Please email =2019-summer-interns@vlabs.ac.in=.
+
+
+
+
