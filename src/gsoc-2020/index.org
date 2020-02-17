@@ -1,4 +1,5 @@
 #+title: Google Summer of Code 2020 - Ideas List
+#+SETUPFILE: ../org-templates/level-1.org
 
 * Organization Administrator
 
@@ -19,7 +20,31 @@
   of automated deduction, type systems, formal methods, compilers, and
   educational technology.
 
-* Layouts
+* Projects List
+  
+  To facilitate rapid development of data structures experiments, we
+  are building an experiment development framework.  The
+  =data-structure-components= library is a part this framework which
+  provides developers with a set of high level APIs to specify the
+  experiment components and their interactions declaratively.  The
+  library is based on Elm and leaverages the GraphicSVG package for
+  low level visualizations.
+
+  The projects listed below, are all parts of the above mentioned data
+  structure experiment development framework and the
+  =data-structure-components= library project.  All of these projects
+  require some experience in web development and familiarity with the
+  Elm programming language.
+
+  1. [[Implementing Layouts for data structure visualizations][Implementing Layouts for data structure visualizations]]
+  2. [[Designing Interactions for data structure components][Designing Interactions for data structure components]]
+  3. [[Developing a Component Gallery][Developing a Component Gallery to demonstrate the data structure
+     components]]
+  4. [[Experiment Statistics][Developing event logging system to support online experiment
+     statistics]]
+
+* Implementing Layouts for data structure visualizations
+
   =data-structure-components= is a graphics library.  Each of the
   components is an =SVG= object.  To represent the conceptual
   data-structures, these objects need to have a specific layout when
@@ -36,13 +61,16 @@
 
 ** Scope of Work
    1. Graphics programming
-   2. Understand and implment layout algorithms
+   2. Understand and implement layout algorithms
 
 ** Technical Requirements
    1. Elm
    2. Functional Programming
+   3. SVG
+   4. GraphicSVG (Elm package)
 
-* Interactions
+* Designing Interactions for data structure components
+
   Functions to define interaction behaviors on visual components.
   There are a limited number of possible interactions a user can have
   with a visual component.  Each of these can be mapped to a
@@ -65,8 +93,10 @@
 
 ** Technical Requirements
    1. Elm
+   2. Event Handling in Model View Update architecture
 
-* Component Gallery
+* Developing a Component Gallery
+
   The =data-structure-components= library is aimed at developers building
   interactive data structures and algorithms experiments.  A new API
   library needs to have learning resources in the form of
@@ -93,8 +123,11 @@
 
 ** Technical Requirements
    1. Elm
+   2. ElmUI (package)
+   3. User Interface Design
 
 * Experiment Statistics
+
   The objective of building data-structure experiments is primarily to
   help computer science educators incorporate active learning
   pedagogical approaches into their teaching methodology in
@@ -118,3 +151,5 @@
 
 ** Technical Requirements
    1. Elm
+   2. Event Logging
+   3. User Interface Design
