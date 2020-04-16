@@ -135,11 +135,11 @@
 * Registering and making  a hosting request
 ** Registering a Request 
 
-   The owner first registers his/her intent to
-   have a particular experiment or lab hosted from a given
-   source repository.
+   The owner first registers his/her intent to have a
+   particular experiment or lab hosted from a given source
+   repository.
 
-   Every registration request is an issue on the on the
+   Every registration request is an issue on the
    [[https://github.com/virtual-labs/engineers-forum][engineers-forum]].  The template for registration is
    available on the [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][issues template page]] on the
    engineers-forum.  The template expects the following
@@ -160,8 +160,8 @@
 
 The sources of the lab/experiment you wish to host, The
 lab/experiment descriptor =descriptor.json= is available
-here. (TODO: add link).  Default values of fields in the
-descriptor are filled in.
+[[https://github.com/virtual-labs/lab-deployment-specification/blob/master/spec-version-2.0][here]].  Default values of fields in the descriptor are filled
+in.
 
 
 ** Making the Hosting request
@@ -179,7 +179,7 @@ The request needs to have the following information:
      [[https://github.com/virtual-labs/engineers-forum/issues][engineers-forum issues]] page contains a list of all
      requests.
 
-  2. The branch of on the source repository.  (Defaults to
+  2. The branch of the source repository.  (Defaults to
      =master= if unspecified.)
 
   3. The tag on the branch.  (See [[How to tag branches]].)
@@ -479,4 +479,3 @@ These steps are implemented by the hosting team.
 
   - *Hosting team*: VLEAD at IIITH which provides Virtual
     Labs hosting service
-
