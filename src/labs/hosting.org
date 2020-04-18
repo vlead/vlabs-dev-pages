@@ -17,7 +17,6 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 25.3.2 (Org mode 9.1.9)
-
 * Introduction
 
   [[http://vlab.co.in][Virtual Labs]] are online, interactive applications to
@@ -114,7 +113,7 @@ hosting is a URL of the hosted lab.
 
    - 4. Hosting Team :: the Virtual Labs team responsible
         for hosting a lab.  It is identified by its github
-        id =virtual-labs=.
+        team mentioned as [[https://github.com/orgs/virtual-labs/teams/hosting-team][@virtual-labs/hosting-team]]
 
    - 5. [[https://github.com/virtual-labs/engineers-forum/issues][engineers-forum]] :: An open [[https://github.com][GitHub]] issues forum where
         all requests related to lab registration and hosting
@@ -140,7 +139,7 @@ hosting is a URL of the hosted lab.
                    id.
 
 * Registering and making a hosting request
-** Registering a lab
+** Registering a lab (TODO: update this based on new model)
 
    A lab needs to be registered with the CPE before it can
    be hosted.  Lab registration is a one-time request per
