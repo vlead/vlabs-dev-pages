@@ -19,142 +19,149 @@
 #+CREATOR: Emacs 25.3.2 (Org mode 9.1.9)
 
 * Introduction
-  [[http://vlab.co.in][Virtual Labs]] are labs for online learning in science and
-  engineering at the college level.  Currently there are
-  around 90 labs developed by various institutes in the
-  consortium.  The Virtual Labs project is funded by the
-  Govt. of India, Ministry of Human Resources and
-  Development Project.  
 
+  [[http://vlab.co.in][Virtual Labs]] are online, interactive applications to
+  support learning in science and engineering at the college
+  level.  The Virtual Labs project is funded by the Govt. of
+  India, Ministry of Human Resources and Development
+  Project.
+
+  Currently there are around 90 labs developed by various
+  institutes in the consortium.
 
 * Purpose
 
-  The virtual labs are built through the effort of many free
+  The Virtual Labs are built through the effort of many free
   and open source development teams.  You can find the
   source repositories of many of the labs on the [[https://github.com/virtual-labs/][Github
-  Virtual Labs]].  The labs are currently being centrally
-  hosted on a cloud environment by the Virtual Labs Central
-  Platform Engineering (CPE) team at IIIT Hyderabad.
+  Virtual Labs]] website.  The labs are currently being
+  centrally hosted on a cloud environment by the Virtual
+  Labs hosting team (VLEAD) at IIIT Hyderabad.
 
   This document defines the process that you need to follow
-  to have your lab hosted once your lab with the Platform
-  Engineering and Hosting.
+  to have your lab deployed on the  cloud environment. 
 
 * Motivation
 
-  A well defined experiment hosting enables experiment
-  authors to focus on developing the content.  Consolidated
-  information regarding all the deployments also facilitates
-  accurate reporting of usage and basic performance
-  parameters.
+  Centrally hosting virtual labs allows sharing of resources
+  and facilitates accurate reporting of usage and
+  performance.
 
 * Audience
-  The target audience for this document is the hosting team
-  at CPE, IIITH and all the lab authors and owners who want
-  their labs hosted.
+  This document is designed to help virtual lab developers
+  understand the process and their role in getting their
+  labs hosted.  
+
+* Hosting
+
+Hosting is the process of taking the sources of a lab and
+hosting it on a web server.  The result of a successful
+hosting is a URL of the hosted lab.
+
+** What hosting provides
 
 
-* What Hosting is, and isn't
-
-** What hosting is
-
-   Hosting consists of
-
-   - 1. Infrastructure :: You lab/experiment will be hosted
-        on a cloud and all dependencies required to run your
-        experiment or lab will be provisioned as well. 
+   - 1. Infrastructure :: You lab and its dependencies will
+        be hosted on a common cloud environment so you don't
+        need to worry about finding your own cloud
+        infrastructure.
    
-   - 2. Availability :: Your lab/experiment will be
-        available on the web 24/7.
+   - 2. Availability :: Your lab will be available on the
+        web 24/7.
    
-   - 3. Monitoring ::  The usage and performance of your
-                      lab/experiment will be monitored and
-                      any you will be alerted about any
-                      performance bottlenecks in your
-                      lab/experiment.
+   - 3. Monitoring :: The usage and performance of your lab
+                      will be monitored and any you will be
+                      alerted about any performance
+                      bottlenecks.
 
-** What hosting isn't
+** What hosting does not provide
 
-   - 1. Testing :: The experiment code is a black box for
-                   the CPE team and will be hosted `as is'
+   - 1. Testing :: Your lab will be hosted by VLEAD as a
+                   black box and will be hosted `as is'
                    after instrumenting it for analytics.
-                   Your lab's source code will not be tested
-                   in any way!  You will be responsible for
-                   ensuring that the content and the
-                   simulations in your lab perform as
-                   intended.  You will be asked to confirm
-                   that your lab is functioning correctly
-                   once it is hosted.
+                   *Your lab's source code will not be
+                   tested by the hosting team in any way!*
+                   You will be responsible for ensuring that
+                   the content and the simulations in your
+                   lab perform as intended.  You will be
+                   asked to confirm that your lab is
+                   functioning correctly once it is hosted.
 
-   - 2. Implementation ::  Your code may have bugs.  Any bug
-        fixes or enhancements or implementation on the
-        Lab/Experiment will be done by you.  The hosting
-        team will not be able to do this.  The hosting team
-        will, however, monitor the performance of your lab
-        or experiment.
+   - 2. Bug fixing ::  Your code may have bugs.  Any bug
+                      fixes or enhancements or
+                      implementation on the Lab/Experiment
+                      will be done by you.  The hosting team
+                      will not be able to do this.  The
+                      hosting team will, however, monitor
+                      the performance of your lab or
+                      experiment.
 
    - 3. Approvals :: If you need any approval for quality
                      checks of your lab, you will need to do
-                     that yourself.  We have no way of
-                     obtaining it. 
+                     that yourself.  The hosting team has no
+                     way of obtaining it.
 
 ** Hosting terminology
 
-   - 1. Vlabs Hosting Team :: the primary team responsible
-        for hosting.  
+   - 1. Building :: The process of converting source code to
+                    executable code.
 
-   - 2. Github :: the platform through which hosting
-                  requests will be initiated and mediated. 
+   - 2. Hosting :: The process of doing a build and
+                   installing the executable onto  a virtual
+                   labs server.   
 
-   - 3. [[https://github.com/virtual-labs/engineers-forum/issues][=engineers-forum=]] :: An online issue portal on
-        =GitHub= that holds all communication related to
-        hosting requests, including the request itself,
-        status confirming the  hosting or its failure and
-        any subsequent clarifications, etc.
+   - 3. Deployment :: Another name for hosting. 
 
-   - 4. Hosting Unit  :: An experiment or lab that is to be
-        hosted.  Each hosting unit refers to a source
-        repository and an owner.
+   - 4. Hosting Team :: the Virtual Labs team responsible
+        for hosting a lab.  It is identified by its github
+        id =virtual-labs=.
 
-   - 5. Repository :: The public repository (usually on
-                      GitHub) that holds the sources of the
-                      hosting unit.
+   - 5. [[https://github.com/virtual-labs/engineers-forum/issues][engineers-forum]] :: An open [[https://github.com][GitHub]] issues forum where
+        all requests related to lab registration and hosting
+        are made.
 
-   - 6. (Designated) Owner :: The person that Vlabs hosting
-        team will communicate with for hosting of the
-        lab/experiment.  The lab owner is identified by a
-        *GitHub id*.  The owner need not be an individual.
-        It could be an Github account operating by a
-        development team, for example.
+   - 7. Lab :: The virtual lab application to be hosted.
+               Identified by the issue id of its
+               registration request on the [[https://github.com/virtual-labs/engineers-forum/issues][engineers-forum]].
 
-   - 7. Requester :: Anyone (including the owner) who makes
-                     a lab hosting request on behalf of the
-                     Owner.  Any such request will need to
-                     be approved by the Owner.
+   - 8. Repository :: A GitHub project that holds the source
+                      code of the lab.  The repository is
+                      identified by its *url*.
 
-* Registering and making  a hosting request
-** Registering a Request 
+   - 9. Owner    :: The person or team taking responsibility
+                    for the lab.  An Owner is identified by
+                    a Github username.  The virtual labs
+                    hosting team will using this username to
+                    communicate with the owner.
 
-   The owner first registers his/her intent to have a
-   particular experiment or lab hosted from a given source
-   repository.
+   - 10. Request :: An issue on the  [[https://github.com/virtual-labs/engineers-forum/issues][engineers-forum]] created
+                   to either register or host a lab.  Each
+                   request is identified by its github issue
+                   id.
 
-   Every registration request is an issue on the
+* Registering and making a hosting request
+** Registering a lab
+
+   A lab needs to be registered with the CPE before it can
+   be hosted.  Lab registration is a one-time request per
+   lab.  
+
+   *A lab is identified with its registration request*.
+
+   A lab's attributes are its name, repository and
+   owner.
+
+   A lab registration request is an issue on the
    [[https://github.com/virtual-labs/engineers-forum][engineers-forum]].  The template for registration is
    available on the [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][issues template page]] on the
-   engineers-forum.  The template expects the following
-   information:
+   engineers-forum.  Currently, there are two types of
+   registration templates:
 
-  1. A name for the hosting unit.  (E.g., "Fluid Mechanics
-     Lab")
+     1. [[https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Registration%2C+Phase-3&template=phase-iii-registration.md&title=][Phase III lab/experiment]] registration template:
+
+     2. [[https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Registration&template=phase-ii-registration.md&title=Registration+Request+for+%3CHosting+Unit+Name%3E][Phase II lab]] registration template
+
      
-  2. URL of the source code repository of the hosting unit.
-
-  3. Owner details:
-
-     a. Owner Github Id
-
-     b. Owner Email Address
 
 ** COMMENT Filling the lab/experiment descriptor 
 
@@ -164,90 +171,119 @@ lab/experiment descriptor =descriptor.json= is available
 in.
 
 
-** Making the Hosting request
+** Hosting request
 
-A requester creates a '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' issue on the
-[[https://github.com/virtual-labs/engineers-forum][engineers-forum]].  This issue will be a single source of
-truth for that hosting request.  All communication related
-to the hosting will be recorded on the raised hosting
-request.  So it is best to [[https://help.github.com/en/enterprise/2.20/user/github/receiving-notifications-about-activity-on-github/subscribing-to-and-unsubscribing-from-notifications][subscribe to this issue]] to
-receive notifications when your request is handled.
+A hosting request is necessary before a registered lab can
+be hosted.  Unlike a lab registration, however, a lab may be
+hosted multiple times.  For example, each time a lab is
+updated, it will need to be hosted again.
 
-The request needs to have the following information:
+** Raising a hosting request
+A hosting request made by creating an issue using the
+[[https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Hosting&template=hosting-request.md&title=Hosting+Request+for+<Hosting+Unit+or+Lab+Name>][hosting request template]].
 
-  1. A link to the URL of the registration request.  The
-     [[https://github.com/virtual-labs/engineers-forum/issues][engineers-forum issues]] page contains a list of all
-     requests.
+This hosting issue will be a single source of truth for that
+hosting request.  All communication related to the hosting
+will be recorded on the hosting request.  So it is best to
+[[https://help.github.com/en/enterprise/2.20/user/github/receiving-notifications-about-activity-on-github/subscribing-to-and-unsubscribing-from-notifications][subscribe to this issue]] to receive notifications when your
+request is handled.
 
-  2. The branch of the source repository.  (Defaults to
-     =master= if unspecified.)
+A hosting request has the following information:
 
-  3. The tag on the branch.  (See [[How to tag branches]].)
+  1. The lab registration id.
 
+  2. A git tag that identifies the version of the source
+     repository.
 
 * Lifecycle of a hosting request
 ** Lifecycle of a Hosting Request
     
-    The hosting request will go through the following
-    lifecycle:
+    1. The Owner raises a hosting request as an issue.  The
+       owner is expected to [[https://help.github.com/en/enterprise/2.20/user/github/receiving-notifications-about-activity-on-github/subscribing-to-and-unsubscribing-from-notifications][subscribe to the issue]] to
+       follow responses to the request.
 
-    1. Requester will raise a hosting request issue by
-       filling the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'.
+    2. The Hosting team examines the request.  If the
+       request is ill-formed or is not from a lab owner, or
+       the build process fails, for example, due to missing
+       dependencies, a reply to the issue is added.  The
+       issue is labeled as *Failed*.
 
-    2. The hosting team will attach the url of the
-       corresponding registration request to the hosting
-       request.  If the registation request is not found or
-       invalid, then the hosting team will add its findings
-       and label the issue as *Failed*.
+    3. On a successful hosting, the Hosting Team responds to
+       the hosting request with the url of the hosted lab.
+       It marks the request issue *Hosted*.
 
-    3. If requester is not the repository owner, the
-       hosting team will seek approval from the repository
-       owner.  This will be through replying to the hosting
-       request issue and marking the owner for
-       confirmation.   
+    4. For a request marked *Failed*, the owner closes the
+       current request by marking it *Closed*, fixes any
+       bugs in the sources, and raises a new [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting
+       request]]. 
 
-    4. The owner replies to the hosting request issue
-       granting approval.  Else, the hosting request issue
-       will be labeled as *Not Approved*.
+    5. For a request marked *Hosted*, the owner verifies the
+       hosted link and checks if the lab opens correctly.
+       If the hosting is not as expected, the owner responds
+       on the same issue, explaining the problem with the
+       hosting and labels the issue as *Reopened*.
 
-    5.  On a successful hosting, the hosting team will add
-       the link of the newly hosted content to the hosting
-       request issue.  They will also label the issue as
-       *Hosted*.
+    9. When an issue is *Reopened*, the hosting team will
+       host the repository and branch/tag as specified in
+       the hosting request initially.  However, if the Owner
+       has specifically requested a revert, the previous
+       successful hosting will be restored.  The issue will
+       be labelled as *Reverted*.
 
-    6.  On failure (because of missing or incorrect
-       information or repository problems,), the hosting
-       team will label the issue as *Failed*.  The requester
-       is expected to subscribe to the issue corresponding
-       to the  hosting request issue.
+    10. If the owner wants the lab restored to any earlier
+        tag other than the last one, a new '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'
+        will need to be raised to get the unit hosted.
 
-    7.  The requester will be responsible for fixing the
-        failed hosting bug and will need to raise a new
-        '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' to get the unit hosted.
+    11. Owner will close a hosting request issue by changing
+        its status to *Closed* when the issue is labelled as
+        *Hosted*, *Reopened* or *Reverted*. 
 
-    8.  Once the hosting is successful, the requester will
-       be responsible for the verification of the hosted
-       link.  If the hosting is not as expected, the
-       requester should change the label from *Hosted* to
-       *Reopened*.  The requester will also need to specify
-       if he/she would like to revert to the previous hosted
-       image.
 
-    9.  An issue with *Reopened* label will by default host
-        the repository and branch/tag as specified in the
-        hosting request initially. However, if the requester
-        has specifically requested a revert, the previously
-        hosted image will be restored and issue will be
-        labelled as *Reverted*.
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|     |            |                               |                |           |                          |                 |
+| No. | Issue      | Pre-condition                 | Actor          | Action    | Supporting Info          | Actor changes   |
+|     | status     |                               |                | taken by  | provided by Actor        | issue Status to |
+|     |            |                               |                | Actor     |                          |                 |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  1. | n/a        | Lab is registered             | Owner          | new issue | Hosting request          | *Open*          |
+|     |            |                               |                |           | paramaters               | (automatically  |
+|     |            |                               |                |           |                          | done by Github) |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  2. | *Open*     | Hosting request is            | =virtual-labs= | reply     | Reasons why request is   | *Failed*        |
+|     |            | ill-formed                    |                |           | ill-formed               |                 |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  3. | *Open*     | Request is well-formed  but   | =virtual-labs= | reply     | Reasons why build failed | *Failed*        |
+|     |            | Build process has failed      |                |           |                          |                 |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  4. | *Open*     | Hosting has succeeded         | =virtual-labs= | reply     | URL of hosted lab        | *Hosted*        |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  5. | *Failed*   |                               | Owner          | reply     | Acknowledgement          | *Closed*        |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  6. | *Hosted*   | Hosting is satisfactory       | Owner          | reply     | Acknowledgement          | *Closed*        |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  7. | *Hosted*   | Hosting not satisfactory      | Owner          | reply     | Reason why lab is        | *Reopened*      |
+|     |            |                               |                |           | hosting unsatisfactory.  |                 |
+|     |            |                               |                |           |                          |                 |
+|     |            |                               |                |           | Whether revert to        |                 |
+|     |            |                               |                |           | previous version         |                 |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  8. | *Reopened* | Owner reply specifies revert  | =virtual-labs= | reply     | URL of hosted lab        | *Reverted*      |
+|     |            | and reverted version rehosted |                |           |                          |                 |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+|  9. | *Reopened* | Owner reply does not          | =virtual-labs= | reply     | URL of hosted lab        | *Hosted*        |
+|     |            | specify revert and            |                |           |                          |                 |
+|     |            | lab is rehosted               |                |           |                          |                 |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+| 10. | *Reopened* | Owner reply does not          | =virtual-labs= | reply     | Reasons why build failed | *Failed*        |
+|     |            | specify revert and            |                |           |                          |                 |
+|     |            | lab hosting unsuccessful      |                |           |                          |                 |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
+| 11. | *Reverted* |                               | Owner          | reply     |                          | *Closed*        |
+|-----+------------+-------------------------------+----------------+-----------+--------------------------+-----------------|
 
-    10.  If the requester wants to revert to any earlier
-        branch/tag, a new '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' will need to be
-        raised to get the unit hosted.
 
-    11. Requester will be responsible for closing a hosting
-        request issue by changing the issue status from Open
-        to Closed when the issue is labelled as *Hosted* or
-        *Reopened* or *Reverted* or *Not Approved*.
+
+
 
 ** Labels and Status of a Hosting Request
 
@@ -265,14 +301,9 @@ The request needs to have the following information:
     has not been successful. This label is used only by the
     hosting team.
 
-    *Reopened* : This label is used by the requester to
+    *Reopened* : This label is used by the Owner to
     indicate that the hosting url provided on a successful
     hosting of the hosting unit is not passing the validation.
-   
-    *Not Approved* : This label indicates that the hosting
-    request issue raised by the requester was not approved
-    by the Repository Owner.  This label is used only by the
-    hosting team.
     
     *Reverted* :  This label indicates that the hosting request
     has been successfully revert to the previous hosted
@@ -380,7 +411,7 @@ These steps are implemented by the hosting team.
 
     Please follow the [[https://drive.google.com/open?id=1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc][link]] for the Central Hosting Data.
 
-* Flow Diagram of the Hosting Process
+* COMMENT Flow Diagram of the Hosting Process
 
   The flow diagram depicting lifecycle of a hosting request is below:
 
@@ -398,12 +429,13 @@ These steps are implemented by the hosting team.
 
  /[[https://docs.google.com/drawings/d/1JfrZerBuMvTBFFfbhiMKKmePMNJ0GsbfTnsnvRbCLZw/edit][edit table]]/
  
-* How to tag branches
-   We recommend using [[https://semver.org/][Semantic Versioning]] to tag branches
-   using the version number convention.  Each version is a
-   combination of three numbers (MAJOR.MINOR.PATCH)
-   separated by dots.  The changes to these numbers
-   represent the following:
+* Tagging conventions
+
+   We recommend using [[https://semver.org/][Semantic Versioning]] to tag
+   repositories using the version number convention.  Each
+   version is a combination of three numbers
+   (MAJOR.MINOR.PATCH) separated by dots.  The changes to
+   these numbers represent the following:
    
    1. MAJOR: A change incompatible with previous versions.
   
@@ -418,36 +450,31 @@ These steps are implemented by the hosting team.
 
   If you're building a virtual lab under the MHRD virtual
   labs project, you are strongly encouraged to host your lab
-  on the common cloud.  Your lab will enjoy
-  high-availability and it will save you the trouble of
-  trying to host it yourself.  Your lab/experiment will take
-  advantage of other services like analytics about the users
-  and usage patterns of your Lab.
+  on the common cloud.  Your lab will enjoy *high
+  availability* and it will save you the trouble of trying
+  to host it yourself.  Your lab/experiment will take
+  advantage of other services like *analytics* about the
+  users and usage patterns of your Lab.
 
-  *Do I get better website performance if I use Hosting
-  Service?*
-   
-  The CPE team works continuously to improve the overall and
-  individual Lab/Experiment performance based on the
-  Analytics data.  You can compare the performance of the
-  Labs/Experiments deployed through the hosting service to
-  those deployed elsewhere.  If you use the Analytics
-  service integration, the CPE team can individually target
-  your Lab/Experiment for better performance.
-
-  *Does the CPE team help me improve my Lab performance?*
+  *Will hosting on the central platform team help me improve
+  my Lab's performance?*
  
-  Yes.  The CPE team continuously works to improve the
-  infrastructure in order to achieve best performance
-  results for your Lab.  The CPE team does not improve your
-  code, however, it can provide you guidelines and
-  actionable performance improvement advice.
+  Quite likely.  Virtual Labs employs commercial grade
+  hosting services. The hosting plans are continuously
+  negotiated to make them cheaper and faster.  The Virtual
+  Labs hosting team will not improve your code for better
+  performance.  However, it will provide you guidelines and
+  actionable performance improvement advice if it notices
+  poor performance of your hosted unit.
 
   *Does Hosting Service add a UI to my webpages?*
 
   No.  Hosting service does not alter your code in any way.
-  However, we suggest that you use UI 3.0 (TODO: link to it)
-  style sheet.  
+  However, we suggest two options if you want to develop new
+  experiments: 
+
+      1. use the UI 3.0 style sheet.
+      2. use the IIT Bombay development process
 
   *Does the CPE team test my Lab for correctness as part of
   hosting?* 
