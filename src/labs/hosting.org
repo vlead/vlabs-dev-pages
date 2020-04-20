@@ -880,5 +880,3 @@ any way*.
   No. Your code is a complete black box for the hosting
   team.  You are responsible for ensuring the completeness
   and correctness of your code and deployment.
-
-
