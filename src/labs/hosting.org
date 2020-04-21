@@ -56,15 +56,16 @@
 * Virtual Labs Hosting Community
 ** Virtual-Labs community
 
-The virtual labs are built by a large community of developers
-organized under the Github oganization `[[https://github.com/virtual-labs][virtual-labs]]'.  
+The virtual labs are built by a large community of
+developers organized under the Github oganization
+`[[https://github.com/virtual-labs][virtual-labs]]'.
 
 ** How does one become part of the virtual labs community?
 
 Currently, only applications that have been developed using
 the virtual labs development process being maintained at [[http://vlabs.iitb.ac.in/vlab/][IIT
-Bombay]].  Please contact them or email (TODO: provide vlead
-email or a VLEAD website).
+Bombay]] are part of this community.  Please contact them or
+email (TODO: provide vlead email or a VLEAD website).
 
 ** The Engineer's Forum
 The [[https://github.com/virtual-labs/engineers-forum][engineers-forum]] is a project under the [[https://github.com/virtual-labs][virtual-labs]]
@@ -88,24 +89,24 @@ and labs.
 
 A lab is of two types:
 
-  1. *Container*:  it merely holds together already existing
-     experiments and some wrapper content like an
-     Title, Introduction etc. 
+  1. *Container*: it merely holds together already existing
+     experiments and some wrapper content like a Title,
+     Introduction etc.
 
   2. *Monolithic*: it contains the source code of all its
      experiments.  Experiments in a monolithic lab are not
      available for sharing by other labs. 
 
 ** What is Hosting?
-Hosting is a service that takes the sources of a an
+Hosting is a service that takes the sources of an
 application and hosts it on a web server.  The result of a
-successful hosting is a URL of the application. 
+successful hosting is a URL of the application.
 
 ** What the virtual labs hosting service provides
    - 1. Infrastructure :: The application and its
         dependencies will be hosted on a common cloud
         environment so that Owners do not need to worry
-        about finding their own cloud infrastructure.
+        about building their own cloud infrastructure.
    
    - 2. Availability :: The application will be available on
         the web 24/7.
@@ -198,10 +199,10 @@ present.
    - 9. Owner    :: The person or team taking responsibility
                     for the application.  An Owner is
                     identified by a Github username.  The
-                    virtual labs Hosting Team will using
-                    this username to communicate with the
-                    owner.  An owner must first register
-                    with the hosting team. 
+                    virtual labs Hosting Team will use this
+                    username to communicate with the owner.
+                    An owner must first register with the
+                    hosting team.
 
    - 10. Request :: An issue on the [[https://github.com/virtual-labs/engineers-forum/issues][engineers-forum]] created
                     to either register or host an
@@ -220,8 +221,8 @@ it in order to add UI and other services like analytics.
 ** Hosting but no testing or debugging of Application
 The hosting team will neither test nor debug the
 application's code.  However, if there is a problem in the
-build process, it will marking the hosting request as
-*Failed* and alerting the Owner.
+build process, it will mark the hosting request as *Failed*
+and alert the Owner.
 
 In addition, the hosting team will monitor an application
 and alert the Owner if the application is consuming too many
@@ -267,6 +268,7 @@ The application's hosting life cycle consists of the
 following types of events:
 
 |----------------+-----------+--------------|
+
 | Event          | Frequency | Initiator    |
 |----------------+-----------+--------------|
 | Registration   | Once      | Owner        |
@@ -304,8 +306,11 @@ on the [[https://github.com/virtual-labs/engineers-forum][engineers-forum]].
 
 
 ** Identity of the application
-   An application is identified by its registration issue id on
-   [[https://gitlab.com/virtual-labs/engineers-forum]].  
+   An application is identified by its registration issue id
+   on [[https://gitlab.com/virtual-labs/engineers-forum]].  This
+   becomes the application id henceforth and id used in
+   hosting or registration update requests to refer to this
+   registration.
    
 ** Owner(s) of the application
    The github user-name(s) associated with the application.
@@ -313,8 +318,9 @@ on the [[https://github.com/virtual-labs/engineers-forum][engineers-forum]].
    relating to the hosting lifecycle of an application.
 
 ** Source repository (Repo) of an Application
-   An application's source code resides in a repository.  The
-   mapping of an application to its repository may be changed.
+   An application's source code resides in a repository.
+   The mapping of an application to its repository may be
+   changed.
 
 ** Registration  Workflow 
 
@@ -343,11 +349,11 @@ on the [[https://github.com/virtual-labs/engineers-forum][engineers-forum]].
 
 * Making a Hosting Request
 ** Hosting request
-A hosting request is necessary before a registered application can
-be hosted.  
+A hosting request is necessary before a registered
+application can be hosted.
 
 ** Raising a Hosting Request
-A hosting request made by creating an issue using the
+A hosting request is made by creating an issue using the
 [[https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Hosting&template=hosting-request.md&title=Hosting+Request+for+<Hosting+Unit+or+Lab+Name>][hosting request template]].  The hosting issue will be a
 single source of truth for that hosting request.  All
 communication related to the hosting will be recorded on the
@@ -461,23 +467,23 @@ driving those actions during Hosting Workflow.
     an issue, the current label of the issue should be
     unchecked and the new label should be checked.
 
-    *Hosted* :  This label indicates that the hosting request
+    *Hosted* : This label indicates that the hosting request
     has been successful and the hosted url has been shared
     in the hosting request issue. This label is used only by
-    the hosting team. 
+    the hosting team.
    
     *Failed* : This label indicates that the hosting request
     has not been successful. This label is used only by the
     hosting team.
 
-    *Reopened* : This label is used by the Owner to
-    indicate that the hosting url provided on a successful
-    hosting of the hosting unit is not passing the validation.
+    *Reopened* : This label is used by the Owner to indicate
+    that the hosting url provided on a successful hosting of
+    the hosting unit is not passing the validation.
     
-    *Reverted* :  This label indicates that the hosting request
-    has been successfully revert to the previous hosted
-    image. This label is used only by
-    the hosting team. 
+    *Reverted* : This label indicates that the hosting
+    request has been successfully reverted to the previous
+    hosted image. This label is used only by the hosting
+    team.
 
     Apart from the above mentioned labels a hosting request
     issue can either be in a closed or open status as
@@ -490,7 +496,7 @@ driving those actions during Hosting Workflow.
 
     *Closed*: This status indicates that a request has been
     serviced or resolved by the hosting team.  Only a
-    *Hosted*, *Reverted* or *Failed* issues may be closed.
+    *Hosted*, *Reverted* or *Failed* issue may be closed.
 
 ** Flow Diagram of the Hosting Process
 
@@ -525,8 +531,8 @@ An owner raises an update request whenver he/she wishes to
 update attributes of an application.
 
 ** The structure of the Update Request
-The information in an update request consists of the the
-application id, and values of the following (if any): 
+The information in an update request consists of the
+application id, and values of the following (if any):
    1. Name of the Application: 
    2. New Owners to be added: 
    3. Old Owners to be removed:
@@ -559,18 +565,9 @@ application id, and values of the following (if any):
 * Deregistering an Application
 
    The deregistration indicates that the owner is no longer
-   interested in having his/her application hosted.   This
-   could perhaps the owner is no longer maintaining the
-   application or for any other reason. 
-
-** Structure of the Deregistration Request
-
-   Information for deregistration issue includes the
-   following:
-
-   1. Application Id:
-
-   2. Reason why application is being deregistered:
+   interested in having his/her application hosted.  This
+   could perhaps be because the owner is no longer
+   maintaining the application or for any other reason.
 
 ** Structure of the Deregistration Request
 
@@ -639,7 +636,7 @@ The alert consists of the following fields:
 
 * Suspending an Application
 When an application is suspended it is no longer hosted.  An
-application may be suspended if it is found that it the
+application may be suspended if it is found that the
 application has a serious security or performance flaw.  A
 suspension may be initiated either by an owner or the
 Hosting Team.
@@ -777,7 +774,7 @@ any way*.
 |                | (revised) repo url    |                  | optional  |   |   |
 |----------------+-----------------------+------------------+-----------+---+---|
 | Hosting        |                       |                  |           |   |   |
-|                | Application  Id       | #number          | mandatory |   |   |
+|                | Application  Id       | #IssueNumber     | mandatory |   |   |
 |                | Tag                   | String           | mandatory |   |   |
 |----------------+-----------------------+------------------+-----------+---+---|
 | Deregistration |                       |                  |           |   |   |
