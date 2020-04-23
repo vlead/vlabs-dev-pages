@@ -417,48 +417,49 @@ The table below summarises the actions taken by the two
 actors (Owner and Hosting Team) and the pre-conditions
 driving those actions during Hosting Workflow.
 
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|     |            |                               |              |           |                            |                 |
-| No. | Issue      | Pre-condition                 | Actor        | Action    | Supporting Info            | Actor changes   |
-|     | status     |                               |              | taken by  | provided by Actor          | issue Status to |
-|     |            |                               |              | Actor     |                            |                 |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  1. | n/a        | Application is registered     | Owner        | new issue | Hosting request            | *Open*          |
-|     |            |                               |              |           | paramaters                 | (automatically  |
-|     |            |                               |              |           |                            | done by Github) |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  2. | *Open*     | Hosting request is            | Hosting Team | reply     | Reasons why request is     | *Failed*        |
-|     |            | ill-formed                    |              |           | ill-formed                 |                 |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  3. | *Open*     | Request is well-formed  but   | Hosting Team | reply     | Reasons why build failed   | *Failed*        |
-|     |            | Build process has failed      |              |           |                            |                 |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  4. | *Open*     | Hosting has succeeded         | Hosting Team | reply     | URL of hosted application  | *Hosted*        |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  5. | *Failed*   |                               | Owner        | reply     | Acknowledgement            | *Closed*        |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  6. | *Hosted*   | Hosting is satisfactory       | Owner        | reply     | Acknowledgement            | *Closed*        |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  7. | *Hosted*   | Hosting not satisfactory      | Owner        | reply     | Reason why application     | *Reopened*      |
-|     |            |                               |              |           | hosting is unsatisfactory. |                 |
-|     |            |                               |              |           |                            |                 |
-|     |            |                               |              |           | Whether revert to          |                 |
-|     |            |                               |              |           | previous version           |                 |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  8. | *Reopened* | Owner reply specifies revert  | Hosting Team | reply     | URL of hosted application  | *Reverted*      |
-|     |            | and reverted version rehosted |              |           |                            |                 |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-|  9. | *Reopened* | Owner reply does not          | Hosting Team | reply     | URL of hosted application  | *Hosted*        |
-|     |            | specify revert and            |              |           |                            |                 |
-|     |            | application is rehosted       |              |           |                            |                 |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-| 10. | *Reopened* | Owner reply does not          | Hosting Team | reply     | Reasons why build failed   | *Failed*        |
-|     |            | specify revert and            |              |           |                            |                 |
-|     |            | application hosting           |              |           |                            |                 |
-|     |            | is unsuccessful               |              |           |                            |                 |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
-| 11. | *Reverted* |                               | Owner        | reply     |                            | *Closed*        |
-|-----+------------+-------------------------------+--------------+-----------+----------------------------+-----------------|
+#+NAME: tbl-hosting-workflow
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|     |            |                                |              |           |                            |                 |
+| No. | Issue      | Pre-condition                  | Actor        | Action    | Supporting Info            | Actor changes   |
+|     | status     |                                |              | taken by  | provided by Actor          | issue Status to |
+|     |            |                                |              | Actor     |                            |                 |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  1. | n/a        | Application is registered      | Owner        | new issue | Hosting request            | *Open*          |
+|     |            |                                |              |           | paramaters                 | (automatically  |
+|     |            |                                |              |           |                            | done by Github) |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  2. | *Open*     | Hosting request is             | Hosting Team | reply     | Reasons why request is     | *Failed*        |
+|     |            | ill-formed                     |              |           | ill-formed                 |                 |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  3. | *Open*     | Request is well-formed  but    | Hosting Team | reply     | Reasons why build failed   | *Failed*        |
+|     |            | Build process has failed       |              |           |                            |                 |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  4. | *Open*     | Hosting has succeeded          | Hosting Team | reply     | URL of hosted application  | *Hosted*        |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  5. | *Failed*   |                                | Owner        | reply     | Acknowledgement            | *Closed*        |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  6. | *Hosted*   | Hosting is satisfactory        | Owner        | reply     | Acknowledgement            | *Closed*        |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  7. | *Hosted*   | Hosting not satisfactory       | Owner        | reply     | Reason why application     | *Reopened*      |
+|     |            |                                |              |           | hosting is unsatisfactory. |                 |
+|     |            |                                |              |           |                            |                 |
+|     |            |                                |              |           | Whether revert to          |                 |
+|     |            |                                |              |           | previous version           |                 |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  8. | *Reopened* | Owner reply specifies revert   | Hosting Team | reply     | URL of hosted application  | *Reverted*      |
+|     |            | and reverted version re-hosted |              |           |                            |                 |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+|  9. | *Reopened* | Owner reply does not           | Hosting Team | reply     | URL of hosted application  | *Hosted*        |
+|     |            | specify revert and             |              |           |                            |                 |
+|     |            | application is re-hosted       |              |           |                            |                 |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+| 10. | *Reopened* | Owner reply does not           | Hosting Team | reply     | Reasons why build failed   | *Failed*        |
+|     |            | specify revert and             |              |           |                            |                 |
+|     |            | application hosting            |              |           |                            |                 |
+|     |            | is unsuccessful                |              |           |                            |                 |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
+| 11. | *Reverted* |                                | Owner        | reply     |                            | *Closed*        |
+|-----+------------+--------------------------------+--------------+-----------+----------------------------+-----------------|
 
 ** Labels and Status of a Hosting Request
 
@@ -510,14 +511,53 @@ driving those actions during Hosting Workflow.
   /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
 
 ** Roles and Responsibilities
-
-TODO:  Update this table based on the hosting protocol
-defined here.  Make the table in org, not a png.
-
- #+NAME:   fig:flowchart
-  [[file:../images/hosting-process-table.png]]
-
-  /[[https://docs.google.com/drawings/d/1JfrZerBuMvTBFFfbhiMKKmePMNJ0GsbfTnsnvRbCLZw/edit][edit table]]/
+#+NAME: tbl-hosting-responsibilities
+|-------+---------------------------------------------------------+-------------------+---+---|
+| S.No. | Task                                                    | Responsibility    |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    1. | Create a tag on the sources                             |                   |   |   |
+|       | of an application                                       | Application owner |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    2. | Test the application before                             | Application owner |   |   |
+|       | hosting request is raised                               |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    3. | Create an hosting request                               | Application owner |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    4. | Verify the hosting request                              | Hosting Team      |   |   |
+|       | details                                                 |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    5. | Label the issue *FAILED* when the request               |                   |   |   |
+|       | does not meet the verification criteria                 |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    6. | Host the Application when verification                  | Hosting Team      |   |   |
+|       | meets the criteria and label the issue                  |                   |   |   |
+|       | *HOSTED*                                                |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    7. | Provide the url of the hosted application               | Hosting Team      |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    8. | Verification/testing of the                             | Application owner |   |   |
+|       | hosted application                                      |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|    9. | Label the issue *CLOSED* when application               | Application owner |   |   |
+|       | behavior meets the verification/testing                 |                   |   |   |
+|       | criteria                                                |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|   10. | Label the issue *REOPENED* when application             | Application owner |   |   |
+|       | behavior does not meet the verification/testing         |                   |   |   |
+|       | criteria                                                |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|   11. | Request to either revert to the                         | Application owner |   |   |
+|       | previous stable version or to                           |                   |   |   |
+|       | re-host the application with the same                   |                   |   |   |
+|       | tag as mentioned in the current                         |                   |   |   |
+|       | hosting request                                         |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|   12. | Revert the application and label the issue *REVERTED*   | Hosting Team      |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
+|   13. | Close the issue, that is change the label to *CLOSED*   | Application owner |   |   |
+|       | when the status of issue is either *FAILED* or *HOSTED* |                   |   |   |
+|       | or *REVERTED*                                           |                   |   |   |
+|-------+---------------------------------------------------------+-------------------+---+---|
  
 
 * Making an Update Request
@@ -729,7 +769,7 @@ descriptor has additional information.
 	  directory, software dependencies)
 
 A formal specification of the descriptor's structure is given
-here. (TODO: add link to descriptor)
+[[https://github.com/virtual-labs/lab-deployment-specification/blob/master/spec-version-2.0][here]].
 
 ** Dependencies
     If the application depends on other software (like
