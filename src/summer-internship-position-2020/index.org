@@ -1,0 +1,173 @@
+#+title:  Summer-Internship-Position-2020
+#+SETUPFILE: ../org-templates/level-1.org
+
+We are looking for internship position for the following
+projects.
+
+* Projects Listing
+
+  *1. Project Name - Android Development*
+
+  *Number of Positions - 1*
+
+  *Project Description*
+
+   Virtual Labs Engineering and Architecture Division
+   (VLEAD) is looking for competent and experienced Android
+   developers to work on building a state of the art Android
+   app for Virtual Labs. We are looking for a developer who
+   can build high-quality applications in compliance with
+   standards, quality guidelines and relevant best
+   practices.
+  
+  *Project Requirements*
+   
+    - Small network footprint. Our data is fairly static and
+      most of it can be cached on the client device.
+  
+    - Low processing overhead. App should run smooth on a
+      mid/low range phone at 3G network speeds
+  
+    - Intuitive. App use and navigation should be easy to
+      follow for a user with moderate technical savvy.
+
+  *Role Requirements*
+ 
+   You are expected to have a good understanding of the following:
+
+    - Latest Android SDK
+
+    - REST API integration with Android Apps
+
+    - Latest Android design patterns and best practices
+
+    - Android app performance tuning
+
+   Knowledge of the following will be a plus:
+
+    - Analytics frameworks for Android apps
+
+
+   *2. Project Name - Responsive design*
+
+   *Number of Positions - 1*
+
+   *Project Description* 
+
+   Virtual Labs Engineering and Architecture Division
+   (VLEAD) is looking for competent and experienced frontend
+   web developer to work on building a contemporary,
+   responsive UI for Virtual Labs. We are looking for a web
+   developer who can build high-quality UI components in
+   compliance with standards, quality guidelines and
+   relevant best practices.
+
+   *Project Requirements*
+
+    - It should be super-light. We are not looking to use
+      any libraries larger than 5KB, bundled and gzipped.
+
+    - Low processing overhead. App should run smooth on a
+      mid/low range phone at 3G network speeds.
+
+    - Intuitive. UI use and navigation should be easy to
+      follow for a user with moderate technical savvy.
+
+
+
+   *Role Requirements*
+
+    You are expected to have a good understanding of the
+    following:
+
+     - CSS3
+ 
+     - SCSS (all the code will be written in SCSS and
+      compiled to CSS)
+
+     - Flexbox/CSS Grid
+
+    Knowledge of the following will be a plus:
+    
+     - Webpack
+    
+     - npm
+    
+     - Material design
+
+
+   *3. Project Name - developing backend infrastructure*
+
+   *Number of Positions - 2*
+ 
+   *Project Description*
+
+   Virtual Labs Engineering and Architecture Division
+   (VLEAD) is looking for competent and experienced
+   application developer to work on developing the backend
+   instrastructure for Virtual Labs. You will be required to
+   work on creating a Kubernetes based service stack
+   alongwith the platform services like logging, monitoring,
+   and analytics. You may also have to work on implementing
+   a few auto-scaled, self-managed, cloud-based core
+   micro-services. We are looking for developers who can
+   build high-quality backend modules in compliance with
+   standards, quality guidelines and relevant best
+   practices.
+
+
+   *Role Requirements*
+
+    You are expected to have a good understanding of the
+    following:
+
+     - Micro-service architecture and patterns
+     
+     - Docker
+     
+     - Kubernetes
+     
+     - Python/Nodejs
+ 
+   Knowledge of the following will be a plus:
+   
+     - Prometheus
+     
+     - AWS EKS
+
+
+   *4. Project Name - implementing SSO*
+
+   *Number of Positions - 1*
+
+   *Project Description*
+
+   Virtual Labs Engineering and Architecture Division
+   (VLEAD) is looking for competent and experienced
+   application developer to work on developing the Single
+   Sign On instrastructure for Virtual Labs. You will work
+   on integrating Virtual Labs with multiple Identity
+   Providers including Google, Swayam, Twitter and
+   Facebook. In some case you will have to work with the
+   Identity Providers representatives. We are looking for
+   developers who can build high-quality software systems in
+   compliance with standards, quality guidelines and
+   relevant best practices.
+
+   *Role Requirements*
+
+   You are expected to have a good understanding of the
+   following:
+
+     - State of the art Authentication protocols (OpenID
+       Connect, SAML)
+
+     - Web Server Configuration (Apache httpd preferred)
+
+     - HTTP
+
+   Knowledge of the following would be a plus:
+    
+     - Identity provider integration
+
+     - Basic web development concepts
