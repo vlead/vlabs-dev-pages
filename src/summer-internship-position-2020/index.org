@@ -184,13 +184,15 @@ projects.
    on the experiment development framework for Virtual Labs. You will
    be working on developing an architecture for building virtual labs
    experiments and a set of tools to help developers build better
-   experiments.  You will also be developing some computer science
-   experiments using the same tools we build.  As a part of this
-   project, you will be working with the Elm framework for web
-   application development.  We are looking for developers who have
-   good knowledge of computer science concepts and are capable of
-   developing high quality software that can be published as an open
-   source package.
+   experiments. These tools in the form of libraries, will be a part
+   of an experiment development framework, which is targeted towards
+   delivering experiments in the form of salable web applications. You
+   will also be developing some computer science experiments using the
+   same tools we build.  As a part of this project, you will be
+   working with the Elm framework for web application development.  We
+   are looking for developers who have good knowledge of computer
+   science concepts and are capable of developing high quality
+   software that can be published as an open source package.
 
    *Role Requirements*
 
