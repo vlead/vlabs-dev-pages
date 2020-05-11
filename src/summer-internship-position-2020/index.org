@@ -175,7 +175,7 @@ projects.
 
    *4. Project Name - Experiment Development Framework*
 
-   *Number of Positions - 2*
+   *Number of Positions - 3*
 
    *Project Description*
 
