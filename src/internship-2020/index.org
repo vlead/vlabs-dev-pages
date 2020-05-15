@@ -173,7 +173,7 @@ projects.
      - Basic web development concepts
 
 
-   *4. Project Name - Experiment Development Framework*
+   *5. Project Name - Experiment Development Framework*
 
    *Number of Positions - 3*
 
