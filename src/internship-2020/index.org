@@ -1,24 +1,74 @@
 #+title:  Summer Internship Positions 2020
 #+SETUPFILE: ../org-templates/level-1.org
 
+* Duration of internship program
+ 
+  =[2020-06-01 Mon]= and =[2020-07-31 Fri]=.  Longer
+  internships of 6 months or more duration are also
+  possible.  Please write to us at =jobs@vlabs.ac.in= if you
+  are interested.
+
+
+* Location  and Work schedule
+
+  B-204, Vindhya C6, IIIT Hyderabad.  Work hours:
+  Monday-Friday 9am-6pm.
+
+
+* Project Listing 
+ 
+  1. [[#project-details-one][Android Development]]
+
+  2. [[#project-details-two][Responsive design]]
+
+  3. [[#project-details-three][Developing backend infrastructure]]
+
+  4. [[#project-details-four][Implementing SSO]]
+
+  5. [[#project-details-five][Experiment Development Framework]]
+
+
+* Benefits/Stipend
+
+  * Certificate of participation at the end of internship
+    and references from the mentors on a need basis.
+
+  * This is an unpaid internship 
+
+
+* Application Process
+
+  Make sure you have your =github= handle and a resume
+  available online.  Then fill the online application
+  [[https://docs.google.com/forms/d/e/1FAIpQLSdjw5HR4AXQS1iOIj-9nCPshjMC333EJBtiXXuY8v9qdcza4w/viewform][=form=]].
+
+
+* Application Deadline 
+
+  25th May, 2020
+
+
+* Project Details
+
 We are looking for internship position for the following
 projects.
 
-* Projects Listing
 
-  *1. Project Name - Android Development*
+** 1. Project Name - Android Development
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-one
+ :END:
 
   *Number of Positions - 1*
 
   *Project Description*
 
-   Virtual Labs Engineering and Architecture Division
-   (VLEAD) is looking for competent and experienced Android
-   developers to work on building a state of the art Android
-   app for Virtual Labs. We are looking for a developer who
-   can build high-quality applications in compliance with
-   standards, quality guidelines and relevant best
-   practices.
+  Virtual Labs Engineering and Architecture Division (VLEAD)
+  is looking for competent and experienced Android
+  developers to work on building a state of the art Android
+  app for Virtual Labs. We are looking for a developer who
+  can build high-quality applications in compliance with
+  standards, quality guidelines and relevant best practices.
   
   *Project Requirements*
    
@@ -48,11 +98,14 @@ projects.
     - Analytics frameworks for Android apps
 
 
-   *2. Project Name - Responsive design*
+** 2. Intern for Responsive design
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-two
+ :END:
 
-   *Number of Positions - 1*
+  *Number of Positions - 1*
 
-   *Project Description* 
+  *Project Description* 
 
    Virtual Labs Engineering and Architecture Division
    (VLEAD) is looking for competent and experienced frontend
@@ -62,7 +115,24 @@ projects.
    compliance with standards, quality guidelines and
    relevant best practices.
 
-   *Project Requirements*
+   You are expected to have a good understanding of the
+   following:
+     - CSS3
+
+     - SCSS (all the code will be written in SCSS and
+       compiled to CSS)
+
+     - Flexbox/CSS Grid
+
+   Knowledge of the following will be a plus:
+
+    - Webpack
+ 
+    - npm
+
+    - Material design
+
+  Following are the requirements of the UI:
 
     - It should be super-light. We are not looking to use
       any libraries larger than 5KB, bundled and gzipped.
@@ -75,28 +145,17 @@ projects.
 
 
 
-   *Role Requirements*
-
-    You are expected to have a good understanding of the
-    following:
-
-     - CSS3
- 
-     - SCSS (all the code will be written in SCSS and
-      compiled to CSS)
-
-     - Flexbox/CSS Grid
-
-    Knowledge of the following will be a plus:
-    
-     - Webpack
-    
-     - npm
-    
-     - Material design
 
 
-   *3. Project Name - developing backend infrastructure*
+
+
+
+
+** 3. Project Name - developing backend infrastructure
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-three
+ :END:
+
 
    *Number of Positions - 2*
  
@@ -136,7 +195,10 @@ projects.
      - AWS EKS
 
 
-   *4. Project Name - implementing SSO*
+** 4. Project Name - implementing SSO
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-four
+ :END:
 
    *Number of Positions - 1*
 
@@ -173,7 +235,10 @@ projects.
      - Basic web development concepts
 
 
-   *5. Project Name - Experiment Development Framework*
+** 5. Project Name - Experiment Development Framework
+ :PROPERTIES:
+ :CUSTOM_ID: project-details-five
+ :END:
 
    *Number of Positions - 3*
 
@@ -214,3 +279,23 @@ projects.
      - Elm Programming Language
 
      - Literate Programming with Org-mode
+
+
+
+
+* Questions
+
+  Please email =2020-summer-interns@vlabs.ac.in=.
+
+
+
+
+
+
+
+
+
+
+
+
+
