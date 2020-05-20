@@ -11,8 +11,7 @@
 
 * Location  and Work schedule
 
-  B-204, Vindhya C6, IIIT Hyderabad.  Work hours:
-  Monday-Friday 9am-6pm.
+  Remote.  Work hours: Monday-Friday 9am-6pm.
 
 
 * Project Listing 
@@ -285,7 +284,7 @@ projects.
 
 * Questions
 
-  Please email =2020-summer-interns@vlabs.ac.in=.
+  Please email =jobs@vlabs.ac.in=.
 
 
 
