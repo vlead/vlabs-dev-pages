@@ -1,0 +1,144 @@
+#+title:  Fellowship Positions 2020
+#+SETUPFILE: ../org-templates/level-1.org
+
+ We are looking for competent and experienced developers
+ with a research bent of mind to work in the core
+ technologies of Virtual Labs. You will be part of a
+ talented team of engineers that demonstrates superb
+ technical competency for ensuring the highest levels of
+ performance and availability of critical
+ infrastructure. The engineering team at Virtual Labs is
+ looking at innovative ways to design, develop and deploy
+ the various applications with high uptime requirements.
+
+* Duration of internship program
+ 
+  =[2020-10-01 Thu]= and =[2021-03-31 Wed]=. [ 6 months
+  extensible based on need, performance and project
+  extension ].
+
+
+* Location  and Work Schedule
+
+  *Remote* - working on the Fellows own Laptop
+
+  *Work hours :* Monday-Friday 9am-6pm.
+
+
+* Project Listing (Potential) 
+
+  Any of the following or others based on need :
+ 
+  1. Android/Flutter/React Native Development
+
+  2. Responsive UI design/Usability/SEO/ASO
+
+  3. Developing docker based microservice infrastructure on
+     AWS
+
+  4. Experiment Development Framework, React based Front end
+     and git based CMS
+
+  5. Developing and training the Virtual Labs chatbot
+
+  6. Analytics and Performance
+
+  7. Driving Virtual Labs' Social Media strategy
+
+
+* Benefits/ Salary 
+
+  *Salary* Rs. 40,000/- per month.
+
+
+* Number of Positions
+
+  *Number of Positions :* 2
+
+
+* Application Process
+
+  On receipt of applications, selection will be based on
+  results of 2 rounds of interviews.  
+
+  Apply with email subject as: =="Virtual Labs Research
+  Fellowship"==
+
+  Email: Gitlab handle, Resume and LinkedIn profile to
+  ==jobs@vlabs.ac.in==
+
+
+
+* Application Deadline 
+
+  Apply on or before *2020-09-21*
+
+
+* Job/ Role description
+  We need someone who has a research orientation with good
+  experience in web services and/or systems development. We
+  use the leading-edge technology stack which provides the
+  best of productivity, robustness and performance. Our
+  current technology stack is primarily Javascript, HTML,
+  CSS on the frontend on AWS based infrastructure.  We
+  follow a technology-agnostic approach and adopt the best
+  technology for solving the problem at hand. We have a bias
+  towards action, creative problem solving and a metrics
+  driven mindset. We are a fully open source shop and strong
+  believers in contributing back to the community.
+
+* Commonly used technologies
+  1. *OS :* Linux/Unix
+
+  2. *Tools :* Emacs (Org-mode), GitHub/GitLab
+
+  3. *Programming :* JavaScript(ES6), Python3
+
+  4. *Frameworks :* Gatsby, React, Flutter
+
+  5. *Infrastructure :* AWS, Docker, Apache, Nginx
+
+* Requirements
+ 
+  The fellowship is looking at people with one, ideally both
+  sets of skills: Web/App application development, systems
+  and cloud technologies.
+
+  1. B.Tech or higher in Computer Science or equivalent.
+
+  2. 3+ years of relevant experience 
+
+  3. Experience and understanding of latest trends in
+     full-stack web and mobile development with knowledge of
+     the complete web eco-system
+
+  4. Experience with integrating third party services for
+     cross-cutting concerns like authentication, analytics
+     etc
+
+  5. Good understanding of HTTP protocol and other web
+     standards
+
+  6. Experience in functional programming, Haskell, Scheme
+     and Scala languages would be appreciated.
+
+  7. Solid foundation in computer science principles 
+
+  8. Good requirements and design documentation skills.
+
+  9. Good problem-solving skills with curiosity to explore
+     technology.
+
+  10. Quick self-learner, proactive team player and an
+      effective communicator.
+
+  11. Personal Laptop to work. 	
+
+			
+  In addition, these common skills are expected:
+
+  1.  Documentation
+
+  2.  Ability to learn independently, curiosity etc.
+
+  
