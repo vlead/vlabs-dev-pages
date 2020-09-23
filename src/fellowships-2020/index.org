@@ -1,4 +1,4 @@
-#+title:  Fellowship Positions 2020
+#+title:  Announcement for 6-month IIIT Fellowship
 #+SETUPFILE: ../org-templates/level-1.org
 
  We are looking for competent and experienced developers
