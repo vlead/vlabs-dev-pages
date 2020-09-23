@@ -1,4 +1,4 @@
-#+title:  Announcement for 6-month IIIT Fellowship
+#+title: Announcement for Virtual Labs  Fellowship
 #+SETUPFILE: ../org-templates/level-1.org
 
  We are looking for competent and experienced developers
@@ -15,20 +15,20 @@
  
   =[2020-10-01 Thu]= and =[2021-03-31 Wed]=. [ 6 months
   extensible based on need, performance and project
-  extension ].
+  extension].
 
 
-* Location  and Work Schedule
+* Location and Work Schedule
 
-  *Remote* - working on the Fellows own Laptop
+  *Remote*
 
   *Work hours :* Monday-Friday 9am-6pm.
 
 
 * Project Listing (Potential) 
 
-  Any of the following or others based on need :
- 
+  Any of the following or others based on need. 
+
   1. Android/Flutter/React Native Development
 
   2. Responsive UI design/Usability/SEO/ASO
@@ -45,7 +45,6 @@
 
   7. Driving Virtual Labs' Social Media strategy
 
-
 * Benefits/ Salary 
 
   *Salary* Rs. 40,000/- per month.
@@ -59,15 +58,13 @@
 * Application Process
 
   On receipt of applications, selection will be based on
-  results of 2 rounds of interviews.  
+  results of 2 rounds of interviews.
 
   Apply with email subject as: =="Virtual Labs Research
-  Fellowship"==
+  Fellowship"== 
 
-  Email: Gitlab handle, Resume and LinkedIn profile to
-  ==jobs@vlabs.ac.in==
-
-
+  Email Gitlab handle, Resume and LinkedIn profile to
+  ==jobs@vlabs.ac.in==.
 
 * Application Deadline 
 
@@ -75,6 +72,7 @@
 
 
 * Job/ Role description
+  
   We need someone who has a research orientation with good
   experience in web services and/or systems development. We
   use the leading-edge technology stack which provides the
@@ -99,18 +97,19 @@
   5. *Infrastructure :* AWS, Docker, Apache, Nginx
 
 * Requirements
- 
+
   The fellowship is looking at people with one, ideally both
-  sets of skills: Web/App application development, systems
-  and cloud technologies.
+  sets of skills:  Web/App application development and
+  systems and cloud technologies. The candidate  is expected
+  to have 
 
   1. B.Tech or higher in Computer Science or equivalent.
 
-  2. 3+ years of relevant experience 
+  2. 3+ years of relevant experience .
 
   3. Experience and understanding of latest trends in
      full-stack web and mobile development with knowledge of
-     the complete web eco-system
+     the complete web ecosystem.
 
   4. Experience with integrating third party services for
      cross-cutting concerns like authentication, analytics
@@ -122,23 +121,18 @@
   6. Experience in functional programming, Haskell, Scheme
      and Scala languages would be appreciated.
 
-  7. Solid foundation in computer science principles 
+  7. Solid foundation in computer science principles. 
 
   8. Good requirements and design documentation skills.
 
   9. Good problem-solving skills with curiosity to explore
      technology.
 
-  10. Quick self-learner, proactive team player and an
-      effective communicator.
+  10. Effective communication skills and qualities of a team
+      player. 
 
-  11. Personal Laptop to work. 	
+  11. Personal Laptop to work.     
 
-			
-  In addition, these common skills are expected:
 
-  1.  Documentation
-
-  2.  Ability to learn independently, curiosity etc.
-
+ 
   
