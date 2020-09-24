@@ -13,16 +13,16 @@
 
 * Duration of internship program
  
-  =[2020-10-01 Thu]= and =[2021-03-31 Wed]=. [ 6 months
+  =[2020-10-15 Thu]= and =[2021-03-31 Wed]=. [ 6 months
   extensible based on need, performance and project
-  extension].
+  extension ]
 
 
 * Location and Work Schedule
 
-  *Remote*
+  *Location :* Remote
 
-  *Work hours :* Monday-Friday 9am-6pm.
+  *Work hours :* Monday-Friday (9:00AM - 6:00PM)
 
 
 * Project Listing (Potential) 
@@ -63,12 +63,12 @@
   Apply with email subject as: =="Virtual Labs Research
   Fellowship"== 
 
-  Email Gitlab handle, Resume and LinkedIn profile to
+  Email with Gitlab/Github handle, Resume and LinkedIn profile to
   ==jobs@vlabs.ac.in==.
 
 * Application Deadline 
 
-  Apply on or before *2020-09-21*
+  Apply on or before ==[2020-10-30 Fri]==
 
 
 * Job/ Role description
