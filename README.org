@@ -1,4 +1,4 @@
-#+title:  Repository to hold the pages for vlabs dev
+#+title:  README
 #+SETUPFILE: ./org-templates/level-0.org
 
 * Making changes 
@@ -9,6 +9,16 @@
   =vlabs-dev.vlabs.ac.in=.
 
   Never make changes in the =master= branch.
+
+* Testing your changes
+
+1. Do not change the links to the style files in the sources!
+
+2. Build your sources
+
+3. Launch the local python server
+
+4. Point your browser to =localhost:8000=
 
 
 

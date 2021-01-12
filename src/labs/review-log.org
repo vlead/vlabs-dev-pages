@@ -1,0 +1,75 @@
+#+TITLE: Review of hosting process
+#+AUTHOR: VLEAD
+#+DATE: [2020-04-21 Tue]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+This documents contains the comments from the review of the
+[[./hosting.org][hosting process]].
+
+* Review Comments
+
+
+1. General comment :: How about we write in present tense.
+2. Section =How does one become part of the virtual labs
+   community?= :: Probably the developers become part of the
+   community by registering and adhering to the process
+   maintained at IIT Bombay.  And this community builds the
+   applications by following the defined process.
+3. The section =Approvals= seems ambiguous.  Hosting does
+   not obtain an quality check report, but will it be
+   presented by the owner as part of the registration
+   process.
+4. Owner Registration :: A team of developers work on
+     repository.  Does our process restrict one github
+     handle as the =Owner= to request hosting of built
+     application from these sources? Or do we allow multiple
+     handles to register as =Owners= for a single repo.
+     Also, does it mean an owner is registered first before
+     any application is registered.  In similar vein, if the
+     application is registered with the owner details, do we
+     need a separate registration for owner.
+5. In the table under the section - =Registration Workflow=,
+   should the process not allow the owner to resubmit a
+   failed registration request.
+6. In the section =Identity of the application=, we should
+   mention that the issue id becomes the application id.  I
+   added couple of lines to the file to make this explicit.
+
+7. From point 9 of the section =Hosting Workflow=, looks
+   like the hosting team re-hosts the same tag.  Is the
+   assumption that re-hosting will solve the problem?  A
+   scenario could be that the development team finds a bug
+   in the sources for the unexpected behaviour of the
+   application, and therefore could request a new tag to be
+   hosted or meanwhile could ask for a revert to the last
+   stable deployment.  This could obviate the need for a new
+   request as stated in point 10.
+8. Is there a transition from failed state.  Can the request
+   be rectified and therefore change the state to Open
+   rather then closed state as stated in step 5 of table.
+9. I guess, steps 9 and 10 of the hosting workflow table
+   should be rethought.
+10. In the section =Making an Update request=, the update
+    request could be made explicit by saying it is the update
+    of the registration
+11. Can the registration update request happen without
+    reference to the prior registration?  Is the application
+    id reference to it?
+12. The first step in the table describing the update
+    workflow is not clear to me.
+13. Similarly, the first step in the de-registration request
+    workflow looks ambiguous.  Why are hosting request
+    parameters required.  Probably, we want to state that a
+    registration request has happened earlier.
+14. Is it a cut paste error in the column =Action taken by
+    Actor= of the table =Suspension Workflow= table where
+    Registration is put in brackets.
+
+
+   
+
+   

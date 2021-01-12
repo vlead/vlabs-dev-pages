@@ -4,7 +4,7 @@
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+LANGUAGE:  en
-#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t html5-fancy:t
+#+OPTIONS:   H:3 num:3 toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t html5-fancy:t
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+STARTUP: hidestars
@@ -16,6 +16,5 @@
 
 #+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="/style/css/bootstrap.min.css" />
 #+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="/style/css/index.css" />
-#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
 
 
